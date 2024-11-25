@@ -1,4 +1,5 @@
 import  "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.bundle"
 import TopBar from "@/app/components/header/topbar/topbar"
 import Navbar from "@/app/components/header/navbar/navbar"
 import Footer from "@/app/components/footer/footer"
