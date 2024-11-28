@@ -1,5 +1,6 @@
 import  "bootstrap/dist/css/bootstrap.min.css"
 import AddJsBootstrap from "./components/addJsBootstrap/addJsBootstrap"
+import AddJsCarousel from "./components/addJsBootstrap/addJsBootstrap"
 import TopBar from "@/app/components/header/topbar/topbar"
 import Navbar from "@/app/components/header/navbar/navbar"
 import Footer from "@/app/components/footer/footer"
@@ -24,6 +25,7 @@ export default function RootLayout({
       </head>
       <body>
         <AddJsBootstrap/>
+        <AddJsCarousel/>
         <TopBar/>
         <Navbar />
         
