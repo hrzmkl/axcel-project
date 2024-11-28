@@ -4,6 +4,7 @@ a, .nav,.dropdown-item {
   
 .axel-bg-orange{
     background-color:#ff6341;
+    color: #fff !important;
 }
 .axel-bg-blue{
     background-color:#152039;
@@ -24,11 +25,13 @@ a, .nav,.dropdown-item {
     width:40px !important;
     height: 40px !important;
 }
-.dropdown:hover>.dropdown-menu {
-    display: block !important;
-  }
-  
-  .dropdown>.dropdown-toggle:active {
-    
-      pointer-events: none !important;
+@media (min-width: 992px){
+    .dropdown:hover>.dropdown-menu {
+        display: block !important;
+    }
+
+    .dropdown>.dropdown-toggle:active {
+
+        pointer-events: none !important;
+    }
 }
