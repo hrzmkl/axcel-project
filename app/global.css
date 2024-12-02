@@ -1,7 +1,9 @@
 a, .nav,.dropdown-item {
     font-family: 'Manrope' !important;
   }
-  
+p{
+    margin: 0;
+} 
 .axel-bg-orange{
     background-color:#ff6341;
     color: #fff !important;
@@ -37,4 +39,7 @@ a, .nav,.dropdown-item {
 }
 .axel-hero-slider{
     height: 700px !important;
+}
+.axel-box-icon{
+    width:10%;
 }

@@ -62,8 +62,7 @@ export default function Footer(){
                             <div className="d-flex justify-content-center align-items-center py-2 py-lg-4">
                                 <p className="text-white">© 2024 Axcel Company - All rights reserved.</p>
                             </div>
-                        </div>
-                        
+                        </div>                        
                     </div>
                 </div>
             </footer>
