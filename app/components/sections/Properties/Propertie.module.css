@@ -1,0 +1,18 @@
+.img{
+    border-radius: 150px 200px 300px 200px;
+    -webkit-border-radius: 150px 200px 300px 200px;
+    -moz-border-radius: 150px 200px 300px 200px;
+    will-change: transform;
+    transform-style: preserve-3d;
+}
+.icon{
+    width: 75%;
+}
+.axelBox:hover .icon{
+    color:#ff6341 !important;
+}
+@media (max-width: 950px){
+    .icon{
+        width: 20%;
+    }
+}

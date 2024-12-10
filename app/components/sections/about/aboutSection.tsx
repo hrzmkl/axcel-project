@@ -1,4 +1,5 @@
 import { CheckCircleIcon } from '@heroicons/react/24/solid';
+import styles from './AboutSection.module.css'
 export default function aboutSection(){
     return(
         <>
@@ -9,20 +10,20 @@ export default function aboutSection(){
                     </div>
                     <div className="col-m-12 col-lg-6">
                         <div className="d-flex flex-column p-5">
-                            <h3 className="text-primary fs-5">A propos de nous</h3>                            
+                            <h3 className="axel-text-orange fs-5">A propos de nous</h3>                            
                             <h2 className="axel-text-blue fs-2 fw-bolder">Créez votre société en toute sérénité, nous nous occupons de tout</h2>
                             <div className="border border-info border-2 w-25 my-3"></div>
                             <p className='pt-2 pt-lg-4'>Axcel Company est une société dédiée à fournir des services professionnels aux entreprises. Nous accompagnons depuis 2022 les entrepreneurs, les investisseurs dans la formalisation de leurs entreprises.</p>
-                            <div className="axel-box d-flex align-items-center pt-2 pt-lg-4">
-                                <div className="axel-box-icon me-3">
+                            <div className={`${styles.box} axel-box-icon me-3 d-flex align-items-center pt-2 pt-lg-4`}>
+                                <div className={`${styles.iconBox} axel-box-icon me-3 `}>
                                     <CheckCircleIcon/>
                                 </div>
                                 <div className="axel-box-content">
                                     <p>Nous assistons les étrangers envisageant d’investir à Madagascar.</p>
                                 </div>
                             </div>
-                            <div className="axel-box d-flex align-items-center">
-                                <div className="axel-box-icon me-3">
+                            <div className={`${styles.box} axel-box-icon me-3 d-flex align-items-center pt-2 pt-lg-4`}>
+                                <div className={`${styles.iconBox} axel-box-icon me-3 `}>
                                     <CheckCircleIcon/>
                                 </div>
                                 <div className="axel-box-content">

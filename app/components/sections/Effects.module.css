@@ -1,0 +1,22 @@
+.blockEffect{
+    transform: translateX(var(--transX)) translateY(var(--transY));
+    background: #fc653f;
+    height: 100px;
+    z-index: 3 !important;
+    position: relative;
+    border-radius: 50px 50px 50px 50px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 50px 50px 50px 50px;
+    width: 100px !important;
+    position: relative;
+    left: 0;
+    transform: translateX(-margin);
+    height: 100px;
+    position: relative !important;
+    z-index: 1;
+    transform: translateX(-0%);
+    top: 0;
+    top: -100px;
+    right: 0;
+    right: -100px;
+}

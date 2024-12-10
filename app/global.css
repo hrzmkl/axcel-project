@@ -40,6 +40,19 @@ p{
 .axel-hero-slider{
     height: 700px !important;
 }
-.axel-box-icon{
-    width:10%;
+.axel-box{
+    transition: 0.5s;
+    
+}
+.axel-box:hover{
+    box-shadow: var(--bs-box-shadow) !important;
+    margin-top:-5px;
+}
+
+.axel-box:hover .axel-box-icon{
+    color:#ff6341 !important;
+}
+.imgAnim{
+    -webkit-transition: all 400ms;
+    transition: all 400ms;
 }

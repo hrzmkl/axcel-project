@@ -1,0 +1,12 @@
+.box:hover .iconBox{
+    color:#ff6341;
+}
+.iconBox{
+    color:#152039;
+    width: 10%;
+}
+@media (max-width: 950px){
+    .iconBox{
+        width: 50%;
+    }  
+}
