@@ -1,6 +1,6 @@
 body,.logo-text {
     font-family: 'Manrope' !important;
-  }
+  } 
 .logo-text{
     line-height:1;
 }
@@ -91,5 +91,13 @@ p,.nav,.dropdown-item{
 @media (max-width: 950px){
     footer p{
         text-align:center;
+    }
+}
+#navScroll{
+    display: none;
+}
+@media (max-width: 950px){
+    #navScroll{
+        display: none !important;
     }
 }

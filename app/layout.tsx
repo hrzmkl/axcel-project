@@ -1,10 +1,10 @@
 import  "bootstrap/dist/css/bootstrap.min.css"
 import AddJsBootstrap from "./components/addJsBootstrap/addJsBootstrap"
-import AddJsCarousel from "./components/addJsBootstrap/addJsBootstrap"
 import TopBar from "@/app/components/header/topbar/topbar"
 import Navbar from "@/app/components/header/navbar/navbar"
 import NavBarScroll from "@/app/components/header/navbar/navbarOnscroll"
 import Footer from "@/app/components/footer/footer"
+import Script from "next/script";
 import '@/app/global.css';
 
 export const metadata = {
@@ -22,11 +22,11 @@ export default function RootLayout({
       
       <head>
         <link rel="icon" href="/favicon.co" sizes="any" />      
-      
+        <Script type="text/javascript" src="./js/navscroll.js" /> 
       </head>
-      <body>
+      <body>  
+           
         <AddJsBootstrap/>
-        <AddJsCarousel/>
         <TopBar/>
         <Navbar />
         <NavBarScroll />

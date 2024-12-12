@@ -3,8 +3,8 @@ import Image from "next/image";
 import { SocialIcon } from 'react-social-icons/component'
 export default function NavBarScroll(){
     return(
-         <>
-            <nav className="d-none navbar navbar-expand-lg bg-light container-fluid">
+         <>            
+            <nav className="fixed-top navbar navbar-expand-lg bg-white container-fluid shadow-lg" id="navScroll">
                 <div className="container">
                     
                         <div className="col-2">
@@ -82,7 +82,7 @@ export default function NavBarScroll(){
                         </div>
                     
                 </div>
-            </nav>
+            </nav>           
         </>
     );
 }
