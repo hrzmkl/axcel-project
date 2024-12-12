@@ -8,15 +8,15 @@ import { ClipboardDocumentListIcon } from '@heroicons/react/24/outline';
 export default function serviceSection(){
     return(
         <>
-            <div className="container my-lg-5 py-lg-5">
+            <div className="container my-5 py-5">
                 <div className="row d-flex justify-content-center">
-                    <div className="col"></div>
+                    <div className="col d-none d-lg-block"></div>
                     <div className="col col-lg-8 d-flex  flex-column justify-content-center align-items-center">
-                        <h2 className="axel-text-blue fs-2 fw-bolder">Services professionnels aux entreprises.</h2>
-                        <div className="border border-info border-2 w-25 my-3 "></div>
+                        <h2 className="axel-text-blue fs-2 fw-bolder text-center">Services professionnels aux entreprises.</h2>
+                        <div className="border border-info border-2 w-25 my-3"></div>
                         <p className="py-3 text-center">Nous accompagnons depuis 2022 les entrepreneurs, les investisseurs dans la formalisation de leurs entreprises..</p>
                     </div>
-                    <div className="col"></div>
+                    <div className="col d-none d-lg-block"></div>
                 </div>
                 <div className="row row-cols-1 row-cols-md-3 g-4 mt-3">
                     <div className="col">
@@ -25,7 +25,7 @@ export default function serviceSection(){
                                     <ChatBubbleBottomCenterIcon/>
                                 </div>
                             <div className="card-body">
-                                <h5 className="card-title">Conseil et assistance</h5>
+                                <h5 className="card-title f-bold fs-3 axel-text-blue">Conseil et assistance</h5>
                                 <p className="card-text">De la création à la gestion optimisée d'une entreprise, nous offres des conseil et assistance avisé à nos clients</p>
                                 
                             </div>
@@ -40,7 +40,7 @@ export default function serviceSection(){
                                 <BuildingOfficeIcon/>
                             </div>
                             <div className="card-body">
-                                <h5 className="card-title">Création d'entreprise</h5>
+                                <h5 className="card-title f-bold fs-3 axel-text-blue">Création d'entreprise</h5>
                                 <p className="card-text">Entreprise individuelle, SARLU, SARL, nous prenons en charge la création de votre entreprise de A à Z.</p>
                                 
                             </div>
@@ -55,7 +55,7 @@ export default function serviceSection(){
                                 <UsersIcon/>
                             </div>
                             <div className="card-body">
-                                <h5 className="card-title">Accompagnement</h5>
+                                <h5 className="card-title f-bold fs-3 axel-text-blue">Accompagnement</h5>
                                 <p className="card-text">Nous accompagnons nos entreprises partenaires et clients pour traiter leurs informations avec le plus grand professionnalisme et pour respecter la confidentialité de leurs données.</p>
                                 
                             </div>
@@ -71,7 +71,7 @@ export default function serviceSection(){
                                 <FolderIcon/>
                             </div>
                             <div className="card-body">
-                                <h5 className="card-title">Coursier administratif</h5>
+                                <h5 className="card-title f-bold fs-3 axel-text-blue">Coursier administratif</h5>
                                 <p className="card-text">Nous offrons des services sans nécessité de déplacement. C'est nous qui occupons de tous à votre place!</p>
                                 
                             </div>
@@ -86,7 +86,7 @@ export default function serviceSection(){
                                 <EnvelopeIcon/>
                             </div>
                             <div className="card-body">
-                                <h5 className="card-title">Lettre administrative</h5>
+                                <h5 className="card-title f-bold fs-3 axel-text-blue">Lettre administrative</h5>
                                 <p className="card-text">Rédaction des lettres administratives et demande d'autorisation ministérielle.</p>
                                 
                             </div>
@@ -101,7 +101,7 @@ export default function serviceSection(){
                                 <ClipboardDocumentListIcon/>
                             </div>
                             <div className="card-body">
-                                <h5 className="card-title">Autres services</h5>
+                                <h5 className="card-title f-bold fs-3 axel-text-blue">Autres services</h5>
                                 <p className="card-text">Une gamme de services complets pour répondre aux besoins variés de nos clients.</p>
                             </div>    
                             <div className="p-4">

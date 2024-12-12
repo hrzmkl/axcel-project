@@ -2,7 +2,7 @@ import Link from 'next/link';
 export default function NavBar(){
     return(
          <>
-            <nav className="navbar navbar-expand-lg axel-bg-orange">
+            <nav className="navbar navbar-expand-lg axel-bg-orange container-fluid">
                 <div className="container">
                     <Link className="navbar-brand text-white fw-bolder fs-5 d-block d-lg-none" href="#">Accueil</Link>
                     <button className="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

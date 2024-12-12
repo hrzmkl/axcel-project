@@ -1,7 +1,14 @@
-a, .nav,.dropdown-item {
+body,.logo-text {
     font-family: 'Manrope' !important;
   }
-p{
+.logo-text{
+    line-height:1;
+}
+.axel-text{
+    font-size:14px;
+}
+p,.nav,.dropdown-item{
+    font-family: 'Poppins' !important;
     margin: 0;
 } 
 .axel-bg-orange{
@@ -17,17 +24,28 @@ p{
 .axel-text-blue{
     color:#152039;
 }
+
 .axel-nav-icon{
     width: 18px;
 }
-.axel-top-icon{
+.axel-top-icon,.axel-bottom-icon{
     width: 20px;
 }
-.axel-social{
-    width:40px !important;
-    height: 40px !important;
+.icon-env{
+    width: 22px !important; 
 }
-@media (min-width: 992px){
+.icon-map{
+    width: 40px !important;
+}
+.axel-social-icon{
+    width:30px !important;
+    height: 30px !important;    
+}
+.axel-social-icon:hover g.social-svg-mask {
+   fill:#ff6341 !important;
+}
+
+@media (min-width: 950px){
     .dropdown:hover>.dropdown-menu {
         display: block !important;
     }
@@ -55,4 +73,23 @@ p{
 .imgAnim{
     -webkit-transition: all 400ms;
     transition: all 400ms;
+}
+.axel-block1:hover .axel-block2{
+    top:-90px;
+    background:#0dcaf0;
+}
+.axel-footer-bg{
+    background: linear-gradient(120deg, #3c62e9 7%, #3c62e9 74%, #3c62e9 100%);
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+.nav-link, footer p{
+    font-size: 17px !important;    
+}
+@media (max-width: 950px){
+    footer p{
+        text-align:center;
+    }
 }

@@ -3,6 +3,7 @@ import AddJsBootstrap from "./components/addJsBootstrap/addJsBootstrap"
 import AddJsCarousel from "./components/addJsBootstrap/addJsBootstrap"
 import TopBar from "@/app/components/header/topbar/topbar"
 import Navbar from "@/app/components/header/navbar/navbar"
+import NavBarScroll from "@/app/components/header/navbar/navbarOnscroll"
 import Footer from "@/app/components/footer/footer"
 import '@/app/global.css';
 
@@ -28,6 +29,7 @@ export default function RootLayout({
         <AddJsCarousel/>
         <TopBar/>
         <Navbar />
+        <NavBarScroll />
         
         {children}
         <Footer />
