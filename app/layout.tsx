@@ -6,12 +6,6 @@ import NavBarScroll from "@/app/components/header/navbar/navbarOnscroll"
 import Footer from "@/app/components/footer/footer"
 import Script from "next/script";
 import '@/app/global.css';
-
-export const metadata = {
-  title: 'Axcel company',
-  description: 'Une société dédiée à fournir des services professionnels aux entreprise',
-}
-
 export default function RootLayout({
   children,
 }: {
