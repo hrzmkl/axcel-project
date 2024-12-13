@@ -72,7 +72,7 @@ export default function NavBarScroll(){
                             </li>
                             
                             <li className="nav-item">
-                                <Link className="nav-link axel-text-blue fw-bolder fs-5" href="#">A propos de nous</Link>
+                                <Link className="nav-link axel-text-blue fw-bolder fs-5" href="/a-propos">A propos de nous</Link>
                             </li>
                             </ul>           
                         </div>
