@@ -1,4 +1,5 @@
 import styles from '../page.module.css'
+import Link from 'next/link';
 import { ChevronDoubleRightIcon } from '@heroicons/react/20/solid';
 import Team from '@/app/components/Team/team';
 export const metadata = {

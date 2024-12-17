@@ -29,10 +29,10 @@ export default function Footer(){
                             <h3 className="text-warning">Liens rapides</h3>
                             <ul className="nav flex-column">
                                 <li className="nav-item">
-                                    <Link className="nav-link text-white ps-0" href="#">A propos</Link>
+                                    <Link className="nav-link text-white ps-0" href="/a-propos">A propos</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link text-white ps-0" href="#">Blog</Link>
+                                    <Link className="nav-link text-white ps-0" href="/service">Service</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link text-white ps-0" href="#">Contact</Link>
