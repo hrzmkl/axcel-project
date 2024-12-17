@@ -7,7 +7,7 @@ body,.logo-text {
 .axel-text{
     font-size:14px;
 }
-p,.nav,.dropdown-item{
+p,.p,.nav,.dropdown-item{
     font-family: 'Poppins' !important;
     margin: 0;
 } 
@@ -23,6 +23,13 @@ p,.nav,.dropdown-item{
 }
 .axel-text-blue{
     color:#152039;
+}
+.axel-text-blue-2{
+    color:#a7d2dd;
+}
+.axel-bg-blue-2{
+    background-color:#a7d2dd;
+    border-color:#a7d2dd;
 }
 
 .axel-nav-icon{
