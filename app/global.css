@@ -1,6 +1,13 @@
 body,.logo-text {
-    font-family: 'Manrope' !important;
+    font-family: 'Manrope' sans-serif !important;
   } 
+
+  h1,h2{
+    font-family: Rubik !important;
+  }
+  h3{
+    font-family: Nunito !important;
+  }
 .logo-text{
     line-height:1;
 }

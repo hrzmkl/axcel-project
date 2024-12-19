@@ -1,4 +1,9 @@
+'use client'
 import Link from 'next/link';
+function redirect(){
+   let url = document.getElementById("navbarDropdown");
+    location.href = url.href;
+}
 export default function NavBar(){
     return(
          <>
@@ -12,17 +17,17 @@ export default function NavBar(){
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         
                         <li className="nav-item dropdown">
-                            <Link className="nav-link dropdown-toggle text-white fw-bolder fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link className="nav-link dropdown-toggle text-white fw-bolder fs-5" href="/service" id="navbarDropdown"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Conseil et assistance
                             </Link>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><Link className="dropdown-item" href="#">Conseil en création<br/>de société</Link></li>
+                                <li><Link className="dropdown-item" href="/conseil-creation-societe">Conseil en création<br/>de société</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" href="#">Assistance à la modification<br/>de société</Link></li>
+                                <li><Link className="dropdown-item" href="/assistance-modification-sciete">Assistance à la modification<br/>de société</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" href="#">Assistance en formalisation<br/>d'entreprise</Link></li>
+                                <li><Link className="dropdown-item" href="/assistance-formalisation-entreprise">Assistance en formalisation<br/>d'entreprise</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" href="#">Consultation stratégique<br/>pour entrepreneurs</Link></li>
+                                <li><Link className="dropdown-item" href="/consultation-strategique-entrepreneurs">Consultation stratégique<br/>pour entrepreneurs</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
@@ -30,19 +35,19 @@ export default function NavBar(){
                             Création
                             </Link>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><Link className="dropdown-item" href="#">SARL / SARLU</Link></li>
+                                <li><Link className="dropdown-item" href="/creation-sarl-sarlu">SARL / SARLU</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" href="#">SA / SAU</Link></li>
+                                <li><Link className="dropdown-item" href="/creation-sa-sau">SA / SAU</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" href="#">ENTREPRISE INDIVIDUELL</Link></li>
+                                <li><Link className="dropdown-item" href="/creation-entreprise-individuelle">ENTREPRISE INDIVIDUELLE</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" href="#">ASSOTIATION</Link></li>
+                                <li><Link className="dropdown-item" href="/creation-association">ASSOCIATION</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" href="#">ONG</Link></li>
+                                <li><Link className="dropdown-item" href="/creation-ong">ONG</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" href="#">ETABLISSEMENT</Link></li>
+                                <li><Link className="dropdown-item" href="/creation-etablissement">ETABLISSEMENT</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" href="#">OUVERTURE SUCCURSALE / FILIALE</Link></li>
+                                <li><Link className="dropdown-item" href="/ouverture-succursale-filiale">OUVERTURE SUCCURSALE / FILIALE</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
@@ -50,20 +55,20 @@ export default function NavBar(){
                                 Service de coursier
                             </Link>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><Link className="dropdown-item" href="#">Récupération diplôme,<br/>relevé de note, équivalence..</Link></li>
+                                <li><Link className="dropdown-item" href="/recuperation-diplome-releve-note-equivalence">Récupération diplôme,<br/>relevé de note, équivalence..</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" href="#">Récupération /traduction<br/>acte de naissance,<br/>acte de mariage, ...</Link></li>
+                                <li><Link className="dropdown-item" href="/recuperation-traduction-acte-naissance-acte-mariage">Récupération /traduction<br/>acte de naissance,<br/>acte de mariage, ...</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" href="#">Récupération des certificats<br/>de mise en commerce</Link></li>
+                                <li><Link className="dropdown-item" href="/recuperation-certificats-mise-en-commerce">Récupération des certificats<br/>de mise en commerce</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" href="#">Récupération des certificats<br/>de consommabilité</Link></li>
+                                <li><Link className="dropdown-item" href="/recuperation-certificats-consommabilite">Récupération des certificats<br/>de consommabilité</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" href="#">Toutes enregistrement,<br/>certifications</Link></li>
+                                <li><Link className="dropdown-item" href="/toutes-enregistrement-certification">Toutes enregistrement,<br/>certifications</Link></li>
                             </ul>
                         </li>
                         
                         <li className="nav-item">
-                            <Link className="nav-link text-white fw-bolder fs-5" href="/a-propos">A propos de nous</Link>
+                            <Link className="nav-link text-white fw-bolder fs-5" href="/a-propos" >A propos de nous</Link>
                         </li>
                         </ul>           
                     </div>
