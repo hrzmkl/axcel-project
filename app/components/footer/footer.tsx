@@ -35,11 +35,8 @@ export default function Footer(){
                                     <Link className="nav-link text-white ps-0" href="/service">Service</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link text-white ps-0" href="#">Contact</Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link text-white ps-0" href="">Devis</Link>
-                                </li>
+                                    <Link className="nav-link text-white ps-0" href="/contact">Contact</Link>
+                                </li>                                
                             </ul>
                         </div>
                         <div className="col-12 col-md-6 col-lg-3 d-flex flex-column pb-5 align-items-center align-items-lg-start">

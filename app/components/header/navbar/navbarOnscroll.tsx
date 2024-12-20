@@ -2,10 +2,6 @@
 import Link from 'next/link';
 import Image from "next/image";
 import { SocialIcon } from 'react-social-icons/component'
-function redirect(){
-    let url = document.getElementById("navbarDropdown");
-     location.href = url.href;
- }
 export default function NavBarScroll(){
     return(
          <>            
@@ -25,7 +21,7 @@ export default function NavBarScroll(){
                         <div className="col-8 collapse navbar-collapse justify-content-around"  id="navbarScroll">
                             <ul className="navbar-nav mb-2 mb-lg-0">
                             
-                            <li className="nav-item dropdown" onClick={redirect}>
+                            <li className="nav-item dropdown">
                                 <Link className="nav-link dropdown-toggle axel-text-blue fw-bolder fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Conseil et assistance
                                 </Link>
@@ -39,7 +35,7 @@ export default function NavBarScroll(){
                                     <li><Link className="dropdown-item" href="/consultation-strategique-entrepreneurs">Consultation stratégique<br/>pour entrepreneurs</Link></li>
                                 </ul>
                             </li>
-                            <li className="nav-item dropdown" onClick={redirect}>
+                            <li className="nav-item dropdown">
                                 <Link className="nav-link dropdown-toggle axel-text-blue fw-bolder fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Création
                                 </Link>
@@ -59,7 +55,7 @@ export default function NavBarScroll(){
                                     <li><Link className="dropdown-item" href="/ouverture-succursale-filiale">OUVERTURE SUCCURSALE / FILIALE</Link></li>
                                 </ul>
                             </li>
-                            <li className="nav-item dropdown" onClick={redirect}>
+                            <li className="nav-item dropdown">
                                 <Link className="nav-link dropdown-toggle axel-text-blue fw-bolder fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Service de coursier
                                 </Link>
@@ -78,6 +74,9 @@ export default function NavBarScroll(){
                             
                             <li className="nav-item">
                                 <Link className="nav-link axel-text-blue fw-bolder fs-5" href="/a-propos">A propos de nous</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link axel-text-blue fw-bolder fs-5" href="/contact">Contact</Link>
                             </li>
                             </ul>           
                         </div>

@@ -70,6 +70,9 @@ export default function NavBar(){
                         <li className="nav-item">
                             <Link className="nav-link text-white fw-bolder fs-5" href="/a-propos" >A propos de nous</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link text-white fw-bolder fs-5" href="/contact" >Contact</Link>
+                        </li>
                         </ul>           
                     </div>
                 </div>

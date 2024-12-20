@@ -29,7 +29,7 @@ export default function Page() {
                                                    
                             </div>   
                             <div className='d-block py-4 py-lg-4'>
-                                <button type="button" className="btn btn-info text-white">Rentrons en contact</button>
+                                <a href="/contact" type="button" className="btn btn-info text-white">Rentrons en contact</a>
                             </div>                          
                         </div>                                           
                         

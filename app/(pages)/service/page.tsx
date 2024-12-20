@@ -33,7 +33,7 @@ export default function Page() {
                                                    
                             </div>   
                             <div className='d-block py-4 py-lg-4'>
-                                <button type="button" className="btn btn-info text-white">Rentrons en contact</button>
+                                <a href="/contact" type="button" className="btn btn-info text-white">Rentrons en contact</a>
                             </div>                          
                         </div>                                           
                         
@@ -136,12 +136,81 @@ export default function Page() {
                 <div className="col d-none d-lg-block"></div>
                 <div className="col col-lg-8 d-flex  flex-column justify-content-center align-items-center">
                     <h5 className="card-title f-bold fs-3 axel-text-orange py-3">Services</h5>
+                    <h2 className="text-white fs-2 fw-bolder text-center">Conseil et assistance</h2>
+                    <div className="border border-info border-2 w-25 my-3"></div>
+                    
+                </div>
+                <div className="col d-none d-lg-block"></div>
+            </div>
+
+            <div className="row row-cols-1 row-cols-md-2 g-4">
+              <div className="col">
+                <div className="card h-100">
+                  <div className="card-header bg-transparent border-0">
+                    <HomeIcon className={`${styles.icon2} axel-text-orange`}/>
+                  </div>
+                  <div className="card-body">
+                    <h3 className="card-title">Conseil en création de société</h3>                   
+                    
+                  </div>
+                  <div className="card-footer bg-transparent"><a href="/conseil-creation-societe" className="card-link">En savoir plus</a></div>
+                 </div>
+              </div>
+              <div className="col">
+                <div className="card h-100">
+                  <div className="card-header bg-transparent border-0">
+                    <BuildingOfficeIcon className={`${styles.icon2} axel-text-orange`}/>
+                  </div>
+                  <div className="card-body">
+                    <h3 className="card-title">Assistance à la modification de société</h3>
+                                       
+                  </div>
+                  <div className="card-footer bg-transparent">
+                    <a href="/assistance-modification-sciete" className="card-link">En savoir plus</a>
+                  </div>                 
+                </div>
+              </div>
+              <div className="col">
+                <div className="card h-100">
+                  <div className="card-header bg-transparent border-0">
+                    <BuildingOfficeIcon className={`${styles.icon2} axel-text-orange`}/>
+                  </div>
+                  <div className="card-body">
+                    <h3 className="card-title">Assistance en formalisation d'entreprise</h3>
+                    
+                  </div>
+                  <div className="card-footer bg-transparent">
+                    <a href="/assistance-formalisation-entreprise" className="card-link">En savoir plus</a>
+                  </div>                 
+                </div>
+              </div>           
+              <div className="col">
+                <div className="card h-100">
+                  <div className="card-header bg-transparent border-0">
+                    <UserGroupIcon className={`${styles.icon2} axel-text-orange`}/>
+                  </div>
+                  <div className="card-body">
+                    <h3 className="card-title">Consultation stratégique pour entrepreneurs</h3>                   
+                    
+                  </div>
+                  <div className="card-footer bg-transparent"><a href="/consultation-strategique-entrepreneurs" className="card-link">En savoir plus</a></div>
+                 </div>
+              </div>
+              
+            </div>
+
+
+            <div className="row d-flex justify-content-center py-5">
+                <div className="col d-none d-lg-block"></div>
+                <div className="col col-lg-8 d-flex  flex-column justify-content-center align-items-center">
+                    
                     <h2 className="text-white fs-2 fw-bolder text-center">Création d'entreprise</h2>
                     <div className="border border-info border-2 w-25 my-3"></div>
                     
                 </div>
                 <div className="col d-none d-lg-block"></div>
             </div>
+
             <div className="row row-cols-1 row-cols-md-3 g-4">
               <div className="col">
                 <div className="card h-100">
@@ -153,7 +222,7 @@ export default function Page() {
                     <p className="card-text">Une entreprise individuelle, est une forme d'entreprise où une seule personne est responsable de toute l'activité de l'entreprise.</p>
                     
                   </div>
-                  <div className="card-footer bg-transparent"><a href="#" className="card-link">En savoir plus</a></div>
+                  <div className="card-footer bg-transparent"><a href="/creation-entreprise-individuelle" className="card-link">En savoir plus</a></div>
                  </div>
               </div>
               <div className="col">
@@ -167,7 +236,7 @@ export default function Page() {
                     SARLU : Société à responsabilité limitée Unipersonnelle, est une société où il n'y a qu'un seul associé.</p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="#" className="card-link">En savoir plus</a>
+                    <a href="/creation-sarl-sarlu" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>
@@ -182,7 +251,7 @@ export default function Page() {
                     SAU : Société Anonyme Unipersonnelle, une variante de la Société Anonyme (SA), mais avec un seul actionnaire.</p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="#" className="card-link">En savoir plus</a>
+                    <a href="/creation-sa-sau" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>           
@@ -196,7 +265,7 @@ export default function Page() {
                     <p className="card-text">Un groupement de personnes réunies autour d’un projet commun ou d’une activité, à but non lucratif. Cela signifie que l’objectif principal d’une association n’est pas de réaliser des profits à distribuer entre les membres.</p>
                     
                   </div>
-                  <div className="card-footer bg-transparent"><a href="#" className="card-link">En savoir plus</a></div>
+                  <div className="card-footer bg-transparent"><a href="/creation-association" className="card-link">En savoir plus</a></div>
                  </div>
               </div>
               <div className="col">
@@ -209,7 +278,7 @@ export default function Page() {
                     <p className="card-text">(Organisation Non Gouvernementale). Une organisation indépendante des gouvernements, à but non lucratif, qui œuvre pour des causes d’intérêt général comme les droits humains, l’environnement, la santé, l’éducation ou l’aide humanitaire.</p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="#" className="card-link">En savoir plus</a>
+                    <a href="/creation-ong" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>
@@ -223,7 +292,7 @@ export default function Page() {
                     <p className="card-text">une unité de production ou un lieu d'activité qui dépend d'une entreprise. Il constitue une implantation géographique distincte, mais il n'a pas de personnalité juridique propre</p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="#" className="card-link">En savoir plus</a>
+                    <a href="/creation-etablissement" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>
@@ -237,7 +306,7 @@ export default function Page() {
                     <p className="card-text">Succursale : un établissement secondaire rattaché directement à l'entreprise mère. Elle ne possède pas de personnalité juridique distincte.<br></br>Filiale : une société à part entière, dotée de sa propre personnalité juridique. Elle est contrôlée majoritairement par la société mère, qui détient au moins 50 % du capital.</p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="#" className="card-link">En savoir plus</a>
+                    <a href="/ouverture-succursale-filiale" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>
@@ -261,15 +330,11 @@ export default function Page() {
                     <HomeIcon className={`${styles.icon2} axel-text-orange`}/>
                   </div>
                   <div className="card-body">
-                    <h3 className="card-title">Récupération et livraison de documents</h3>
-                    <p className="card-text">Certificat de : résidence, existence, ...<br></br>
-                      Extrait RCS, Attestation de non – faillite<br></br>
-                      Acte de : naissance, mariage, ...<br></br>
-                      Certificat de consommabilité<br></br>
-                      Diplôme, Attestation de réussite
+                    <h3 className="card-title">Récupération</h3>
+                    <p className="card-text">Diplôme,relevé de note, équivalence..
                     </p>                    
                   </div>
-                  <div className="card-footer bg-transparent"><a href="#" className="card-link">En savoir plus</a></div>
+                  <div className="card-footer bg-transparent"><a href="/recuperation-diplome-releve-note-equivalence" className="card-link">En savoir plus</a></div>
                  </div>
               </div>
               <div className="col">
@@ -278,12 +343,11 @@ export default function Page() {
                     <BuildingOfficeIcon className={`${styles.icon2} axel-text-orange`}/>
                   </div>
                   <div className="card-body">
-                    <h3 className="card-title">Dépôt de documents administratifs</h3>
-                    <p className="card-text">Dépôts et récupération des déclarations fiscales, sociales,<br></br>
-                    Dépôts des candidatures pour des concours administratifs</p>                    
+                    <h3 className="card-title">Récupération /traduction</h3>
+                    <p className="card-text">Acte de naissance, acte de mariage, ...</p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="#" className="card-link">En savoir plus</a>
+                    <a href="/recuperation-traduction-acte-naissance-acte-mariage" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>
@@ -293,16 +357,42 @@ export default function Page() {
                     <BuildingOfficeIcon className={`${styles.icon2} axel-text-orange`}/>
                   </div>
                   <div className="card-body">
-                    <h3 className="card-title">Autres services</h3>
-                    <p className="card-text">Toutes certifications et enregistrements dans des bureaux d’Etat<br></br>
-                      Traductions des actes : naissance, mariage, ...<br></br>
-                      Traduction livret de famille<br></br>
-                      Elaboration du curriculum vitae (CV)<br></br>
-                      Certification Diplôme, équivalence<br></br>
+                    <h3 className="card-title">Récupération </h3>
+                    <p className="card-text">Certificats de mise en commerce
                     </p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="#" className="card-link">En savoir plus</a>
+                    <a href="/recuperation-certificats-mise-en-commerce" className="card-link">En savoir plus</a>
+                  </div>                 
+                </div>
+              </div>
+              <div className="col">
+                <div className="card h-100">
+                  <div className="card-header bg-transparent border-0">
+                    <BuildingOfficeIcon className={`${styles.icon2} axel-text-orange`}/>
+                  </div>
+                  <div className="card-body">
+                    <h3 className="card-title">Récupération </h3>
+                    <p className="card-text">Certificats de consommabilité
+                    </p>                    
+                  </div>
+                  <div className="card-footer bg-transparent">
+                    <a href="/recuperation-certificats-consommabilite" className="card-link">En savoir plus</a>
+                  </div>                 
+                </div>
+              </div>
+              <div className="col">
+                <div className="card h-100">
+                  <div className="card-header bg-transparent border-0">
+                    <BuildingOfficeIcon className={`${styles.icon2} axel-text-orange`}/>
+                  </div>
+                  <div className="card-body">
+                    <h3 className="card-title">Récupération </h3>
+                    <p className="card-text">Toutes enregistrement, certifications
+                    </p>                    
+                  </div>
+                  <div className="card-footer bg-transparent">
+                    <a href="/toutes-enregistrement-certification" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>

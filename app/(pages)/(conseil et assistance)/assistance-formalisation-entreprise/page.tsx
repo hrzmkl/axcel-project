@@ -24,14 +24,14 @@ export default function Page() {
                         </div>                     
                         <div className="col-sm-12 col-lg-6 p-auto pe-lg-5">
                             <div className="d-flex flex-column mb-3">
-                                <h3 className="axel-text-orange fs-3 fw-bolder"><Link href="/" className="text-white">Accueil</Link> >>> <span>Services professionnels aux entreprises</span></h3>                            
+                                <h3 className="axel-text-orange fs-3 fw-bolder"><Link href="/" className="text-white">Accueil</Link> >>> <span>Assistance en formalisation d'entreprise</span></h3>                            
                                 <h1 className="text-white fw-bolder pt-3">Assistance en formalisation d'entreprise</h1>
                                 <div className="border border-info border-2 w-25 my-3"></div>   
                                 <p className='text-white py-3'>En plus du conseil et de l'assistance administrative, nous proposons une gamme de services complets pour répondre aux besoins variés de nos clients en matière de gestion d'entreprise à Madagascar.</p>                        
                                                    
                             </div>   
                             <div className='d-block py-4 py-lg-4'>
-                                <button type="button" className="btn btn-info text-white">Rentrons en contact</button>
+                                <a href="/contact" type="button" className="btn btn-info text-white">Rentrons en contact</a>
                             </div>                          
                         </div>                                           
                         

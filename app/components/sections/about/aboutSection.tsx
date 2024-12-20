@@ -31,7 +31,7 @@ export default function aboutSection(){
                                 </div>
                             </div>
                             <div className='d-block py-4 py-lg-4'>
-                                <button type="button" className="btn btn-info text-white">En savoir plus</button>
+                                <a href="/a-propos" type="button" className="btn btn-info text-white">En savoir plus</a>
                             </div>                        
                         </div>                       
                     </div>

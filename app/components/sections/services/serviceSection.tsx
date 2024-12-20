@@ -30,7 +30,7 @@ export default function serviceSection(){
                                 
                             </div>
                             <div className="p-4">
-                                <Link href="#" className="btn btn-primary">En savoir plus</Link>
+                                <Link href="/service" className="btn btn-primary">En savoir plus</Link>
                             </div> 
                         </div>
                     </div>
@@ -45,7 +45,7 @@ export default function serviceSection(){
                                 
                             </div>
                             <div className="p-4">
-                                <Link href="#" className="btn btn-primary">En savoir plus</Link>
+                                <Link href="/service" className="btn btn-primary">En savoir plus</Link>
                             </div> 
                         </div>
                     </div>
@@ -60,7 +60,7 @@ export default function serviceSection(){
                                 
                             </div>
                             <div className="p-4">
-                                <Link href="#" className="btn btn-primary">En savoir plus</Link>
+                                <Link href="/service" className="btn btn-primary">En savoir plus</Link>
                             </div> 
                         </div>
                     </div>                    
@@ -76,7 +76,7 @@ export default function serviceSection(){
                                 
                             </div>
                             <div className="p-4">
-                                <Link href="#" className="btn btn-primary">En savoir plus</Link>
+                                <Link href="/service" className="btn btn-primary">En savoir plus</Link>
                             </div> 
                         </div>
                     </div>
@@ -91,7 +91,7 @@ export default function serviceSection(){
                                 
                             </div>
                             <div className="p-4">
-                                <Link href="#" className="btn btn-primary">En savoir plus</Link>
+                                <Link href="/service" className="btn btn-primary">En savoir plus</Link>
                             </div> 
                         </div>
                     </div>
@@ -105,7 +105,7 @@ export default function serviceSection(){
                                 <p className="card-text">Une gamme de services complets pour répondre aux besoins variés de nos clients.</p>
                             </div>    
                             <div className="p-4">
-                                <Link href="#" className="btn btn-primary">En savoir plus</Link>
+                                <Link href="/service" className="btn btn-primary">En savoir plus</Link>
                             </div>                        
                         </div>
                     </div>                    
