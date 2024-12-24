@@ -13,7 +13,7 @@
     width: 25px;
 }
 .bg{
-    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%20100%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20class%3D%22pagelayer-shape-fill%22%20d%3D%22M790.5%2C93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3c-10.2%2C1.1-22.6%2C1.4-50.1%2C7.4c-27.2%2C6.3-58.2%2C16.6-79.4%2C24.7c-41.3%2C15.9-94.9%2C21.9-134%2C22.6C72%2C58.2%2C0%2C25.8%2C0%2C25.8V100h1000V65.3c0%2C0-51.5%2C19.4-106.2%2C25.7C839.5%2C97%2C814.1%2C95.2%2C790.5%2C93.1z%22%20fill%3D%22rgba(31%2C%2018%2C%20188%2C%200.26)%22%20%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%20100%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20class%3D%22axel-shape-fill%22%20d%3D%22M790.5%2C93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3c-10.2%2C1.1-22.6%2C1.4-50.1%2C7.4c-27.2%2C6.3-58.2%2C16.6-79.4%2C24.7c-41.3%2C15.9-94.9%2C21.9-134%2C22.6C72%2C58.2%2C0%2C25.8%2C0%2C25.8V100h1000V65.3c0%2C0-51.5%2C19.4-106.2%2C25.7C839.5%2C97%2C814.1%2C95.2%2C790.5%2C93.1z%22%20fill%3D%22rgba(31%2C%2018%2C%20188%2C%200.26)%22%20%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center, 50%, 50%;
