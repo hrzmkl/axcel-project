@@ -24,7 +24,7 @@ export default function Footer(){
                             </svg>						
                         </div>
                     </div>                
-                    <div className="container">
+                    <div className="container" id="footer-content">
                         <div className="row border border-top-0 border-end-0 border-start-0 border-border-bottom-1  border-light pb-5">
                             <div className="col-12 col-md-6 col-lg-3 d-flex flex-column pb-5 align-items-center align-items-lg-start">
                                 <Link href="/" className="d-flex align-items-center align-items-lg-start my-2 my-lg-0 me-lg-auto text-white text-decoration-none">

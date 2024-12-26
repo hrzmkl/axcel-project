@@ -28,7 +28,7 @@ export default function NavBarScroll(){
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><Link className="dropdown-item" href="/conseil-creation-societe">Conseil en création<br/>de société</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" href="/assistance-modification-sciete">Assistance à la modification<br/>de société</Link></li>
+                                    <li><Link className="dropdown-item" href="/assistance-modification-societe">Assistance à la modification<br/>de société</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
                                     <li><Link className="dropdown-item" href="/assistance-formalisation-entreprise">Assistance en formalisation<br/>d'entreprise</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
@@ -62,13 +62,13 @@ export default function NavBarScroll(){
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><Link className="dropdown-item" href="/recuperation-diplome-releve-note-equivalence">Récupération diplôme,<br/>relevé de note, équivalence..</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" href="/recuperation-traduction-acte-naissance-acte-mariage">Récupération /traduction<br/>acte de naissance,<br/>acte de mariage, ...</Link></li>
+                                    <li><Link className="dropdown-item" href="/recuperation-traduction-acte-naissance-acte-de-mariage">Récupération /traduction<br/>acte de naissance,<br/>acte de mariage, ...</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" href="/recuperation-certificats-mise-en-commerce">Récupération des certificats<br/>de mise en commerce</Link></li>
+                                    <li><Link className="dropdown-item" href="/recuperation-certificats-de-mise-en-commerce">Récupération des certificats<br/>de mise en commerce</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" href="/recuperation-certificats-consommabilite">Récupération des certificats<br/>de consommabilité</Link></li>
+                                    <li><Link className="dropdown-item" href="/recuperation-certificats-de-consommabilite">Récupération des certificats<br/>de consommabilité</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" href="/toutes-enregistrement-certification">Toutes enregistrement,<br/>certifications</Link></li>
+                                    <li><Link className="dropdown-item" href="/toutes-enregistrement-et-certification">Toutes enregistrement,<br/>certifications</Link></li>
                                 </ul>
                             </li>
                             

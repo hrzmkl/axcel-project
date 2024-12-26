@@ -1,45 +1,23 @@
 
 import styles from '../../page.module.css'
 import { CheckCircleIcon,HomeIcon,UserGroupIcon,BuildingOfficeIcon,BuildingOffice2Icon,BuildingLibraryIcon } from '@heroicons/react/20/solid';
-
-import Link from 'next/link'
+import PageHero from '@/app/components/pageHero/pageHero';
 import React from "react";
 
 import Counter from '@/app/components/counter/counter';
 export const metadata = {
-  title: 'Récupération des certificats de consommabilité - Axcel company',  
+  title: 'Toutes enregistrement, certifications - Axcel company',  
 }
 
 export default function Page() {
     
   return (
     <>
-      <div className={`${styles.hero} container-fluid py-5`}>
-              <div className="container my-lg-5 py-5">
-                    <div className="row justify-content-around px-3 align-items-center">   
-                      <div className="col-sm-12 col-lg-6 py-5 ps-lg-5 axel-block1">
-                                <div className="border-2 border-dark">
-                                    <div>
-                                        <img src="/hands-image.jpg" alt="prise en main" className={`${styles.image} img-fluid`}/>
-                                    </div>                                    
-                                </div>                                                     
-                        </div>                     
-                        <div className="col-sm-12 col-lg-6 p-auto pe-lg-5">
-                            <div className="d-flex flex-column mb-3">
-                                <h3 className="axel-text-orange fs-3 fw-bolder"><Link href="/" className="text-white">Accueil</Link> >>> <span>Récupération des certificats de consommabilité</span></h3>                            
-                                <h1 className="text-white fw-bolder pt-3">Récupération des certificats de consommabilité</h1>
-                                <div className="border border-info border-2 w-25 my-3"></div>   
-                                <p className='text-white py-3'>En plus du conseil et de l'assistance administrative, nous proposons une gamme de services complets pour répondre aux besoins variés de nos clients en matière de gestion d'entreprise à Madagascar.</p>                        
-                                                   
-                            </div>   
-                            <div className='d-block py-4 py-lg-4'>
-                                <a href="/contact" type="button" className="btn btn-info text-white">Rentrons en contact</a>
-                            </div>                          
-                        </div>                                           
-                        
-                    </div>
-            </div>
-      </div>    
+      <PageHero 
+                imgSrc="/hands-image.jpg" 
+                desc="En plus du conseil et de l'assistance administrative, nous proposons une gamme de services complets pour répondre aux besoins variés de nos clients en matière de gestion d'entreprise à Madagascar." 
+                btnText="Rentrons en contact"
+        />   
       
       <div className="container">
         <div className="container my-lg-5 py-5">
@@ -135,14 +113,125 @@ export default function Page() {
             <div className="row d-flex justify-content-center py-5">
                 <div className="col d-none d-lg-block"></div>
                 <div className="col col-lg-8 d-flex  flex-column justify-content-center align-items-center">
-                    <h5 className="card-title f-bold fs-3 axel-text-orange py-3">Coursier professionnelle</h5>
-                    <h2 className="text-white fs-2 fw-bolder text-center">Récupération des certificats de consommabilité</h2>
+                    <h5 className="card-title f-bold fs-3 axel-text-orange py-3">Services</h5>
+                    <h2 className="text-white fs-2 fw-bolder text-center">Assistance à la modification de société</h2>
                     <div className="border border-info border-2 w-25 my-3"></div>
                     
                 </div>
                 <div className="col d-none d-lg-block"></div>
             </div>
-            
+            <div className="row row-cols-1 row-cols-md-3 g-4">
+              <div className="col">
+                <div className="card h-100">
+                  <div className="card-header bg-transparent border-0">
+                    <HomeIcon className={`${styles.icon2} axel-text-orange`}/>
+                  </div>
+                  <div className="card-body">
+                    <h3 className="card-title">INDIVIDUEL</h3>
+                    <p className="card-text">Une entreprise individuelle, est une forme d'entreprise où une seule personne est responsable de toute l'activité de l'entreprise.</p>
+                    
+                  </div>
+                  <div className="card-footer bg-transparent"><a href="#" className="card-link">En savoir plus</a></div>
+                 </div>
+              </div>
+              <div className="col">
+                <div className="card h-100">
+                  <div className="card-header bg-transparent border-0">
+                    <BuildingOfficeIcon className={`${styles.icon2} axel-text-orange`}/>
+                  </div>
+                  <div className="card-body">
+                    <h3 className="card-title">SARL / SARLU</h3>
+                    <p className="card-text">SARL : Société à responsabilité limitée au montant de leurs apports dans la société.<br></br>
+                    SARLU : Société à responsabilité limitée Unipersonnelle, est une société où il n'y a qu'un seul associé.</p>                    
+                  </div>
+                  <div className="card-footer bg-transparent">
+                    <a href="#" className="card-link">En savoir plus</a>
+                  </div>                 
+                </div>
+              </div>
+              <div className="col">
+                <div className="card h-100">
+                  <div className="card-header bg-transparent border-0">
+                    <BuildingOfficeIcon className={`${styles.icon2} axel-text-orange`}/>
+                  </div>
+                  <div className="card-body">
+                    <h3 className="card-title">SA / SAU</h3>
+                    <p className="card-text">SA : Société Anonyme, une forme juridique de société où la responsabilité des actionnaires est limitée aux apports qu'ils ont faits dans le capital social.<br></br>
+                    SAU : Société Anonyme Unipersonnelle, une variante de la Société Anonyme (SA), mais avec un seul actionnaire.</p>                    
+                  </div>
+                  <div className="card-footer bg-transparent">
+                    <a href="#" className="card-link">En savoir plus</a>
+                  </div>                 
+                </div>
+              </div>           
+              <div className="col">
+                <div className="card h-100">
+                  <div className="card-header bg-transparent border-0">
+                    <UserGroupIcon className={`${styles.icon2} axel-text-orange`}/>
+                  </div>
+                  <div className="card-body">
+                    <h3 className="card-title">ASSOCIATION</h3>
+                    <p className="card-text">Un groupement de personnes réunies autour d’un projet commun ou d’une activité, à but non lucratif. Cela signifie que l’objectif principal d’une association n’est pas de réaliser des profits à distribuer entre les membres.</p>
+                    
+                  </div>
+                  <div className="card-footer bg-transparent"><a href="#" className="card-link">En savoir plus</a></div>
+                 </div>
+              </div>
+              <div className="col">
+                <div className="card h-100">
+                  <div className="card-header bg-transparent border-0">
+                    <BuildingOffice2Icon className={`${styles.icon2} axel-text-orange`}/>
+                  </div>
+                  <div className="card-body">
+                    <h3 className="card-title">ONG</h3>
+                    <p className="card-text">(Organisation Non Gouvernementale). Une organisation indépendante des gouvernements, à but non lucratif, qui œuvre pour des causes d’intérêt général comme les droits humains, l’environnement, la santé, l’éducation ou l’aide humanitaire.</p>                    
+                  </div>
+                  <div className="card-footer bg-transparent">
+                    <a href="#" className="card-link">En savoir plus</a>
+                  </div>                 
+                </div>
+              </div>
+              <div className="col">
+                <div className="card h-100">
+                  <div className="card-header bg-transparent border-0">
+                    <BuildingLibraryIcon className={`${styles.icon2} axel-text-orange`}/>
+                  </div>
+                  <div className="card-body">
+                    <h3 className="card-title">ETABLISSEMENT</h3>
+                    <p className="card-text">une unité de production ou un lieu d'activité qui dépend d'une entreprise. Il constitue une implantation géographique distincte, mais il n'a pas de personnalité juridique propre</p>                    
+                  </div>
+                  <div className="card-footer bg-transparent">
+                    <a href="#" className="card-link">En savoir plus</a>
+                  </div>                 
+                </div>
+              </div>
+              <div className="col">
+                <div className="card h-100">
+                  <div className="card-header bg-transparent border-0">
+                    <BuildingLibraryIcon className={`${styles.icon2} axel-text-orange`}/>
+                  </div>
+                  <div className="card-body">
+                    <h3 className="card-title">OUVERTURE SUCCURSALE / FILIALE</h3>
+                    <p className="card-text">Succursale : un établissement secondaire rattaché directement à l'entreprise mère. Elle ne possède pas de personnalité juridique distincte.<br></br>Filiale : une société à part entière, dotée de sa propre personnalité juridique. Elle est contrôlée majoritairement par la société mère, qui détient au moins 50 % du capital.</p>                    
+                  </div>
+                  <div className="card-footer bg-transparent">
+                    <a href="#" className="card-link">En savoir plus</a>
+                  </div>                 
+                </div>
+              </div>
+            </div>
+
+            <div className="row d-flex justify-content-center py-5">
+                <div className="col d-none d-lg-block"></div>
+                <div className="col col-lg-8 d-flex  flex-column justify-content-center align-items-center">
+                    
+                    <h2 className="text-white fs-2 fw-bolder text-center">Coursier professionnelle</h2>
+                    <div className="border border-info border-2 w-25 my-3"></div>
+                    
+                </div>
+                <div className="col d-none d-lg-block"></div>
+            </div>
+
             <div className="row row-cols-1 row-cols-md-3 g-4">
               <div className="col">
                 <div className="card h-100">

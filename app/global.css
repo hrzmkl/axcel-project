@@ -115,3 +115,12 @@ p,.p,.nav,.dropdown-item{
         display: none !important;
     }
 }
+#footer-content {
+    z-index: 9999 !important;
+}
+.brevoIfram{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
