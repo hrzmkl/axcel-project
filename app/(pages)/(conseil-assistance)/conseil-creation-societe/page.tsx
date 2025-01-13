@@ -301,15 +301,15 @@ export default function Page() {
                   <div className="border border-info border-2 w-25 my-3"></div>   
                   <p className='py-3'>Permettant ainsi à nos clients de se concentrer sur le développement et la croissance de leur activité en toute tranquillité d'esprit.</p>  
                   <h5>Création d'entreprise </h5>
-                  <div className="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <div className="progress">
                     <div className="progress-bar" style={{width: '60'+'%'}}>60%</div>
                   </div>  
                   <h5 className='pt-3'>Accompagnement</h5>
-                  <div className="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <div className="progress">
                     <div className="progress-bar" style={{width: '75'+'%'}}>75%</div>
                   </div> 
                   <h5 className='pt-3'>Autres services</h5>
-                  <div className="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <div className="progress">
                     <div className="progress-bar" style={{width: '90'+'%'}}>90%</div>
                   </div>         
               </div>                                    

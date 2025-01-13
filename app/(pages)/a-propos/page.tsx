@@ -109,11 +109,11 @@ export default function Page() {
                   <div className="border border-info border-2 w-25 my-3"></div>   
                   <p className='py-3'>En plus du conseil et de l'assistance administrative, nous proposons une gamme de services complets pour répondre aux besoins variés de nos clients en matière de gestion d'entreprise.</p>  
                   <h5>Atteindre vos objectifs</h5>
-                  <div className="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <div className="progress">
                     <div className="progress-bar" style={{width: '75'+'%'}}>75%</div>
                   </div>  
                   <h5 className='pt-3'>Faciliter vos démarches administratives</h5>
-                  <div className="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <div className="progress">
                     <div className="progress-bar" style={{width: '90'+'%'}}>90%</div>
                   </div>          
               </div>   

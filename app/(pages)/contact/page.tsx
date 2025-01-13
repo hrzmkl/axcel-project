@@ -37,7 +37,7 @@ export default function contact(){
                                     <label htmlFor="floatingObject">Objet du message</label>
                                 </div>
                                 <div className="form-floating mb-3">
-                                    <textarea className="form-control" placeholder="Message" rows="4" id="floatingTextarea" style={{height: 100+'px'}}></textarea>
+                                    <textarea className="form-control" placeholder="Message" rows={4} id="floatingTextarea" style={{height: 100+'px'}}></textarea>
                                     <label htmlFor="floatingTextarea">Message</label>
                                 </div>
                                 <button type="submit" className="btn btn-info fw-bolder text-white my-2">Envoyer</button>

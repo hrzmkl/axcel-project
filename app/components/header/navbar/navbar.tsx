@@ -1,9 +1,5 @@
 'use client'
 import Link from 'next/link';
-function redirect(){
-   let url = document.getElementById("navbarDropdown");
-    location.href = url.href;
-}
 export default function NavBar(){
     return(
          <>
@@ -17,7 +13,7 @@ export default function NavBar(){
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         
                         <li className="nav-item dropdown">
-                            <Link className="nav-link dropdown-toggle text-white fw-bolder fs-5" href="/service" id="navbarDropdown"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link className="nav-link dropdown-toggle text-white fw-bolder fs-5" href="/service" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Conseil et assistance
                             </Link>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -31,7 +27,7 @@ export default function NavBar(){
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
-                            <Link className="nav-link dropdown-toggle text-white fw-bolder fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link className="nav-link dropdown-toggle text-white fw-bolder fs-5" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Création
                             </Link>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -51,7 +47,7 @@ export default function NavBar(){
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
-                            <Link className="nav-link dropdown-toggle text-white fw-bolder fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link className="nav-link dropdown-toggle text-white fw-bolder fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Service de coursier
                             </Link>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
