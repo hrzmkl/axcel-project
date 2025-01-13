@@ -1,4 +1,3 @@
 AXL.code-workspace
 .next/
 /node_modules/
-*.yaml
