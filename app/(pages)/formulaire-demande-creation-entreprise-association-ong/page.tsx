@@ -1,4 +1,5 @@
-import PageHero from '@/app/components/pageHero/pageHero';
+import PageHero from '@/app/components/pageHero/pageHero'
+import OtherService from '@/app/components/other-service/otherServics';
 import React from "react";
 export const metadata = {
   title: 'Devis - Axcel company',  
@@ -34,7 +35,7 @@ export default function Page() {
                     <div className='row'>
                         <div className='col'></div>
                         <div className='col-8'>
-                            <iframe width="900" height="1100" className="brevoIfram" src="https://fadc7ab0.sibforms.com/serve/MUIFANNJuJn9vQWc6RIWZk0hnDegaGrsI4U2YYlqOc_lIm72nvsa-UoSKdfu0O7DJB2-N1KIdStIskGYhZ3Mod4s0YQFYw0AXww5ZPCcB2OgWk6Ovoyhx1h00n_KAuHfQ067mHu6dO8_qFonNN2ahlYyuucs2Btz1GuadE3p_I3WaGntfZK5MN-sNaOuLzqwpUcXIIvwlYHzlpjL" frameborder="0" scrolling="auto" allowfullscreen="allowfullscreen"></iframe>
+                            <iframe width="900" height="1100" className="brevoIfram" src="https://fadc7ab0.sibforms.com/serve/MUIFANNJuJn9vQWc6RIWZk0hnDegaGrsI4U2YYlqOc_lIm72nvsa-UoSKdfu0O7DJB2-N1KIdStIskGYhZ3Mod4s0YQFYw0AXww5ZPCcB2OgWk6Ovoyhx1h00n_KAuHfQ067mHu6dO8_qFonNN2ahlYyuucs2Btz1GuadE3p_I3WaGntfZK5MN-sNaOuLzqwpUcXIIvwlYHzlpjL"></iframe>
                         </div>
                         <div className='col'></div>
                     </div>

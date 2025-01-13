@@ -1,4 +1,5 @@
-import PageHero from '@/app/components/pageHero/pageHero';
+import PageHero from '@/app/components/pageHero/pageHero'
+import OtherService from '@/app/components/other-service/otherServics';
 import React from "react";
 export const metadata = {
   title: 'Devis - Axcel company',  
@@ -45,7 +46,7 @@ export default function Page() {
                         Impôt Intervalle de : 150 000Ar à 320 000Ar
                         </p>                    
                     </div>
-                    <div className="card-footer bg-transparent py-3"><a href="#" className="card-link btn btn-info text-white fw-bold">Acheter ce plan</a></div>
+                    <div className="card-footer bg-transparent py-3"><a href="/formulaire-demande-creation-entreprise-association-ong" className="card-link btn btn-info text-white fw-bold">Acheter ce plan</a></div>
                     </div>
                 </div> 
                 <div className="col">
@@ -62,7 +63,7 @@ export default function Page() {
                         Impôt Intervalle de : 150 000Ar à 320 000Ar
                         </p>                    
                     </div>
-                    <div className="card-footer bg-transparent py-3"><a href="#" className="card-link btn btn-info text-white fw-bold">Acheter ce plan</a></div>
+                    <div className="card-footer bg-transparent py-3"><a href="/formulaire-demande-creation-entreprise-association-ong" className="card-link btn btn-info text-white fw-bold">Acheter ce plan</a></div>
                     </div>
                 </div>
                 <div className="col">
@@ -79,7 +80,7 @@ export default function Page() {
                         Impôt Intervalle de : 150 000Ar à 320 000Ar
                         </p>                    
                     </div>
-                    <div className="card-footer bg-transparent py-3"><a href="#" className="card-link btn btn-info text-white fw-bold">Acheter ce plan</a></div>
+                    <div className="card-footer bg-transparent py-3"><a href="/formulaire-demande-creation-entreprise-association-ong" className="card-link btn btn-info text-white fw-bold">Acheter ce plan</a></div>
                     </div>
                 </div> 
                 <div className="col">
@@ -94,7 +95,7 @@ export default function Page() {
                         Frais administratifs fixe 170 000Ar,<br></br>
                         </p>                    
                     </div>
-                    <div className="card-footer bg-transparent py-3"><a href="#" className="card-link btn btn-info text-white fw-bold">Acheter ce plan</a></div>
+                    <div className="card-footer bg-transparent py-3"><a href="/formulaire-demande-creation-entreprise-association-ong" className="card-link btn btn-info text-white fw-bold">Acheter ce plan</a></div>
                     </div>
                 </div>
                 <div className="col">
@@ -110,7 +111,7 @@ export default function Page() {
                         Frais administratifs fixe 170 000Ar.<br></br>
                         </p>                    
                     </div>
-                    <div className="card-footer bg-transparent py-3"><a href="#" className="card-link btn btn-info text-white fw-bold">Acheter ce plan</a></div>
+                    <div className="card-footer bg-transparent py-3"><a href="/formulaire-demande-creation-entreprise-association-ong" className="card-link btn btn-info text-white fw-bold">Acheter ce plan</a></div>
                     </div>
                 </div>                          
             </div>

@@ -1,5 +1,6 @@
 import styles from '../page.module.css'
-import PageHero from '@/app/components/pageHero/pageHero';
+import PageHero from '@/app/components/pageHero/pageHero'
+import OtherService from '@/app/components/other-service/otherServics';
 import { ChevronDoubleRightIcon } from '@heroicons/react/20/solid';
 import Team from '@/app/components/Team/team';
 export const metadata = {
