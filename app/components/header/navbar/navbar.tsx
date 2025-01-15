@@ -14,17 +14,17 @@ export default function NavBar(){
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-evenly w-100">
                             
                             <li className="nav-item dropdown">
-                                <Link className="nav-link dropdown-toggle text-white fw-bolder fs-5" target="_blank" target="_blank" href="/service" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <Link className="nav-link dropdown-toggle text-white fw-bolder fs-5" target="_blank" href="/service" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Conseil et assistance
                                 </Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><Link className="dropdown-item" target="_blank" target="_blank" href="/conseil-creation-societe">Conseil en création<br/>de société</Link></li>
+                                    <li><Link className="dropdown-item"  target="_blank" href="/conseil-creation-societe">Conseil en création<br/>de société</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" target="_blank" target="_blank" href="/assistance-modification-societe">Assistance à la modification<br/>de société</Link></li>
+                                    <li><Link className="dropdown-item"  target="_blank" href="/assistance-modification-societe">Assistance à la modification<br/>de société</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" target="_blank" target="_blank" href="/assistance-formalisation-entreprise">Assistance en formalisation<br/>d'entreprise</Link></li>
+                                    <li><Link className="dropdown-item"  target="_blank" href="/assistance-formalisation-entreprise">Assistance en formalisation<br/>d'entreprise</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" target="_blank" target="_blank" href="/consultation-strategique-entrepreneurs">Consultation stratégique<br/>pour entrepreneurs</Link></li>
+                                    <li><Link className="dropdown-item" target="_blank" href="/consultation-strategique-entrepreneurs">Consultation stratégique<br/>pour entrepreneurs</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
