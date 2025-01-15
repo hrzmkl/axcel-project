@@ -15,7 +15,7 @@ interface AxelpageHeroProps {
     const metadata = {
         title: 'Services - Axcel company',  
       } 
-    const path = usePathname()
+    const path:string = usePathname()
     const str = path.replace('/', "")
     const pathname = str.replace(/-/g, " ")
     let title = pathname.charAt(0).toUpperCase() + pathname.slice(1);
