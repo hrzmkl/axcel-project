@@ -19,7 +19,7 @@ export default function NavBarScroll(){
                             </Link>
                         </div>
                         <div className="col-8 collapse navbar-collapse justify-content-around"  id="navbarScroll">
-                            <ul className="navbar-nav mb-2 mb-lg-0">
+                            <ul className="navbar-nav mb-2 mb-lg-0 justify-content-evenly w-100">
                             
                             <li className="nav-item dropdown">
                                 <Link className="nav-link dropdown-toggle axel-text-blue fw-bolder fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -77,12 +77,11 @@ export default function NavBarScroll(){
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link axel-text-blue fw-bolder fs-5" href="/contact">Contact</Link>
-                            </li>
+                            </li>                            
                             </ul>           
                         </div>
                         <div className="col-2 text-end">
-                            <SocialIcon network="facebook" url="https://web.facebook.com/profile.php?id=100092397681842&mibextid=ZbWKwL&_rdc=1&_rdr" target="_blank" className="axel-social-icon me-3" bgColor="#152039"/>
-                            <SocialIcon network="whatsapp" url="https://wa.me/387306632" target="_blank" bgColor="#152039" className="axel-social-icon"/>
+                            <Link className="btn btn-info text-white fs-5" href="/devis">Demande de devis</Link>
                         </div>
                     
                 </div>
