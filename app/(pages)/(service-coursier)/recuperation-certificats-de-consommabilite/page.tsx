@@ -138,7 +138,7 @@ export default function Page() {
                       Diplôme, Attestation de réussite
                     </p>                    
                   </div>
-                  <div className="card-footer bg-transparent"><a href="#" className="card-link">En savoir plus</a></div>
+                  <div className="card-footer bg-transparent"><a target="_blank" href="#" className="card-link">En savoir plus</a></div>
                  </div>
               </div>
               <div className="col">
@@ -152,7 +152,7 @@ export default function Page() {
                     Dépôts des candidatures pour des concours administratifs</p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="#" className="card-link">En savoir plus</a>
+                    <a target="_blank" href="#" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>
@@ -171,7 +171,7 @@ export default function Page() {
                     </p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="#" className="card-link">En savoir plus</a>
+                    <a target="_blank" href="#" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>

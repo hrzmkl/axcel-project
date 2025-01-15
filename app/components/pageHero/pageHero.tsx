@@ -48,14 +48,14 @@ interface AxelpageHeroProps {
                         </div>                     
                         <div className="col-sm-12 col-lg-6 p-auto pe-lg-5">
                             <div className="d-flex flex-column mb-3">
-                                <h3 className="axel-text-orange fs-3 fw-bolder"><Link href="/" className="text-white">Accueil</Link> &gt;&gt;&gt; <span>{title}</span></h3>                            
+                                <h3 className="axel-text-orange fs-3 fw-bolder"><Link target="_blank" href="/" className="text-white">Accueil</Link> &gt;&gt;&gt; <span>{title}</span></h3>                            
                                 <h1 className="text-white fw-bolder pt-3">{title}</h1>
                                 <div className="border border-info border-2 w-25 my-3"></div>   
                                 <p className='text-white py-3'>{desc}</p>                        
                                                    
                             </div>   
                             <div className='d-block py-4 py-lg-4'>
-                                <a href="/contact" type="button" className="btn btn-info text-white">{btnText}</a>
+                                <a target="_blank" href="/contact" type="button" className="btn btn-info text-white">{btnText}</a>
                             </div>                          
                         </div>                                           
                         

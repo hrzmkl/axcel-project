@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang="en">
       
       <head>
-        <link rel="icon" href="/favicon.co" sizes="any" />      
+        <link rel="icon" target="_blank" href="/favicon.co" sizes="any" />      
         <Script type="text/javascript" src="./js/navscroll.js" /> 
       </head>
       <body>  

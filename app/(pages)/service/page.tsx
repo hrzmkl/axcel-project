@@ -127,7 +127,7 @@ export default function Page() {
                     <h3 className="card-title">Conseil en création de société</h3>                   
                     
                   </div>
-                  <div className="card-footer bg-transparent"><a href="/conseil-creation-societe" className="card-link">En savoir plus</a></div>
+                  <div className="card-footer bg-transparent"><a target="_blank" href="/conseil-creation-societe" className="card-link">En savoir plus</a></div>
                  </div>
               </div>
               <div className="col">
@@ -140,7 +140,7 @@ export default function Page() {
                                        
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="/assistance-modification-societe" className="card-link">En savoir plus</a>
+                    <a target="_blank" href="/assistance-modification-societe" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>
@@ -154,7 +154,7 @@ export default function Page() {
                     
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="/assistance-formalisation-entreprise" className="card-link">En savoir plus</a>
+                    <a target="_blank" href="/assistance-formalisation-entreprise" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>           
@@ -167,7 +167,7 @@ export default function Page() {
                     <h3 className="card-title">Consultation stratégique pour entrepreneurs</h3>                   
                     
                   </div>
-                  <div className="card-footer bg-transparent"><a href="/consultation-strategique-entrepreneurs" className="card-link">En savoir plus</a></div>
+                  <div className="card-footer bg-transparent"><a target="_blank" href="/consultation-strategique-entrepreneurs" className="card-link">En savoir plus</a></div>
                  </div>
               </div>
               
@@ -196,7 +196,7 @@ export default function Page() {
                     <p className="card-text">Une entreprise individuelle, est une forme d'entreprise où une seule personne est responsable de toute l'activité de l'entreprise.</p>
                     
                   </div>
-                  <div className="card-footer bg-transparent"><a href="/creation-entreprise-individuelle" className="card-link">En savoir plus</a></div>
+                  <div className="card-footer bg-transparent"><a target="_blank" href="/creation-entreprise-individuelle" className="card-link">En savoir plus</a></div>
                  </div>
               </div>
               <div className="col">
@@ -210,7 +210,7 @@ export default function Page() {
                     SARLU : Société à responsabilité limitée Unipersonnelle, est une société où il n'y a qu'un seul associé.</p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="/creation-sarl-sarlu" className="card-link">En savoir plus</a>
+                    <a target="_blank" href="/creation-sarl-sarlu" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>
@@ -225,7 +225,7 @@ export default function Page() {
                     SAU : Société Anonyme Unipersonnelle, une variante de la Société Anonyme (SA), mais avec un seul actionnaire.</p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="/creation-sa-sau" className="card-link">En savoir plus</a>
+                    <a target="_blank" href="/creation-sa-sau" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>           
@@ -239,7 +239,7 @@ export default function Page() {
                     <p className="card-text">Un groupement de personnes réunies autour d’un projet commun ou d’une activité, à but non lucratif. Cela signifie que l’objectif principal d’une association n’est pas de réaliser des profits à distribuer entre les membres.</p>
                     
                   </div>
-                  <div className="card-footer bg-transparent"><a href="/creation-association" className="card-link">En savoir plus</a></div>
+                  <div className="card-footer bg-transparent"><a target="_blank" href="/creation-association" className="card-link">En savoir plus</a></div>
                  </div>
               </div>
               <div className="col">
@@ -252,7 +252,7 @@ export default function Page() {
                     <p className="card-text">(Organisation Non Gouvernementale). Une organisation indépendante des gouvernements, à but non lucratif, qui œuvre pour des causes d’intérêt général comme les droits humains, l’environnement, la santé, l’éducation ou l’aide humanitaire.</p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="/creation-ong" className="card-link">En savoir plus</a>
+                    <a target="_blank" href="/creation-ong" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>
@@ -266,7 +266,7 @@ export default function Page() {
                     <p className="card-text">une unité de production ou un lieu d'activité qui dépend d'une entreprise. Il constitue une implantation géographique distincte, mais il n'a pas de personnalité juridique propre</p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="/creation-etablissement" className="card-link">En savoir plus</a>
+                    <a target="_blank" href="/creation-etablissement" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>
@@ -280,7 +280,7 @@ export default function Page() {
                     <p className="card-text">Succursale : un établissement secondaire rattaché directement à l'entreprise mère. Elle ne possède pas de personnalité juridique distincte.<br></br>Filiale : une société à part entière, dotée de sa propre personnalité juridique. Elle est contrôlée majoritairement par la société mère, qui détient au moins 50 % du capital.</p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="/ouverture-succursale-filiale" className="card-link">En savoir plus</a>
+                    <a target="_blank" href="/ouverture-succursale-filiale" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>
@@ -308,7 +308,7 @@ export default function Page() {
                     <p className="card-text">Diplôme,relevé de note, équivalence..
                     </p>                    
                   </div>
-                  <div className="card-footer bg-transparent"><a href="/recuperation-diplome-releve-note-equivalence" className="card-link">En savoir plus</a></div>
+                  <div className="card-footer bg-transparent"><a target="_blank" href="/recuperation-diplome-releve-note-equivalence" className="card-link">En savoir plus</a></div>
                  </div>
               </div>
               <div className="col">
@@ -321,7 +321,7 @@ export default function Page() {
                     <p className="card-text">Acte de naissance, acte de mariage, ...</p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="/recuperation-traduction-acte-naissance-acte-de-mariage" className="card-link">En savoir plus</a>
+                    <a target="_blank" href="/recuperation-traduction-acte-naissance-acte-de-mariage" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>
@@ -336,7 +336,7 @@ export default function Page() {
                     </p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="/recuperation-certificats-de-mise-en-commerce" className="card-link">En savoir plus</a>
+                    <a target="_blank" href="/recuperation-certificats-de-mise-en-commerce" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>
@@ -351,7 +351,7 @@ export default function Page() {
                     </p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="/recuperation-certificats-de-consommabilite" className="card-link">En savoir plus</a>
+                    <a target="_blank" href="/recuperation-certificats-de-consommabilite" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>
@@ -366,7 +366,7 @@ export default function Page() {
                     </p>                    
                   </div>
                   <div className="card-footer bg-transparent">
-                    <a href="/toutes-enregistrement-et-certification" className="card-link">En savoir plus</a>
+                    <a target="_blank" href="/toutes-enregistrement-et-certification" className="card-link">En savoir plus</a>
                   </div>                 
                 </div>
               </div>
