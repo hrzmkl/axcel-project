@@ -114,178 +114,107 @@ export default function Page() {
                 <div className="col d-none d-lg-block"></div>
                 <div className="col col-lg-8 d-flex  flex-column justify-content-center align-items-center">
                     <h5 className="card-title f-bold fs-3 axel-text-orange py-3">Services</h5>
-                    <h2 className="text-white fs-2 fw-bolder text-center">Création d'un établissement</h2>
+                    <h2 className="text-white fs-2 fw-bolder text-center">Création établissement</h2>
+                    <p className='text-white text-center'>La création d’un établissement (succursale, antenne, ou autre structure rattachée à une entreprise existante) implique plusieurs étapes administratives.</p>
                     <div className="border border-info border-2 w-25 my-3"></div>
                     
                 </div>
                 <div className="col d-none d-lg-block"></div>
             </div>
             <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="col">
+                <div className="card h-100">
+                  <div className="card-header bg-transparent border-0">
+                    <HomeIcon className={`${styles.icon2} axel-text-orange`}/>
+                  </div>
+                    <div className="card-body">
+                      <h3 className="card-title">Déclaration auprès du CFE</h3>
+                      <p className="card-text">
+                      Déclarez la création de l’établissement auprès du Centre de Formalités des Entreprises (CFE) compétent.<br></br>
+                      Cette déclaration met à jour le Kbis de l’entreprise.
+                      </p>                   
+                    </div>                  
+                 </div>
+              </div>
               <div className="col">
                 <div className="card h-100">
                   <div className="card-header bg-transparent border-0">
                     <HomeIcon className={`${styles.icon2} axel-text-orange`}/>
                   </div>
                   <div className="card-body">
-                    <h3 className="card-title">INDIVIDUEL</h3>
-                    <p className="card-text">Une entreprise individuelle, est une forme d'entreprise où une seule personne est responsable de toute l'activité de l'entreprise.</p>
+                    <h3 className="card-title">Documents nécessaires</h3>                    
+                    Formulaire de déclaration d’établissement :
+                    <ul><li>Formulaire M2 pour les entreprises individuelles ou sociétés (modification d'entreprise).</li></ul>
                     
+                    Justificatif de domiciliation : Bail commercial, attestation de domiciliation, etc.<br></br>
+                    Pièce d’identité du dirigeant : Copie du représentant légal.                                                     
                   </div>
-                  <div className="card-footer bg-transparent"><a target="_blank" href="#" className="card-link">En savoir plus</a></div>
+                  
                  </div>
               </div>
-              <div className="col">
-                <div className="card h-100">
-                  <div className="card-header bg-transparent border-0">
-                    <BuildingOfficeIcon className={`${styles.icon2} axel-text-orange`}/>
-                  </div>
-                  <div className="card-body">
-                    <h3 className="card-title">SARL / SARLU</h3>
-                    <p className="card-text">SARL : Société à responsabilité limitée au montant de leurs apports dans la société.<br></br>
-                    SARLU : Société à responsabilité limitée Unipersonnelle, est une société où il n'y a qu'un seul associé.</p>                    
-                  </div>
-                  <div className="card-footer bg-transparent">
-                    <a target="_blank" href="#" className="card-link">En savoir plus</a>
-                  </div>                 
-                </div>
-              </div>
-              <div className="col">
-                <div className="card h-100">
-                  <div className="card-header bg-transparent border-0">
-                    <BuildingOfficeIcon className={`${styles.icon2} axel-text-orange`}/>
-                  </div>
-                  <div className="card-body">
-                    <h3 className="card-title">SA / SAU</h3>
-                    <p className="card-text">SA : Société Anonyme, une forme juridique de société où la responsabilité des actionnaires est limitée aux apports qu'ils ont faits dans le capital social.<br></br>
-                    SAU : Société Anonyme Unipersonnelle, une variante de la Société Anonyme (SA), mais avec un seul actionnaire.</p>                    
-                  </div>
-                  <div className="card-footer bg-transparent">
-                    <a target="_blank" href="#" className="card-link">En savoir plus</a>
-                  </div>                 
-                </div>
-              </div>           
-              <div className="col">
-                <div className="card h-100">
-                  <div className="card-header bg-transparent border-0">
-                    <UserGroupIcon className={`${styles.icon2} axel-text-orange`}/>
-                  </div>
-                  <div className="card-body">
-                    <h3 className="card-title">ASSOCIATION</h3>
-                    <p className="card-text">Un groupement de personnes réunies autour d’un projet commun ou d’une activité, à but non lucratif. Cela signifie que l’objectif principal d’une association n’est pas de réaliser des profits à distribuer entre les membres.</p>
-                    
-                  </div>
-                  <div className="card-footer bg-transparent"><a target="_blank" href="#" className="card-link">En savoir plus</a></div>
-                 </div>
-              </div>
-              <div className="col">
-                <div className="card h-100">
-                  <div className="card-header bg-transparent border-0">
-                    <BuildingOffice2Icon className={`${styles.icon2} axel-text-orange`}/>
-                  </div>
-                  <div className="card-body">
-                    <h3 className="card-title">ONG</h3>
-                    <p className="card-text">(Organisation Non Gouvernementale). Une organisation indépendante des gouvernements, à but non lucratif, qui œuvre pour des causes d’intérêt général comme les droits humains, l’environnement, la santé, l’éducation ou l’aide humanitaire.</p>                    
-                  </div>
-                  <div className="card-footer bg-transparent">
-                    <a target="_blank" href="#" className="card-link">En savoir plus</a>
-                  </div>                 
-                </div>
-              </div>
-              <div className="col">
-                <div className="card h-100">
-                  <div className="card-header bg-transparent border-0">
-                    <BuildingLibraryIcon className={`${styles.icon2} axel-text-orange`}/>
-                  </div>
-                  <div className="card-body">
-                    <h3 className="card-title">ETABLISSEMENT</h3>
-                    <p className="card-text">une unité de production ou un lieu d'activité qui dépend d'une entreprise. Il constitue une implantation géographique distincte, mais il n'a pas de personnalité juridique propre</p>                    
-                  </div>
-                  <div className="card-footer bg-transparent">
-                    <a target="_blank" href="#" className="card-link">En savoir plus</a>
-                  </div>                 
-                </div>
-              </div>
-              <div className="col">
-                <div className="card h-100">
-                  <div className="card-header bg-transparent border-0">
-                    <BuildingLibraryIcon className={`${styles.icon2} axel-text-orange`}/>
-                  </div>
-                  <div className="card-body">
-                    <h3 className="card-title">OUVERTURE SUCCURSALE / FILIALE</h3>
-                    <p className="card-text">Succursale : un établissement secondaire rattaché directement à l'entreprise mère. Elle ne possède pas de personnalité juridique distincte.<br></br>Filiale : une société à part entière, dotée de sa propre personnalité juridique. Elle est contrôlée majoritairement par la société mère, qui détient au moins 50 % du capital.</p>                    
-                  </div>
-                  <div className="card-footer bg-transparent">
-                    <a target="_blank" href="#" className="card-link">En savoir plus</a>
-                  </div>                 
-                </div>
-              </div>
-            </div>
-
-            <div className="row d-flex justify-content-center py-5">
-                <div className="col d-none d-lg-block"></div>
-                <div className="col col-lg-8 d-flex  flex-column justify-content-center align-items-center">
-                    
-                    <h2 className="text-white fs-2 fw-bolder text-center">Coursier professionnelle</h2>
-                    <div className="border border-info border-2 w-25 my-3"></div>
-                    
-                </div>
-                <div className="col d-none d-lg-block"></div>
-            </div>
-
-            <div className="row row-cols-1 row-cols-md-3 g-4">
+              
               <div className="col">
                 <div className="card h-100">
                   <div className="card-header bg-transparent border-0">
                     <HomeIcon className={`${styles.icon2} axel-text-orange`}/>
                   </div>
-                  <div className="card-body">
-                    <h3 className="card-title">Récupération et livraison de documents</h3>
-                    <p className="card-text">Certificat de : résidence, existence, ...<br></br>
-                      Extrait RCS, Attestation de non – faillite<br></br>
-                      Acte de : naissance, mariage, ...<br></br>
-                      Certificat de consommabilité<br></br>
-                      Diplôme, Attestation de réussite
-                    </p>                    
+                    <div className="card-body">
+                      <h3 className="card-title">Enregistrement</h3>
+                      <p className="card-text">
+                      L’établissement est enregistré auprès du Registre du Commerce et des Sociétés (RCS) ou du Répertoire des Métiers (RM), selon la nature de l’activité.<br></br>
+                      Un nouveau numéro SIRET sera attribué pour identifier l’établissement.
+                      </p>                   
+                    </div>                  
                   </div>
-                  <div className="card-footer bg-transparent"><a target="_blank" href="#" className="card-link">En savoir plus</a></div>
-                 </div>
+              </div> 
+              <div className="col">
+                <div className="card h-100">
+                  <div className="card-header bg-transparent border-0">
+                    <HomeIcon className={`${styles.icon2} axel-text-orange`}/>
+                  </div>
+                    <div className="card-body">
+                      <h3 className="card-title">Mise à jour de l’administration</h3>
+                      <p className="card-text">
+                      URSSAF (activités sociales).<br></br>
+                      Impôts (déclaration du nouvel établissement).<br></br>
+                      INSEE (pour la création du SIRET).
+                      </p>                   
+                    </div>                  
+                  </div>
               </div>
               <div className="col">
                 <div className="card h-100">
                   <div className="card-header bg-transparent border-0">
-                    <BuildingOfficeIcon className={`${styles.icon2} axel-text-orange`}/>
+                    <HomeIcon className={`${styles.icon2} axel-text-orange`}/>
                   </div>
-                  <div className="card-body">
-                    <h3 className="card-title">Dépôt de documents administratifs</h3>
-                    <p className="card-text">Dépôts et récupération des déclarations fiscales, sociales,<br></br>
-                    Dépôts des candidatures pour des concours administratifs</p>                    
+                    <div className="card-body">
+                      <h3 className="card-title">Régulariser les aspects fiscaux et sociaux</h3>
+                      <p className="card-text">
+                      Fiscalité locale : Vérifiez les obligations locales (CFE, taxes foncières, etc.).<br></br>
+                      Salariés : Si l’établissement emploie des salariés, déclarez-le auprès des organismes sociaux.<br></br>
+                      </p>                   
+                    </div>                  
                   </div>
-                  <div className="card-footer bg-transparent">
-                    <a target="_blank" href="#" className="card-link">En savoir plus</a>
-                  </div>                 
-                </div>
-              </div>
+              </div> 
               <div className="col">
                 <div className="card h-100">
                   <div className="card-header bg-transparent border-0">
-                    <BuildingOfficeIcon className={`${styles.icon2} axel-text-orange`}/>
+                    <HomeIcon className={`${styles.icon2} axel-text-orange`}/>
                   </div>
-                  <div className="card-body">
-                    <h3 className="card-title">Autres services</h3>
-                    <p className="card-text">Toutes certifications et enregistrements dans des bureaux d’Etat<br></br>
-                      Traductions des actes : naissance, mariage, ...<br></br>
-                      Traduction livret de famille<br></br>
-                      Elaboration du curriculum vitae (CV)<br></br>
-                      Certification Diplôme, équivalence<br></br>
-                    </p>                    
+                    <div className="card-body">
+                      <h3 className="card-title">Communication interne et externe</h3>
+                      <p className="card-text">
+                      Mise à jour des documents officiels : Factures, devis, site web, etc.<br></br>
+                      Information des partenaires : Clients, fournisseurs, et autres partenaires doivent être informés.
+<br></br>
+                      </p>                   
+                    </div>                  
                   </div>
-                  <div className="card-footer bg-transparent">
-                    <a target="_blank" href="#" className="card-link">En savoir plus</a>
-                  </div>                 
-                </div>
-              </div>
+              </div>                                         
             </div>
-
+            <div className="text-center py-5">
+                  <a href="/devis" className="btn axel-btn-orange text-white">Demande de devis</a>
+            </div>
           </div>
         </div>
       </div>

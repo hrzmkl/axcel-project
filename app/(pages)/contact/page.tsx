@@ -22,26 +22,7 @@ export default function contact(){
                             <p className='py-3'>Pour toute demande d'information, demande de devis, demande de partenariat ou tout autre raison n'hésitez pas à nous contacter directement via le formulaire ci-dessous. Nous vous répondrons dans un meilleur délai.</p>  
                                    
                         </div>
-                            <form>
-                                
-                                <div className="form-floating mb-3">
-                                    <input type="text" className="form-control" id="floatingNom" placeholder="Votre nom" required/>
-                                    <label htmlFor="floatingNom">Votre nom</label>
-                                </div>
-                                <div className="form-floating mb-3">
-                                    <input type="email" className="form-control" id="floatingInputMail" placeholder="name@example.com" required/>
-                                    <label htmlFor="floatingInputMail">Adresse email</label>
-                                </div>
-                                <div className="form-floating mb-3">
-                                    <input type="text" className="form-control" id="floatingObject" placeholder="Objet du message" required/>
-                                    <label htmlFor="floatingObject">Objet du message</label>
-                                </div>
-                                <div className="form-floating mb-3">
-                                    <textarea className="form-control" placeholder="Message" rows={4} id="floatingTextarea" style={{height: 100+'px'}}></textarea>
-                                    <label htmlFor="floatingTextarea">Message</label>
-                                </div>
-                                <button type="submit" className="btn btn-info fw-bolder text-white my-2">Envoyer</button>
-                        </form>                                    
+                        <iframe width={600} height={950} src="https://fadc7ab0.sibforms.com/serve/MUIFABWdxhFndRDMk1lUH0M7Cc4wWYT-RcrRH7L2ipV9J345MDFZgGwShuLP-Joe_JDsqTRAVhjhYcQwHEkGS9TcOlRoUXXwFxCz9YHYywvojoNthyHmOO_I8bWMGYPisMjHYgdsU6o2MP1btwkE5ioYZm5fEBItPzJKIK2jL_4JW27_pXiYLOjStygcikVRFOlIW9-iLZF36HYN" ></iframe>                                   
                     </div>
                     <div className="col-sm-12 col-lg-6 py-5 ps-lg-5 axel-block1">
                     <div className="border-2 border-dark">
