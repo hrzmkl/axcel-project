@@ -3,7 +3,7 @@ export default function heroSlider(){
     return(
         <>     
                 
-                <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleControls" className="carousel slide container py-5 my-5" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                         <img src="/axcel-slider-1.jpg" className="d-block w-100 img-fluid" alt="..." />
