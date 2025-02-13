@@ -3,7 +3,7 @@ import styles from './AboutSection.module.css'
 export default function aboutSection(){
     return(
         <>
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row align-items-center bg-light">
                     <div className="col-12 col-lg-6 p-0">
                         <img src="/about-section.jpg" alt="A propos" className="img-fluid"/>
