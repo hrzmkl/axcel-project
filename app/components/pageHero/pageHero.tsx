@@ -36,8 +36,8 @@ interface AxelpageHeroProps {
     
     return(
         <>
-            <div className={`${styles.hero} container-fluid py-5`}>
-              <div className="container my-lg-5 py-5">
+            <div className={`${styles.hero} container`}>
+              <div className="container py-5">
                     <div className="row justify-content-around px-3 align-items-center">   
                       <div className="col-sm-12 col-lg-6 py-5 ps-lg-5 axel-block1">
                                 <div className="border-2 border-dark">
