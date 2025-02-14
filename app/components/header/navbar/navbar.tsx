@@ -7,7 +7,7 @@ export default function NavBar(){
                 <div className="container">
                     <div className='row w-100'>
                         <Link className="navbar-brand text-white fw-bolder fs-5 d-block d-lg-none" target="_blank" href="#">Accueil</Link>
-                        <button className="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button className="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon text-white"></span>
                         </button>
                         <div className="collapse navbar-collapse w-100" id="navbarSupportedContent">

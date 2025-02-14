@@ -131,3 +131,8 @@ p,.p,.nav,.dropdown-item{
     margin-right: auto;
     max-width: 100%;
 }
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
