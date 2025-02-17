@@ -13,8 +13,8 @@ export default function NavBarScroll(){
                                 <Image
                                     src="/axcel-company-logo-transparent-99-104-.png"
                                     alt="Axcel company logo"
-                                    width={96}
-                                    height={100}                             
+                                    width={130}
+                                    height={130}
                                 />                            
                             </Link>
                         </div>
