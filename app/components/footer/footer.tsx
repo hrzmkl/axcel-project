@@ -31,8 +31,8 @@ export default function Footer(){
                                     <Image
                                         src="/axcel-company-logo-transparent-99-104-.png"
                                         alt="Picture of the author"
-                                        width={80}
-                                        height={80}                             
+                                        width={130}
+                                        height={130}
                                     />                                
                                 </Link>
                                 <p className="m-0 py-4">Société dédiée à fournir des services professionnels aux entreprises, création, modification, conseil et assistance administrative</p>
@@ -69,19 +69,24 @@ export default function Footer(){
                                     </li>                                
                                 </ul>
                             </div>
-                            <div className="col-12 col-md-6 col-lg-3 d-flex flex-column pb-5 align-items-center align-items-lg-start">
+                            <div
+                                className="col-12 col-md-6 col-lg-3 d-flex flex-column pb-5 align-items-center align-items-lg-start">
                                 <h3 className="text-warning">Newsletter</h3>
-                                <p className="ps-0 pt-2">Suivre nos actualités via notre  newsletter et rester à jour de nouvelles offres et actualités pertinentes</p>
-                                    <div className="input-group mb-3 py-4">
-                                        <input type="text" className="form-control" placeholder="Votre email" aria-label="Votre email" aria-describedby="button-addon2" />
-                                        <button className="btn text-bg-warning" type="button" id="button-addon2">Souscrire</button>
-                                    </div>
+                                <p className="ps-0 pt-2">Suivre nos actualités via notre newsletter et rester à jour de
+                                    nouvelles offres et actualités pertinentes</p>
+                                <div className="input-group mb-3 py-4"><input type="text" className="form-control"
+                                                                              placeholder="Votre email"
+                                                                              aria-label="Votre email"
+                                                                              aria-describedby="button-addon2"/>
+                                    <button className="btn text-bg-warning" type="button" id="button-addon2">Souscrire
+                                    </button>
+                                </div>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col">
                                 <div className="d-flex justify-content-center align-items-center py-4">
-                                    <p className="text-white">© 2024 Axcel Company - All rights reserved.</p>
+                                <p className="text-white">© 2024 Axcel Company - All rights reserved.</p>
                                 </div>
                             </div>                        
                         </div>

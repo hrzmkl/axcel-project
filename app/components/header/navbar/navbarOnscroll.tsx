@@ -11,10 +11,10 @@ export default function NavBarScroll(){
                         <div className="col-2">
                             <Link target="_blank" href="/" className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
                                 <Image
-                                    src="/axcel-company-logo-transparent-99-104-.png"
+                                    src="/axcel-company-logo--100x103.jpg"
                                     alt="Axcel company logo"
-                                    width={130}
-                                    height={130}
+                                    width={100}
+                                    height={103}
                                 />                            
                             </Link>
                         </div>
