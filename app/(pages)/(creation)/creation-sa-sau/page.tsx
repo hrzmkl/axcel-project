@@ -129,12 +129,17 @@ export default function Page() {
                   </div>
                   <div className="card-body">
                     <h3 className="card-title">Société Anonyme (SA)</h3>
-                    <p className="card-text">
-                    Associés minimum : 2 (7 pour les entreprises cotées).<br></br>
-                    Responsabilité limitée : Les actionnaires ne sont responsables qu’à hauteur de leurs apports.<br></br>
-                    Capital social minimum : 37 000 € (dont au moins 50 % libérés au moment de la création).<br></br>
-                    Gestion : Conseil d’administration ou directoire et conseil de surveillance
-                    </p>                    
+                    <p className="card-text">C'est une forme de société qui est couramment choisie pour les grandes entreprises.</p>
+                    <h5 className="axel-text-orange mt-2">Document à fournir :</h5>
+                      <p className="card-text">- Formulaire de demande d'immatriculation<br></br>
+                      - Statuts de la société<br></br>
+                      - Procès-verbal de l’assemblée constitutive<br></br>
+                      - Justificatif de domicile du siège social<br></br>
+                      - Pièces d'identité des actionnaires et dirigeants<br></br>
+                      - Justificatifs des apports en numéraire<br></br>
+                      - Rapport sur les apports en nature<br></br>
+                      - Preuve de l'adresse fiscale<br></br>
+                          - Paiement des frais d'enregistrement</p>
                   </div>
                   
                  </div>

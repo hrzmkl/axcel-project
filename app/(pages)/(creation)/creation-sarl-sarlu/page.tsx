@@ -107,7 +107,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="container-fluid bg-primary py-5 px-0">
+      <div className="container-fluid bg-primary px-0">
         <div className={`${styles.bg} p-0 m-0`}>
           <div className='container py-5'>
             <div className="row d-flex justify-content-center py-5">
@@ -116,6 +116,7 @@ export default function Page() {
                     <h5 className="card-title f-bold fs-3 axel-text-orange py-3">Services</h5>
                     <h2 className="text-white fs-2 fw-bolder text-center">Création sarl / Sarlu</h2>
                     <p className='text-white text-center'>La création d’une SARL (Société à Responsabilité Limitée) et d’une SARL Unipersonnelle (SARLU) suit des étapes similaires, bien que la principale différence réside dans le nombre d’associés</p>
+                    
                     <div className="border border-info border-2 w-25 my-3"></div>
                     
                 </div>
@@ -134,9 +135,11 @@ export default function Page() {
                     Capital social : Fixé librement (minimum 1 €).<br></br>
                     Gestion : Par un ou plusieurs gérants, qui peuvent être des associés ou des tiers.<br></br>
                     Formalités : L’ensemble des démarches administratives est relativement standard, mais nécessite plus de gestion formelle (assemblées générales, procès-verbaux, etc.).
-                    </p>                    
-                  </div>
-                  
+                    </p> 
+                    <p className="card-text pt-2">
+                      Adaptée aux entrepreneurs qui souhaitent se regrouper tout en protégeant leur patrimoine personnel. Elle offre une flexibilité dans la gestion et une responsabilité limitée des associés, ce qui en fait une option prisée pour les projets collaboratifs.
+                    </p>                   
+                  </div>                  
                  </div>
               </div>
               <div className="col">
@@ -151,10 +154,60 @@ export default function Page() {
                       Capital social : Librement fixé (minimum 1 €).<br></br>
                       Gestion : La gestion est confiée à un seul gérant, qui peut être l’associé unique lui-même.<br></br>
                       Formalités : Moins de formalisme que pour une SARL classique, mais les démarches sont assez similaires. L'associé unique peut également rédiger les statuts et gérer l'entreprise seul.
-                      </p>                   
+                      </p>
+                      <p className='pt-2'>Une option idéale pour un entrepreneur individuel souhaitant limiter sa responsabilité tout en ayant une structure juridique plus formelle que l'entreprise individuelle.</p>                  
+                    </div>                  
+                 </div>
+              </div>                                 
+            
+              <div className="col">
+                <div className="card h-100">                  
+                  <div className="card-body">
+                    <h3 className="card-title">Prestation AXCEL Company :</h3>                    
+                    <p className="card-text pt-2">
+                      Honoraire : 400.000 Ar<br></br>
+                      Frais administratifs fixes : 130 000 Ar<br></br>
+                      Impôt : 150 000Ar à 320 000Ar selon vos activités<br></br>
+                      Droit d’enregistrement bail : loyer x durée du bail x 2%
+                    </p>                   
+                  </div>                  
+                 </div>
+              </div>
+              <div className="col">
+                <div className="card h-100">
+                  <div className="card-body">
+                      <h3 className="card-title">Dossier à fournir : </h3>                      
+                      <ul>
+                        <li>
+                          Pour les associés :
+                          <ul>
+                            <li>01 photocopie CIN </li>
+                            <li>01 certificat de résidence</li> 
+                            <li>03 procurations </li>                           
+                          </ul>
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                        Pour le siège : 
+                          <ul>
+                            <li>02 plans de repérage visés par Fokotany </li>
+                            <li>01 copie facture JIRAMA (moins de 3 mois)</li>
+                            <li>01 copie CIN du bailleur (si personne physique) ou copie carte fiscale non expirée (si société) </li>
+                          </ul>
+                        </li>
+                      </ul>                                      
                     </div>                  
                  </div>
               </div>                                       
+            </div>
+            <div className='container w-75 mt-5'>
+              <h4 className='text-white'>NB :</h4>
+                <ul className='text-white'>
+                  <li>Le modèle de lettre de demande ainsi que la procuration sont disponibles sur WhatsApp ou E-mail.</li>
+                  <li>Il s'agit des documents généraux, toutefois, le dossier requis peut varier en fonction des activités exercées et du lieu d'implantation de votre société.</li>
+                  <li>Document livrable : carte fiscale (NIF) / carte statistique (STAT).</li>
+                </ul>
             </div>
             <div className="text-center py-5">
                   <a href="/devis" className="btn axel-btn-orange text-white">Demande de devis</a>
@@ -196,8 +249,7 @@ export default function Page() {
         </div>
       </div>
      <Counter/>
-      <OtherService/>
-      
+      <OtherService/>      
     </>
   );
 }
