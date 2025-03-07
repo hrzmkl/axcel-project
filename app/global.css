@@ -75,6 +75,7 @@ p,.p,.nav,.dropdown-item, li{
 
         pointer-events: none !important;
     }
+
 }
 .axel-hero-slider{
     height: 700px !important;
@@ -123,6 +124,12 @@ p,.p,.nav,.dropdown-item, li{
 @media (max-width: 950px){
     #navScroll{
         display: none !important;
+    }
+    .navbar-nav #dropLink {
+        position: relative;
+        top: 0px;
+        left: -47% !important;
+        min-width: 100%;
     }
 }
 #footer-content {
