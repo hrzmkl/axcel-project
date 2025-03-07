@@ -25,7 +25,7 @@ export default function NavBarScroll(){
                                 <Link className="nav-link dropdown-toggle axel-text-blue fw-bolder fs-5" target="_blank" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Conseil et assistance
                                 </Link>
-                                <ul className="dropdown-menu mt-2" aria-labelledby="navbarDropdown">
+                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><Link className="dropdown-item" target="_blank" href="/conseil-creation-societe">Conseil en création<br/>de société</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
                                     <li><Link className="dropdown-item" target="_blank" href="/assistance-modification-societe">Assistance à la modification<br/>de société</Link></li>
@@ -39,7 +39,7 @@ export default function NavBarScroll(){
                                 <Link className="nav-link dropdown-toggle axel-text-blue fw-bolder fs-5" target="_blank" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Création
                                 </Link>
-                                <ul className="dropdown-menu mt-2" aria-labelledby="navbarDropdown">
+                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><Link className="dropdown-item" target="_blank" href="/creation-sarl-sarlu">SARL / SARLU</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
                                     <li><Link className="dropdown-item" target="_blank" href="/creation-sa-sau">SA / SAU</Link></li>
@@ -57,10 +57,10 @@ export default function NavBarScroll(){
                             </li>
                             <li className="nav-item dropdown d-flex">
                                 <Link className="nav-link axel-text-blue fw-bolder fs-5" href="/service-coursier">Service de coursier</Link>
-                                <Link className="nav-link dropdown-toggle axel-text-blue fw-bolder fs-5" target="_blank" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <Link className="nav-link dropdown-toggle axel-text-blue fw-bolder fs-5 ps-1 ps-lg-0" target="_blank" href="/service-coursier" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 
                                 </Link>
-                                <ul className="dropdown-menu mt-5" aria-labelledby="navbarDropdown">
+                                <ul className="dropdown-menu" id="dropLink" aria-labelledby="navbarDropdown">
                                     <li><Link className="dropdown-item" target="_blank" href="/recuperation-diplome-releve-note-equivalence">Récupération diplôme,<br/>relevé de note, équivalence..</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
                                     <li><Link className="dropdown-item" target="_blank" href="/recuperation-traduction-acte-naissance-acte-de-mariage">Récupération /traduction<br/>acte de naissance,<br/>acte de mariage, ...</Link></li>
