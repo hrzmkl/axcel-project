@@ -171,7 +171,7 @@ export default function Page() {
 									</div>
 									<div className="card-body">
 										<h5 className="card-title">Personnalité juridique </h5>
-										<p className="card-text">Une fois déclarée, une association acquiert une personnalité juridique, ce qui lui permet d'agir en son propre nom, de signer des contrats, et de posséder des biens.</p>
+										<p className="card-text">Une fois déclarée, une association acquiert une personnalité juridique, ce qui lui permet d'agir en son propre nom, de signer des contrats et de posséder des biens.</p>
 									</div>
 								</div>
 							</div>
@@ -198,7 +198,7 @@ export default function Page() {
 										<h5 className="card-title"> Pour chaque membre </h5>
 										<p className="card-text">
 											- 02 CIN certifiés <br></br>
-											- 02 certificats de résidences
+											- 02 certificats de résidence
 										</p>
 									</div>
 								</div>
@@ -212,7 +212,7 @@ export default function Page() {
 										<h5 className="card-title"> Pour le président ou représentant </h5>
 										<p className="card-text">
 											- 03 CIN certifiés<br></br>
-											- 03 certificats de résidences
+											- 03 certificats de résidence
 										</p>
 									</div>
 								</div>
@@ -225,9 +225,9 @@ export default function Page() {
 									<div className="card-body">
 										<h5 className="card-title"> Pour le siège social  </h5>
 										<p className="card-text">
-											- 02 certificats d’existence délivrée par Fokontany du siège<br></br>
-											- 02 plans de repérage visé par Fokontany<br></br>
-											- 01 photocopie facture JIRAMA moins de trois(3) mois<br></br>
+											- 02 certificats d’existence délivrés par Fokontany du siège<br></br>
+											- 02 plans de repérage visés par Fokontany<br></br>
+											- 01 photocopie facture JIRAMA moins de trois (3) mois<br></br>
 											- 01 photocopie CIN du propriétaire du siège
 										</p>
 									</div>
@@ -237,7 +237,7 @@ export default function Page() {
 						<div className="d-flex flex-column justify-content-center">
 								<h2 className="text-white fs-4 text-center mt-3 py-4 fw-bold">PRESTATION AXCEL COMPANY</h2>
 							<div className="align-self-center">
-								<ul className='text-white fw-bolder'>
+								<ul className='text-white fw-bolder fs-5'>
 									<li>Prestation : 400 000 Ar </li>
 									<li>Frais administratifs : environ 140 000 Ar </li>
 									<ul>
@@ -245,7 +245,7 @@ export default function Page() {
 											TOTAL : 540 000 Ar
 										</li>
 										<li>
-											Durée de traitement : environ deux(2) semaines
+											Durée de traitement : environ deux (2) semaines
 										</li>
 									</ul>
 								</ul>
