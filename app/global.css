@@ -65,7 +65,9 @@ p,.p,.nav,.dropdown-item, li{
 .axel-social-icon:hover g.social-svg-mask {
    fill:#ff6341 !important;
 }
-
+#dropLink{
+    top:40px;
+}
 @media (min-width: 950px){
     .dropdown:hover>.dropdown-menu {
         display: block !important;
@@ -127,9 +129,9 @@ p,.p,.nav,.dropdown-item, li{
     }
     .navbar-nav #dropLink {
         position: relative;
-        top: 0px;
         left: -47% !important;
         min-width: 100%;
+        margin-bottom: 40px;
     }
 }
 #footer-content {
