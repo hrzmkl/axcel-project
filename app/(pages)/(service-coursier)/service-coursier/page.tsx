@@ -236,7 +236,7 @@ export default function Page() {
                             <div className='col'>
                                 <div className="card h-100 border-0 rounded-0 pb-2">
                                     <div className="card-header border-0 p-0 bg-info rounded-0 rounded-0">
-                                        <h3 className="card-title fs-5 text-center my-2 text-white">RECUPERATION ACTE DE NAISSANCE</h3>
+                                        <h3 className="card-title fs-5 text-center my-2 text-white">RECUPERATION ACTE DE MARIAGE</h3>
                                     </div>
                                     <div className="card-body border border-1 border-top-0 p-0">
                                         <ul className="list-group list-group-flush">
