@@ -206,6 +206,11 @@ export default function Page() {
                                     </div>
                                 </div>                            
                             </div>
+                        </div>
+                        <div className='row text-center p-5'>
+                            <h3>RECUPERATION ACTE DE NAISSANCE ET ACTE DE MARIAGE</h3>
+                        </div>
+                        <div className='row row-cols-1 row-cols-md-2 g-5'>
 
                             <div className='col'>
                                 <div className="card h-100 border-0 rounded-0 pb-2">
