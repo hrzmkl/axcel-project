@@ -5,9 +5,6 @@ import PageHero from '@/app/components/pageHero/pageHero'
 import OtherService from '@/app/components/other-service/otherServics';
 import React from "react";
 import Counter from '@/app/components/counter/counter';
-export const metadata = {
-    title: "Service de coursier - Axcel company",
-}
 export default function Page() {
     return(
         <>

@@ -129,14 +129,14 @@ export default function Page() {
                     <HomeIcon className={`${styles.icon2} axel-text-orange`}/>
                   </div>
                   <div className="card-body">
-                    <h3 className="card-title">SARL (Société à Responsabilité Limitée)</h3>
-                    <p className="card-text">
+                    <h3 className="card-title axel-text-orange">SARL (Société à Responsabilité Limitée)</h3>
+                    <p>
                     Nombre d’associés : Minimum 2, maximum 100.<br></br>
                     Capital social : Fixé librement (minimum 1 €).<br></br>
                     Gestion : Par un ou plusieurs gérants, qui peuvent être des associés ou des tiers.<br></br>
                     Formalités : L’ensemble des démarches administratives est relativement standard, mais nécessite plus de gestion formelle (assemblées générales, procès-verbaux, etc.).
                     </p> 
-                    <p className="card-text pt-2">
+                    <p className="pt-2">
                       Adaptée aux entrepreneurs qui souhaitent se regrouper tout en protégeant leur patrimoine personnel. Elle offre une flexibilité dans la gestion et une responsabilité limitée des associés, ce qui en fait une option prisée pour les projets collaboratifs.
                     </p>                   
                   </div>                  
@@ -148,7 +148,7 @@ export default function Page() {
                     <HomeIcon className={`${styles.icon2} axel-text-orange`}/>
                   </div>
                     <div className="card-body">
-                      <h3 className="card-title">SARLU (Société à Responsabilité Limitée Unipersonnelle)</h3>
+                      <h3 className="card-title axel-text-orange">SARLU (Société à Responsabilité Limitée Unipersonnelle)</h3>
                       <p className="card-text">
                       Nombre d’associés : 1 seul associé unique.<br></br>
                       Capital social : Librement fixé (minimum 1 €).<br></br>
@@ -163,11 +163,11 @@ export default function Page() {
               <div className="col">
                 <div className="card h-100">                  
                   <div className="card-body">
-                    <h3 className="card-title">Prestation AXCEL Company :</h3>                    
+                    <h3 className="card-title axel-text-orange">Prestation AXCEL Company :</h3>
                     <p className="card-text pt-2">
                       Honoraire : 400.000 Ar<br></br>
                       Frais administratifs fixes : 130 000 Ar<br></br>
-                      Impôt : 150 000Ar à 320 000Ar selon vos activités<br></br>
+                      Impôt : 1 000 000 Ar <br></br>
                       Droit d’enregistrement bail : loyer x durée du bail x 2%
                     </p>                   
                   </div>                  
@@ -176,7 +176,7 @@ export default function Page() {
               <div className="col">
                 <div className="card h-100">
                   <div className="card-body">
-                      <h3 className="card-title">Dossier à fournir : </h3>                      
+                      <h3 className="card-title axel-text-orange">Dossier à fournir : </h3>
                       <ul>
                         <li>
                           Pour les associés :
