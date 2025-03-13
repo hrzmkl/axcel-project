@@ -148,3 +148,7 @@ p,.p,.nav,.dropdown-item, li{
     outline: 0 !important;
     box-shadow: none !important;
 }
+.card-title{
+    font-family:'Lora' !important;
+    font-size:20px;
+}

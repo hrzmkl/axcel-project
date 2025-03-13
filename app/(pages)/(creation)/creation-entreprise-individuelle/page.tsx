@@ -13,99 +13,78 @@ export default function Page() {
 
     return (
         <>
-            <PageHero
-                imgSrc="/hands-image.jpg"
-                desc="En plus du conseil et de l'assistance administrative, nous proposons une gamme de services complets pour répondre aux besoins variés de nos clients en matière de gestion d'entreprise à Madagascar."
-                btnText="Rentrons en contact"
-            />
-            <div className="container">
-                <div className="container my-lg-5 py-5">
-                    <div className="row justify-content-around px-3 align-items-center">
-                        <div className="col-sm-12 col-lg-6 py-5 ps-lg-5 axel-block1">
-                            <div className="border-2 border-dark">
-                                <div>
-                                    <img src="/service/contact1.png" alt="prise en main" className="img-fluid"/>
-                                </div>
+            <div className='container mb-5 pb-5'>
+                <div className="row d-flex justify-content-center py-5">
+                    <div className="col d-none d-lg-block"></div>
+                    <div className="col col-lg-8 d-flex  flex-column justify-content-center align-items-center">
+                        <h2 className="card-title f-bold fs-3 axel-text-orange py-3">NOS PACKS CREATION</h2>
+                        <div className="border border-info border-2 w-25 my-3"></div>
+                    </div>
+                    <div className="col d-none d-lg-block"></div>
+                </div>
+                <div className='row row-cols-1 row-cols-md-3 g-4'>
+                    <div className='col'>
+                        <div className='card h-100'>
+                            <div className='card-header bg-transparent p-0 border-0'>
+                                <h2 className='text-center text-info fw-bold p-3'>PACK « NY ANTSIKA »</h2>
+                                <h3 className='card-title text-center axel-bg-orange p-4'>NIF – STAT</h3>
+                            </div>
+                            <div className='card-body'>
+
+                                <h5>TARIFS : 200 000 Ar </h5>
+                                <p>Hors frais administratif</p>
+                                <ul>
+                                    <li>Fiable</li>
+                                    <li>Rapide</li>
+                                    <li>Sans déplacement</li>
+                                    <li>Durer de traitement : 3 jours ouvrables</li>
+                                </ul>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-lg-6 p-auto pe-lg-5">
-                            <div className="d-flex flex-column mb-3">
-                                <h3 className="axel-text-orange fs-3 fw-bolder">Nous vous offrons</h3>
-                                <h2 className="axel-text-blue fw-bolder pt-3">Services professionnels aux entreprises</h2>
-                                <div className="border border-info border-2 w-25 my-3"></div>
-                                <p className='py-3'>Nous accompagnons  les entrepreneurs, les investisseurs dans la formalisation de leurs entreprises.</p>
-                                <div className="row row-cols-1 row-cols-md-2 g-4 mt-lg-2">
-                                    <div className="col">
-                                        <div className="card mb-3 h-100 border-0">
-                                            <div className="row g-0">
-                                                <div className="col-1">
-                                                    <CheckCircleIcon className={`${styles.icon} text-info fw-bolder`} />
-                                                </div>
-                                                <div className="col-11">
-                                                    <div className="card-body p-0 ps-2">
-                                                        <h4 className="card-title text-info">Conseil et assistance</h4>
+                    </div>
+                    <div className='col'>
+                        <div className='card h-100'>
+                            <div className='card-header bg-transparent p-0 border-0'>
+                                <h2 className='text-center text-info fw-bold p-3'>PACK « TAFARAY »</h2>
+                                <h3 className='card-title text-center axel-bg-orange p-4'>NIF – STAT – RCS</h3>
+                            </div>
+                            <div className='card-body'>
 
-                                                        <p className="card-text"><small>Choix stratégique, prise de décision</small></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <h5>TARIFS : 240 000 Ar </h5>
+                                <p>Hors frais administratif</p>
+                                <ul>
+                                    <li>Fiable</li>
+                                    <li>Rapide</li>
+                                    <li>Sans déplacement</li>
+                                    <li>Durer de traitement : 3 jours ouvrables</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col'>
+                        <div className='card h-100'>
+                            <div className='card-header bg-transparent p-0 border-0'>
+                                <h2 className='text-center text-info fw-bold p-3'>PACK « JIABY JIABY »</h2>
+                                <h3 className='card-title text-center axel-bg-orange p-2'>NIF – STAT – RCS<br></br>
+                                    <span className='fs-5'>+ Préparation des documents de base </span>
+                                </h3>
+                            </div>
+                            <div className='card-body'>
 
-                                    <div className="col">
-                                        <div className="card mb-3 h-100 border-0">
-                                            <div className="row g-0">
-                                                <div className="col-1">
-                                                    <CheckCircleIcon className={`${styles.icon} text-info fw-bolder`} />
-                                                </div>
-                                                <div className="col-11">
-                                                    <div className="card-body p-0 ps-2">
-                                                        <h4 className="card-title text-info">Création d'entreprise</h4>
-                                                        <p className="card-text"><small>EI / SARLU / Sarl</small></p>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col">
-                                        <div className="card mb-3 h-100 border-0">
-                                            <div className="row g-0">
-                                                <div className="col-1">
-                                                    <CheckCircleIcon className={`${styles.icon} text-info fw-bolder`} />
-                                                </div>
-                                                <div className="col-11">
-                                                    <div className="card-body p-0 ps-2">
-                                                        <h4 className="card-title text-info">Accompagnement</h4>
-
-                                                        <p className="card-text"><small>Lors de la création, business model, développement</small></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col">
-                                        <div className="card mb-3 h-100 border-0">
-                                            <div className="row g-0">
-                                                <div className="col-1">
-                                                    <CheckCircleIcon className={`${styles.icon} text-info fw-bolder`} />
-                                                </div>
-                                                <div className="col-11">
-                                                    <div className="card-body p-0 ps-2">
-                                                        <h4 className="card-title text-info">Coursier administratif </h4>
-                                                        <p><small className="card-text">Livraisons administratives immédiates ou programmées</small></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
+                                <h5>TARIFS : 270 000 Ar </h5>
+                                <p>Hors frais administratif</p>
+                                <ul>
+                                    <li>Fiable</li>
+                                    <li>Rapide</li>
+                                    <li>Sans déplacement</li>
+                                    <li>Durer de traitement : 3 jours ouvrables</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div className="container-fluid bg-primary px-0">
                 <div className={`${styles.bg} p-0 m-0`}>
                     <div className='container py-5'>
@@ -190,7 +169,7 @@ export default function Page() {
                             <div className="col">
                                 <div className="card h-100">
                                     <div className="card-body">
-                                        <h3 className="card-title axel-text-orange py-2">1ère arrondissement</h3>
+                                        <h3 className="card-title axel-text-orange py-2">Tana 1ère arrondissement</h3>
                                         <ul>
                                             <li><span className="text-info">Prestation AXCEL Company</span><br></br>
                                                 - Honoraire : 200 000 Ar<br></br>
@@ -220,7 +199,7 @@ export default function Page() {
                                 <div className="card h-100">
 
                                     <div className="card-body">
-                                        <h3 className="card-title axel-text-orange py-2">2ème arrondissement </h3>
+                                        <h3 className="card-title axel-text-orange py-2">Tana 2ème arrondissement </h3>
                                         <ul>
                                             <li><span className="text-info">Prestation AXCEL Company</span><br></br>
                                                 - Honoraire : 200 000 Ar<br></br>
@@ -248,7 +227,7 @@ export default function Page() {
                             <div className="col">
                                 <div className="card h-100">
                                     <div className="card-body">
-                                        <h3 className="card-title axel-text-orange py-2">3ème arrondissement </h3>
+                                        <h3 className="card-title axel-text-orange py-2">Tana 3ème arrondissement </h3>
                                         <ul>
                                             <li><span className="text-info">Prestation AXCEL Company</span><br></br>
                                                 - Honoraire : 200 000 Ar<br></br>
@@ -279,7 +258,7 @@ export default function Page() {
                             <div className="col">
                                 <div className="card h-100">
                                     <div className="card-body">
-                                        <h3 className="card-title axel-text-orange py-2">4ème arrondissement </h3>
+                                        <h3 className="card-title axel-text-orange py-2">Tana 4ème arrondissement </h3>
                                         <ul>
                                             <li><span className="text-info">Prestation AXCEL Company</span><br></br>
                                                 - Honoraire : 200 000 Ar<br></br>
@@ -308,7 +287,7 @@ export default function Page() {
                             <div className="col">
                                 <div className="card h-100">
                                     <div className="card-body">
-                                        <h3 className="card-title axel-text-orange py-2">5ème arrondissement </h3>
+                                        <h3 className="card-title axel-text-orange py-2">Tana 5ème arrondissement </h3>
                                         <ul>
                                             <li><span className="text-info">Prestation AXCEL Company</span><br></br>
                                                 - Honoraire : 200 000 Ar<br></br>
@@ -336,7 +315,7 @@ export default function Page() {
                             <div className="col">
                                 <div className="card h-100">
                                     <div className="card-body">
-                                        <h3 className="card-title axel-text-orange py-2">6ème arrondissement </h3>
+                                        <h3 className="card-title axel-text-orange py-2">Tana 6ème arrondissement </h3>
                                         <ul>
                                             <li><span className="text-info">Prestation AXCEL Company</span><br></br>
                                                 - Honoraire : 200 000 Ar<br></br>
@@ -550,73 +529,90 @@ export default function Page() {
                         <li>Document livrable : carte fiscale (NIF) / carte statistique (STAT)</li>
                     </ul>
                 </div>
-            </div>            
-            <div className='container'>
-                <div className="row d-flex justify-content-center py-5">
-                    <div className="col d-none d-lg-block"></div>
-                    <div className="col col-lg-8 d-flex  flex-column justify-content-center align-items-center">
-                        <h2 className="card-title f-bold fs-3 axel-text-orange py-3">NOS PACKS CREATION</h2>                        
-                        <div className="border border-info border-2 w-25 my-3"></div>
-                    </div>
-                    <div className="col d-none d-lg-block"></div>
-                </div>
-                <div className='row row-cols-1 row-cols-md-3 g-4'>
-                    <div className='col'>
-                        <div className='card h-100'>
-                            <div className='card-header bg-transparent p-0 border-0'>
-                                <h2 className='text-center text-info fw-bold p-3'>PACK « NY ANTSIKA »</h2>
-                                <h3 className='card-title text-center axel-bg-orange p-4'>NIF – STAT</h3>
-                            </div>
-                            <div className='card-body'>
-                                
-                                <h5>TARIFS : 200 000 Ar </h5>
-                                <p>Hors frais administratif</p>
-                                <ul>
-                                    <li>Fiable</li>
-                                    <li>Rapide</li>
-                                    <li>Sans déplacement</li>
-                                    <li>Durer de traitement : 3 jours ouvrables</li>
-                                </ul>
+            </div>
+            <div className="container">
+                <div className="container my-lg-5 py-5">
+                    <div className="row justify-content-around px-3 align-items-center">
+                        <div className="col-sm-12 col-lg-6 py-5 ps-lg-5 axel-block1">
+                            <div className="border-2 border-dark">
+                                <div>
+                                    <img src="/service/contact1.png" alt="prise en main" className="img-fluid"/>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className='col'>
-                        <div className='card h-100'>
-                            <div className='card-header bg-transparent p-0 border-0'>
-                                <h2 className='text-center text-info fw-bold p-3'>PACK « TAFARAY »</h2>
-                                <h3 className='card-title text-center axel-bg-orange p-4'>NIF – STAT – RCS</h3>
-                            </div>
-                            <div className='card-body'>
-                                
-                                <h5>TARIFS : 240 000 Ar </h5>
-                                <p>Hors frais administratif</p>
-                                <ul>
-                                    <li>Fiable</li>
-                                    <li>Rapide</li>
-                                    <li>Sans déplacement</li>
-                                    <li>Durer de traitement : 3 jours ouvrables</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col'>
-                        <div className='card h-100'>
-                            <div className='card-header bg-transparent p-0 border-0'>
-                                <h2 className='text-center text-info fw-bold p-3'>PACK « JIABY JIABY »</h2>
-                                <h3 className='card-title text-center axel-bg-orange p-2'>NIF – STAT – RCS<br></br>
-                                <span className='fs-5'>+ Préparation des documents de base </span>
-                                </h3>                                
-                            </div>
-                            <div className='card-body'>
-                                
-                                <h5>TARIFS : 270 000 Ar </h5>
-                                <p>Hors frais administratif</p>
-                                <ul>
-                                    <li>Fiable</li>
-                                    <li>Rapide</li>
-                                    <li>Sans déplacement</li>
-                                    <li>Durer de traitement : 3 jours ouvrables</li>
-                                </ul>
+                        <div className="col-sm-12 col-lg-6 p-auto pe-lg-5">
+                            <div className="d-flex flex-column mb-3">
+                                <h3 className="axel-text-orange fs-3 fw-bolder">Nous vous offrons</h3>
+                                <h2 className="axel-text-blue fw-bolder pt-3">Services professionnels aux entreprises</h2>
+                                <div className="border border-info border-2 w-25 my-3"></div>
+                                <p className='py-3'>Nous accompagnons  les entrepreneurs, les investisseurs dans la formalisation de leurs entreprises.</p>
+                                <div className="row row-cols-1 row-cols-md-2 g-4 mt-lg-2">
+                                    <div className="col">
+                                        <div className="card mb-3 h-100 border-0">
+                                            <div className="row g-0">
+                                                <div className="col-1">
+                                                    <CheckCircleIcon className={`${styles.icon} text-info fw-bolder`} />
+                                                </div>
+                                                <div className="col-11">
+                                                    <div className="card-body p-0 ps-2">
+                                                        <h4 className="card-title text-info">Conseil et assistance</h4>
+
+                                                        <p className="card-text"><small>Choix stratégique, prise de décision</small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col">
+                                        <div className="card mb-3 h-100 border-0">
+                                            <div className="row g-0">
+                                                <div className="col-1">
+                                                    <CheckCircleIcon className={`${styles.icon} text-info fw-bolder`} />
+                                                </div>
+                                                <div className="col-11">
+                                                    <div className="card-body p-0 ps-2">
+                                                        <h4 className="card-title text-info">Création d'entreprise</h4>
+                                                        <p className="card-text"><small>EI / SARLU / Sarl</small></p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col">
+                                        <div className="card mb-3 h-100 border-0">
+                                            <div className="row g-0">
+                                                <div className="col-1">
+                                                    <CheckCircleIcon className={`${styles.icon} text-info fw-bolder`} />
+                                                </div>
+                                                <div className="col-11">
+                                                    <div className="card-body p-0 ps-2">
+                                                        <h4 className="card-title text-info">Accompagnement</h4>
+
+                                                        <p className="card-text"><small>Lors de la création, business model, développement</small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col">
+                                        <div className="card mb-3 h-100 border-0">
+                                            <div className="row g-0">
+                                                <div className="col-1">
+                                                    <CheckCircleIcon className={`${styles.icon} text-info fw-bolder`} />
+                                                </div>
+                                                <div className="col-11">
+                                                    <div className="card-body p-0 ps-2">
+                                                        <h4 className="card-title text-info">Coursier administratif </h4>
+                                                        <p><small className="card-text">Livraisons administratives immédiates ou programmées</small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
