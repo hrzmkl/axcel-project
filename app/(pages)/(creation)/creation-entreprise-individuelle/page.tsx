@@ -521,14 +521,15 @@ export default function Page() {
                             </div>
                         </div>                           
                     </div>
+                    <div className='container w-75 pb-5'>
+                        <h4 className='text-white'>NB :</h4>
+                        <ul className='text-white'>
+                            <li>Le modèle de lettre de demande ainsi que la procuration sont disponibles sur WhatsApp ou E-mail </li>
+                            <li>Document livrable : carte fiscale (NIF) / carte statistique (STAT)</li>
+                        </ul>
+                    </div>
                 </div>
-                <div className='container w-75 pb-5'>
-                    <h4 className='text-white'>NB :</h4>
-                    <ul className='text-white'>
-                        <li>Le modèle de lettre de demande ainsi que la procuration sont disponibles sur WhatsApp ou E-mail </li>
-                        <li>Document livrable : carte fiscale (NIF) / carte statistique (STAT)</li>
-                    </ul>
-                </div>
+
             </div>
             <div className="container">
                 <div className="container my-lg-5 py-5">
@@ -619,7 +620,7 @@ export default function Page() {
                 </div>
             </div>
             <div className="container">
-                <div className="container my-lg-5 py-5">
+                <div className="container mb-lg-5 pb-5">
                     <div className="row justify-content-around px-3 align-items-center">
                         <div className="col-sm-12 col-lg-6 p-auto pe-lg-5">
                             <div className="d-flex flex-column mb-3">

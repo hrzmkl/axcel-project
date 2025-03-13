@@ -115,111 +115,64 @@ export default function Page() {
                 <div className="col d-none d-lg-block"></div>
                 <div className="col col-lg-8 d-flex  flex-column justify-content-center align-items-center">
                     <h5 className="card-title f-bold fs-3 axel-text-orange py-3">Services</h5>
-                    <h2 className="text-white fs-2 fw-bolder text-center">Assistance à la modification de société</h2>
+                    <h2 className="text-white fs-2 fw-bolder text-center">RECUPERATION ACTE DE NAISSANCE <br></br>ET ACTE DE MARIAGE</h2>
                     <div className="border border-info border-2 w-25 my-3"></div>
                     
                 </div>
                 <div className="col d-none d-lg-block"></div>
             </div>
-            <div className="row row-cols-1 row-cols-md-3 g-4">
-              <div className="col">
-                <div className="card h-100">
-                  <div className="card-header bg-transparent border-0">
-                    <HomeIcon className={`${styles.icon2} axel-text-orange`}/>
+            <div className='row row-cols-1 row-cols-md-2 g-5 pb-5'>
+
+              <div className='col'>
+                <div className="card h-100 border-0 rounded-0 ">
+                  <div className="card-header border-0 p-0 bg-info rounded-0 rounded-0">
+                    <h3 className="card-title fs-5 text-center my-2 text-white">RECUPERATION ACTE DE NAISSANCE</h3>
                   </div>
-                  <div className="card-body">
-                    <h3 className="card-title">INDIVIDUEL</h3>
-                    <p className="card-text">Une entreprise individuelle, est une forme d'entreprise où une seule personne est responsable de toute l'activité de l'entreprise.</p>
-                    
+                  <div className="card-body border border-1 border-top-0 p-0">
+                    <ul className="list-group list-group-flush">
+                      <li className="list-group-item">
+                        •	<span className='axel-text-orange fw-bold'>Dossier à fournir</span><br></br>
+                        <p className={`py-3`}>
+                          - 01 copie ou photo d’une copie expirée<br></br>
+                          - 01 pièce d’identité
+                        </p>
+                      </li>
+                      <li className="list-group-item">
+                        <span className='fw-bold axel-text-blue'>TARIFS AXCEL COMPANY</span>
+                        <ul>
+                          <li>à partir de 30 000 Ar hors frais administratifs, si à récupérer à Antananarivo </li>
+                          <li>à partir de 100 000 Ar hors frais administratifs, si à récupérer dans les provinces</li>
+                        </ul>
+                      </li>
+                    </ul>
                   </div>
-                  <div className="card-footer bg-transparent"><a target="_blank" href="#" className="card-link">En savoir plus</a></div>
-                 </div>
-              </div>
-              <div className="col">
-                <div className="card h-100">
-                  <div className="card-header bg-transparent border-0">
-                    <BuildingOfficeIcon className={`${styles.icon2} axel-text-orange`}/>
-                  </div>
-                  <div className="card-body">
-                    <h3 className="card-title">SARL / SARLU</h3>
-                    <p className="card-text">SARL : Société à responsabilité limitée au montant de leurs apports dans la société.<br></br>
-                    SARLU : Société à responsabilité limitée Unipersonnelle, est une société où il n'y a qu'un seul associé.</p>                    
-                  </div>
-                  <div className="card-footer bg-transparent">
-                    <a target="_blank" href="#" className="card-link">En savoir plus</a>
-                  </div>                 
                 </div>
               </div>
-              <div className="col">
-                <div className="card h-100">
-                  <div className="card-header bg-transparent border-0">
-                    <BuildingOfficeIcon className={`${styles.icon2} axel-text-orange`}/>
+
+              <div className='col'>
+                <div className="card h-100 border-0 rounded-0">
+                  <div className="card-header border-0 p-0 bg-info rounded-0 rounded-0">
+                    <h3 className="card-title fs-5 text-center my-2 text-white">RECUPERATION ACTE DE MARIAGE</h3>
                   </div>
-                  <div className="card-body">
-                    <h3 className="card-title">SA / SAU</h3>
-                    <p className="card-text">SA : Société Anonyme, une forme juridique de société où la responsabilité des actionnaires est limitée aux apports qu'ils ont faits dans le capital social.<br></br>
-                    SAU : Société Anonyme Unipersonnelle, une variante de la Société Anonyme (SA), mais avec un seul actionnaire.</p>                    
+                  <div className="card-body border border-1 border-top-0 p-0">
+                    <ul className="list-group list-group-flush">
+                      <li className="list-group-item">
+                        •	<span className='axel-text-orange fw-bold'>Dossier à fournir</span><br></br>
+                        <p className={`py-3`}>- 01 photocopie CIN des deux (2) parties<br></br>
+                          - 01 copie ou photo d’acte de mariage expirée</p>
+                      </li>
+                      <li className="list-group-item">
+                        <span className='fw-bold axel-text-blue'>TARIFS AXCEL COMPANY</span>
+                        <ul>
+                          <li>à partir de 30 000 Ar hors frais administratifs, si à récupérer à Antananarivo</li>
+                          <li>à partir de 100 000 Ar hors frais administratifs, si à récupérer dans les provinces </li>
+                        </ul>
+                      </li>
+                    </ul>
                   </div>
-                  <div className="card-footer bg-transparent">
-                    <a target="_blank" href="#" className="card-link">En savoir plus</a>
-                  </div>                 
-                </div>
-              </div>           
-              <div className="col">
-                <div className="card h-100">
-                  <div className="card-header bg-transparent border-0">
-                    <UserGroupIcon className={`${styles.icon2} axel-text-orange`}/>
-                  </div>
-                  <div className="card-body">
-                    <h3 className="card-title">ASSOCIATION</h3>
-                    <p className="card-text">Un groupement de personnes réunies autour d’un projet commun ou d’une activité, à but non lucratif. Cela signifie que l’objectif principal d’une association n’est pas de réaliser des profits à distribuer entre les membres.</p>
-                    
-                  </div>
-                  <div className="card-footer bg-transparent"><a target="_blank" href="#" className="card-link">En savoir plus</a></div>
-                 </div>
-              </div>
-              <div className="col">
-                <div className="card h-100">
-                  <div className="card-header bg-transparent border-0">
-                    <BuildingOffice2Icon className={`${styles.icon2} axel-text-orange`}/>
-                  </div>
-                  <div className="card-body">
-                    <h3 className="card-title">ONG</h3>
-                    <p className="card-text">(Organisation Non Gouvernementale). Une organisation indépendante des gouvernements, à but non lucratif, qui œuvre pour des causes d’intérêt général comme les droits humains, l’environnement, la santé, l’éducation ou l’aide humanitaire.</p>                    
-                  </div>
-                  <div className="card-footer bg-transparent">
-                    <a target="_blank" href="#" className="card-link">En savoir plus</a>
-                  </div>                 
                 </div>
               </div>
-              <div className="col">
-                <div className="card h-100">
-                  <div className="card-header bg-transparent border-0">
-                    <BuildingLibraryIcon className={`${styles.icon2} axel-text-orange`}/>
-                  </div>
-                  <div className="card-body">
-                    <h3 className="card-title">ETABLISSEMENT</h3>
-                    <p className="card-text">une unité de production ou un lieu d'activité qui dépend d'une entreprise. Il constitue une implantation géographique distincte, mais il n'a pas de personnalité juridique propre</p>                    
-                  </div>
-                  <div className="card-footer bg-transparent">
-                    <a target="_blank" href="#" className="card-link">En savoir plus</a>
-                  </div>                 
-                </div>
-              </div>
-              <div className="col">
-                <div className="card h-100">
-                  <div className="card-header bg-transparent border-0">
-                    <BuildingLibraryIcon className={`${styles.icon2} axel-text-orange`}/>
-                  </div>
-                  <div className="card-body">
-                    <h3 className="card-title">OUVERTURE SUCCURSALE / FILIALE</h3>
-                    <p className="card-text">Succursale : un établissement secondaire rattaché directement à l'entreprise mère. Elle ne possède pas de personnalité juridique distincte.<br></br>Filiale : une société à part entière, dotée de sa propre personnalité juridique. Elle est contrôlée majoritairement par la société mère, qui détient au moins 50 % du capital.</p>                    
-                  </div>
-                  <div className="card-footer bg-transparent">
-                    <a target="_blank" href="#" className="card-link">En savoir plus</a>
-                  </div>                 
-                </div>
-              </div>
+
             </div>
 
             <div className="row d-flex justify-content-center py-5">
