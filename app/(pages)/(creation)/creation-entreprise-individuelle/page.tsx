@@ -1,10 +1,9 @@
-
 import styles from '@/app/(pages)/page.module.css'
-import { CheckCircleIcon,HomeIcon,UserGroupIcon,BuildingOfficeIcon,BuildingOffice2Icon,BuildingLibraryIcon } from '@heroicons/react/20/solid';
-import PageHero from '@/app/components/pageHero/pageHero'
+import { CheckCircleIcon,HomeIcon } from '@heroicons/react/20/solid';
 import OtherService from '@/app/components/other-service/otherServics';
 import React from "react";
 import Counter from '@/app/components/counter/counter';
+import { CardSectionPackEi, CardSectionEI,CardSectionFraisAdmins } from "@/app/components/CardSection/CardSection";
 export const metadata = {
     title: "Création d'une entreprise individuelle - Axcel company",
 }
@@ -13,6 +12,7 @@ export default function Page() {
 
     return (
         <>
+
             <div className={`${styles.hero} container py-5`}>
                 <div className="row d-flex justify-content-center py-5">
                     <div className="col d-none d-lg-block"></div>
@@ -22,67 +22,7 @@ export default function Page() {
                     </div>
                     <div className="col d-none d-lg-block"></div>
                 </div>
-                <div className='row row-cols-1 row-cols-md-3 g-4 px-5 pb-5'>
-                    <div className='col'>
-                        <div className='card h-100'>
-                            <div className='card-header bg-transparent p-0 border-0'>
-                                <h2 className='text-center text-info fw-bold p-3'>PACK « NY ANTSIKA »</h2>
-                                <h3 className='card-title text-center axel-bg-orange p-4'>NIF – STAT</h3>
-                            </div>
-                            <div className='card-body'>
-
-                                <h5>TARIFS : 200 000 Ar </h5>
-                                <p>Hors frais administratif</p>
-                                <ul>
-                                    <li>Fiable</li>
-                                    <li>Rapide</li>
-                                    <li>Sans déplacement</li>
-                                    <li>Durer de traitement : 3 jours ouvrables</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col'>
-                        <div className='card h-100'>
-                            <div className='card-header bg-transparent p-0 border-0'>
-                                <h2 className='text-center text-info fw-bold p-3'>PACK « TAFARAY »</h2>
-                                <h3 className='card-title text-center axel-bg-orange p-4'>NIF – STAT – RCS</h3>
-                            </div>
-                            <div className='card-body'>
-
-                                <h5>TARIFS : 240 000 Ar </h5>
-                                <p>Hors frais administratif</p>
-                                <ul>
-                                    <li>Fiable</li>
-                                    <li>Rapide</li>
-                                    <li>Sans déplacement</li>
-                                    <li>Durer de traitement : 3 jours ouvrables</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col'>
-                        <div className='card h-100'>
-                            <div className='card-header bg-transparent p-0 border-0'>
-                                <h2 className='text-center text-info fw-bold p-3'>PACK « JIABY JIABY »</h2>
-                                <h3 className='card-title text-center axel-bg-orange p-2'>NIF – STAT – RCS<br></br>
-                                    <span className='fs-5'>+ Préparation des documents de base </span>
-                                </h3>
-                            </div>
-                            <div className='card-body'>
-
-                                <h5>TARIFS : 270 000 Ar </h5>
-                                <p>Hors frais administratif</p>
-                                <ul>
-                                    <li>Fiable</li>
-                                    <li>Rapide</li>
-                                    <li>Sans déplacement</li>
-                                    <li>Durer de traitement : 3 jours ouvrables</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <CardSectionPackEi />
             </div>
 
             <div className="container-fluid bg-primary px-0">
@@ -104,54 +44,7 @@ export default function Page() {
                             </div>
                             <div className="col d-none d-lg-block"></div>
                         </div>
-                        <div className="row row-cols-1 row-cols-md-3 g-4">
-                            <div className="col">
-                                <div className="card h-100">
-                                    <div className="card-header bg-transparent border-0">
-                                        <HomeIcon className={`${styles.icon2} axel-text-orange`}/>
-                                    </div>
-                                    <div className="card-body">
-                                        <h3 className="card-title">Choisir le statut juridique</h3>
-                                        <ul>
-                                            <li>EI (Entreprise Individuelle) : La forme la plus simple, mais le patrimoine personnel et professionnel sont confondus.</li>
-
-                                            <li>Micro-entreprise (anciennement auto-entreprise) : Simplification administrative et fiscale pour les petites activités.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="card h-100">
-                                    <div className="card-header bg-transparent border-0">
-                                        <HomeIcon className={`${styles.icon2} axel-text-orange`}/>
-                                    </div>
-                                    <div className="card-body">
-                                        <h3 className="card-title">Déterminer votre activité</h3>
-                                        <p className="card-text">
-                                            Commerciale : Achat et revente de biens.<br></br>
-                                            Artisanale : Travaux manuels ou production.<br></br>
-                                            Libérale : Activités intellectuelles (consultants, médecins, etc.).
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="card h-100">
-                                    <div className="card-header bg-transparent border-0">
-                                        <HomeIcon className={`${styles.icon2} axel-text-orange`}/>
-                                    </div>
-                                    <div className="card-body">
-                                        <h3 className="card-title">Préparer les documents nécessaires</h3>
-                                        <p className="card-text">
-                                            Une copie de votre pièce d’identité.<br></br>
-                                            Une déclaration de non-condamnation.<br></br>
-                                            Un justificatif de domicile.<br></br>
-                                            Une attestation de domiciliation de l’entreprise (si différente de votre domicile).
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <CardSectionEI />
                         <div className="text-center py-5">
                             <a href="/devis" className="btn axel-btn-orange text-white">Demande de devis</a>
                         </div>
@@ -165,96 +58,9 @@ export default function Page() {
                             </div>
                             <div className="col d-none d-lg-block "></div>
                         </div>
-                        <div className="row row-cols-1 row-cols-md-3 g-4">
-                            <div className="col">
-                                <div className="card h-100">
-                                    <div className="card-body">
-                                        <h3 className="card-title axel-text-orange py-2">Tana 1ère arrondissement</h3>
-                                        <ul>
-                                            <li><span className="text-info">Prestation AXCEL Company</span><br></br>
-                                                - Honoraire : 200 000 Ar<br></br>
-                                                - Frais administratifs fixes : 140 000 Ar<br></br>
-                                                - Impôt : à partir de 150 000 Ar selon vos activités
-                                            </li>
-                                            <ul>
-                                                <li>
-                                                    <strong>TOTAL BUDGET</strong> : 490 000 Ar si impôt 150 000 Ar
-                                                </li>
-                                                <li>
-                                                    <span className="text-info"><strong>Durée de traitement du dossier </strong></span> : 3 jours ouvrables
-                                                </li>
-                                            </ul>
-                                            <li><span className="text-info">Dossier à fournir</span><br></br>
-                                                - 3 CIN certifiés<br></br>
-                                                - 3 certificats de résidence<br></br>
-                                                - 2 plans de repérage visés par Fokotany<br></br>
-                                                - 1 lettre de demande visée par Fokotany<br></br>
-                                                - 3 procurations légalisées
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="card h-100">
 
-                                    <div className="card-body">
-                                        <h3 className="card-title axel-text-orange py-2">Tana 2ème arrondissement </h3>
-                                        <ul>
-                                            <li><span className="text-info">Prestation AXCEL Company</span><br></br>
-                                                - Honoraire : 200 000 Ar<br></br>
-                                                - Frais administratifs fixes : 140 000 Ar<br></br>
-                                                - Impôt : à partir de 150 000 Ar à 320 000 Ar selon vos activités
-                                            </li>
-                                            <ul>
-                                                <li>
-                                                    <strong>TOTAL BUDGET</strong> : 490 000 Ar à 660 000 Ar
-                                                </li>
-                                                <li>
-                                                    <span className="text-info"><strong>Durée de traitement du dossier </strong></span> : 3 jours ouvrables
-                                                </li>
-                                            </ul>
-                                            <li><span className="text-info">Dossier à fournir</span><br></br>
-                                                - 3 CIN certifiés<br></br>
-                                                - 3 certificats de résidence<br></br>
-                                                - 2 plans de repérage visés par Fokotany<br></br>
-                                                - 3 procurations légalisées
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="card h-100">
-                                    <div className="card-body">
-                                        <h3 className="card-title axel-text-orange py-2">Tana 3ème arrondissement </h3>
-                                        <ul>
-                                            <li><span className="text-info">Prestation AXCEL Company</span><br></br>
-                                                - Honoraire : 200 000 Ar<br></br>
-                                                - Frais administratifs fixes : 140 000 Ar<br></br>
-                                                - Impôt : 150 000 Ar
-                                            </li>
-                                            <ul>
-                                                <li>
-                                                    <strong>TOTAL BUDGET</strong> : 490 000 Ar si impôt 150 000 Ar
-                                                </li>
-                                                <li>
-                                                    <span className="text-info"><strong>Durée de traitement du dossier </strong></span> : 3 jours ouvrables
-                                                </li>
-                                            </ul>
-                                            <li><span className="text-info">Dossier à fournir</span><br></br>
-                                                - 3 CIN certifiés<br></br>
-                                                - 3 certificats de résidence<br></br>
-                                                - 2 plans de repérage visés par Fokotany<br></br>
-                                                - 3 procurations légalisées<br></br>
-                                                - 4 contrat de bail originaux (si locataire) ou pièce justificatif si propriétaires<br></br>
-                                                - 1 copie facture JIRAMA<br></br>
-                                                - 1 photocopie CIN du propriétaire
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                        <CardSectionFraisAdmins/>
+                        <div className="row row-cols-1 row-cols-md-3 g-4 mt-2">
                             <div className="col">
                                 <div className="card h-100">
                                     <div className="card-body">

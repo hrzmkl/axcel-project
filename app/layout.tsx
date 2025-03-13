@@ -1,3 +1,4 @@
+"use client"
 import  "bootstrap/dist/css/bootstrap.min.css"
 import AddJsBootstrap from "./components/addJsBootstrap/addJsBootstrap"
 import TopBar from "@/app/components/header/topbar/topbar"
