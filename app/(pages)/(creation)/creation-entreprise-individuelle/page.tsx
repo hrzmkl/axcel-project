@@ -13,16 +13,16 @@ export default function Page() {
 
     return (
         <>
-            <div className='container mb-5 pb-5'>
+            <div className={`${styles.hero} container py-5`}>
                 <div className="row d-flex justify-content-center py-5">
                     <div className="col d-none d-lg-block"></div>
                     <div className="col col-lg-8 d-flex  flex-column justify-content-center align-items-center">
-                        <h2 className="card-title f-bold fs-3 axel-text-orange py-3">NOS PACKS CREATION</h2>
+                        <h2 className="card-title f-bold fs-3 text-white py-3">NOS PACKS CREATION</h2>
                         <div className="border border-info border-2 w-25 my-3"></div>
                     </div>
                     <div className="col d-none d-lg-block"></div>
                 </div>
-                <div className='row row-cols-1 row-cols-md-3 g-4'>
+                <div className='row row-cols-1 row-cols-md-3 g-4 px-5 pb-5'>
                     <div className='col'>
                         <div className='card h-100'>
                             <div className='card-header bg-transparent p-0 border-0'>

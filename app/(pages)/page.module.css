@@ -2,7 +2,8 @@
     background: linear-gradient(rgba(0, 0, 0, 0.477), rgba(0, 0, 0, 0.563)), url('/axcel-hero-bg-interne.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;    
+    background-position: center;
+    background-attachment: fixed;
 }
 .image{
     border-radius: 300px 150px 200px 200px;
