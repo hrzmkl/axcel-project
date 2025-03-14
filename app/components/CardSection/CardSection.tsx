@@ -5,32 +5,16 @@ import { useInView } from "react-intersection-observer";
 import { CheckCircleIcon,HomeIcon } from '@heroicons/react/20/solid';
 import styles from '@/app/(pages)/page.module.css'
 
-const cardVariants = {
-	hidden: { opacity: 0, y: -80 },
-	visible: (delay) => ({
-		opacity: 1,
-		y: 0,
-		transition: { duration: 1.2, delay: delay },
-	}),
-};
 
 // 🎴 Composant CardSection pack EI
 export function CardSectionPackEi() {
 	return (
 		<div className="row row-cols-1 row-cols-md-3 g-4 px-5 pb-5">
 			{[0, 1, 2].map((index) => {
-				const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.2 });
-
 				return (
 					<motion.div
 						key={index}
-						ref={ref}
 						className="col"
-						custom={index * 0.5}
-						variants={cardVariants}
-						initial="hidden"
-						animate={inView ? "visible" : "hidden"}
-						whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
 					>
 						<motion.div className="card h-100">
 							<div className="card-header bg-transparent p-0 border-0">
@@ -63,32 +47,16 @@ export function CardSectionPackEi() {
 	);
 }
 
-const cardVariants2 = {
-	hidden: { opacity: 0, y: -80 },
-	visible: (delay) => ({
-		opacity: 1,
-		y: 0,
-		transition: { duration: 1.2, delay: delay },
-	}),
-};
-
 // 🎴 Composant CardSectionEI
 export function CardSectionEI() {
 	return (
 		<div className="row row-cols-1 row-cols-md-3 g-4">
 			{[0, 1, 2].map((index) => {
-				const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.2 });
 
 				return (
 					<motion.div
 						key={index}
-						ref={ref}
 						className="col"
-						custom={index * 0.5}
-						variants={cardVariants2}
-						initial="hidden"
-						animate={inView ? "visible" : "hidden"}
-						whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
 					>
 						<motion.div className="card h-100">
 							<div className="card-header bg-transparent border-0">
@@ -135,22 +103,10 @@ export function CardSectionEI() {
 // 🎴 Composant CardSectionFraisAdmins
 
 
-const cardVariants4 = {
-	hidden: { opacity: 0, y: -80 },
-	visible: (delay) => ({
-		opacity: 1,
-		y: 0,
-		transition: { duration: 1.2, delay: delay },
-	}),
-};
-
 export function CardSectionFraisAdmins() {
 	return (
 		<div className="row row-cols-1 row-cols-md-3 g-4">
 			{[0, 1, 2].map((index) => {
-				const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.2 });
-
-
 				const cardContent = [
 					{
 						title: "Tana 1ère arrondissement",
@@ -207,13 +163,7 @@ export function CardSectionFraisAdmins() {
 				return (
 					<motion.div
 						key={index}
-						ref={ref}
 						className="col"
-						custom={index * 0.1}
-						variants={cardVariants4}
-						initial="hidden"
-						animate={inView ? "visible" : "hidden"}
-						whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
 					>
 						<motion.div className="card h-100">
 							<div className="card-body">

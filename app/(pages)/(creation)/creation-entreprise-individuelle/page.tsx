@@ -3,7 +3,7 @@ import { CheckCircleIcon,HomeIcon } from '@heroicons/react/20/solid';
 import OtherService from '@/app/components/other-service/otherServics';
 import React from "react";
 import Counter from '@/app/components/counter/counter';
-import { CardSectionPackEi, CardSectionEI,CardSectionFraisAdmins } from "@/app/components/CardSection/CardSection";
+import { CardSectionEI,CardSectionFraisAdmins } from "@/app/components/CardSection/CardSection";
 export const metadata = {
     title: "Création d'une entreprise individuelle - Axcel company",
 }
@@ -22,7 +22,60 @@ export default function Page() {
                     </div>
                     <div className="col d-none d-lg-block"></div>
                 </div>
-                <CardSectionPackEi />
+				<div className="row row-cols-1 row-cols-md-3 g-4 px-5 pb-5">
+					<div className="col">
+						<div className="card h-100">
+							<div className="card-header bg-transparent p-0 border-0">
+								<h2 className="text-center text-info fw-bold p-3">PACK « NY ANTSIKA »</h2>
+								<h3 className="card-title text-center axel-bg-orange p-4">NIF – STAT</h3>
+							</div>
+							<div className="card-body">
+								<h5>TARIFS : 200 000 Ar </h5>
+								<p>Hors frais administratif</p>
+								<ul>
+									<li>Fiable</li>
+									<li>Rapide</li>
+									<li>Sans déplacement</li>
+									<li>Durée de traitement : 3 jours ouvrables</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div className="col">
+						<div className="card h-100">
+							<div className="card-header bg-transparent p-0 border-0">
+								<h2 className="text-center text-info fw-bold p-3">PACK « TAFARAY »</h2>
+								<h3 className="card-title text-center axel-bg-orange p-4">NIF – STAT – RCS</h3>
+							</div>
+							<div className="card-body">
+								<h5>TARIFS : 240 000 Ar </h5>
+								<p>Hors frais administratif</p>
+								<ul><li>Fiable</li><li>Rapide</li>
+									<li>Sans déplacement</li>
+									<li>Durée de traitement : 3 jours ouvrables</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div className="col">
+						<div className="card h-100">
+							<div className="card-header bg-transparent p-0 border-0">
+								<h2 className="text-center text-info fw-bold p-3">PACK « JIABY JIABY »</h2>
+								<h3 className="card-title text-center axel-bg-orange p-4">NIF – STAT – RCS + Préparation des documents</h3>
+							</div>
+							<div className="card-body">
+								<h5>TARIFS : 270 000 Ar </h5>
+								<p>Hors frais administratif</p>
+								<ul>
+									<li>Fiable</li>
+									<li>Rapide</li>
+									<li>Sans déplacement</li>
+									<li>Durée de traitement : 3 jours ouvrables</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
             </div>
 
             <div className="container-fluid bg-primary px-0">
