@@ -2,3 +2,5 @@ AXL.code-workspace
 .next/
 /node_modules/
 !/node_modules/framer-motion/
+!/react-intersection-observer/
+!/react-countup/
