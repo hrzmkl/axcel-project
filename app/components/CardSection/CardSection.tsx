@@ -9,7 +9,7 @@ import styles from '@/app/(pages)/page.module.css'
 // 🎴 Composant CardSection pack EI
 export function CardSectionPackEi() {
 	return (
-		<div className="row row-cols-1 row-cols-md-3 g-4 px-5 pb-5">
+		<div className="row row-cols-1 row-cols-md-3 g-5 px-5 pb-5">
 			{[0, 1, 2].map((index) => {
 				return (
 					<motion.div
@@ -50,7 +50,7 @@ export function CardSectionPackEi() {
 // 🎴 Composant CardSectionEI
 export function CardSectionEI() {
 	return (
-		<div className="row row-cols-1 row-cols-md-3 g-4">
+		<div className="row row-cols-1 row-cols-md-3 g-5">
 			{[0, 1, 2].map((index) => {
 
 				return (
@@ -105,7 +105,7 @@ export function CardSectionEI() {
 
 export function CardSectionFraisAdmins() {
 	return (
-		<div className="row row-cols-1 row-cols-md-3 g-4">
+		<div className="row row-cols-1 row-cols-md-3 g-5">
 			{[0, 1, 2].map((index) => {
 				const cardContent = [
 					{

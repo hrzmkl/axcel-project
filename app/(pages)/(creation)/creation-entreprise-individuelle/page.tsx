@@ -1,5 +1,5 @@
 import styles from '@/app/(pages)/page.module.css'
-import { CheckCircleIcon,HomeIcon } from '@heroicons/react/20/solid';
+import { BuildingLibraryIcon,HomeIcon,BuildingOfficeIcon,CheckCircleIcon } from '@heroicons/react/20/solid';
 import OtherService from '@/app/components/other-service/otherServics';
 import React from "react";
 import Counter from '@/app/components/counter/counter';
@@ -22,11 +22,12 @@ export default function Page() {
                     </div>
                     <div className="col d-none d-lg-block"></div>
                 </div>
-				<div className="row row-cols-1 row-cols-md-3 g-4 px-5 pb-5">
+				<div className="row row-cols-1 row-cols-md-3 g-5 px-5 pb-5">
 					<div className="col">
 						<div className="card h-100">
-							<div className="card-header bg-transparent p-0 border-0">
-								<h2 className="text-center text-info fw-bold p-3">PACK « NY ANTSIKA »</h2>
+							<div className="card-header bg-transparent p-0 border-0 text-center pt-3">
+                                <HomeIcon className={`${styles.icon2} axel-text-orange icon3`} />
+								<h2 className="text-center text-info fw-bold fs-3 p-3">PACK « NY ANTSIKA »</h2>
 								<h3 className="card-title text-center axel-bg-orange p-4">NIF – STAT</h3>
 							</div>
 							<div className="card-body">
@@ -43,8 +44,9 @@ export default function Page() {
 					</div>
 					<div className="col">
 						<div className="card h-100">
-							<div className="card-header bg-transparent p-0 border-0">
-								<h2 className="text-center text-info fw-bold p-3">PACK « TAFARAY »</h2>
+							<div className="card-header bg-transparent p-0 border-0 text-center pt-3">
+                                <BuildingLibraryIcon className={`${styles.icon2} axel-text-orange icon3`} />
+								<h2 className="text-center text-info fw-bold fs-3 p-3">PACK « TAFARAY »</h2>
 								<h3 className="card-title text-center axel-bg-orange p-4">NIF – STAT – RCS</h3>
 							</div>
 							<div className="card-body">
@@ -59,8 +61,9 @@ export default function Page() {
 					</div>
 					<div className="col">
 						<div className="card h-100">
-							<div className="card-header bg-transparent p-0 border-0">
-								<h2 className="text-center text-info fw-bold p-3">PACK « JIABY JIABY »</h2>
+							<div className="card-header bg-transparent p-0 border-0 text-center pt-3">
+                                <BuildingOfficeIcon className={`${styles.icon2} axel-text-orange icon3`} />
+								<h2 className="text-center text-info fw-bold fs-3 p-3">PACK « JIABY JIABY »</h2>
 								<h3 className="card-title text-center axel-bg-orange p-4">NIF – STAT – RCS + Préparation des documents</h3>
 							</div>
 							<div className="card-body">
@@ -111,9 +114,8 @@ export default function Page() {
                             </div>
                             <div className="col d-none d-lg-block "></div>
                         </div>
-
                         <CardSectionFraisAdmins/>
-                        <div className="row row-cols-1 row-cols-md-3 g-4 mt-2">
+                        <div className="row row-cols-1 row-cols-md-3 g-5 mt-2">
                             <div className="col">
                                 <div className="card h-100">
                                     <div className="card-body">
@@ -406,7 +408,7 @@ export default function Page() {
                                 <h2 className="axel-text-blue fw-bolder pt-3">Services professionnels aux entreprises</h2>
                                 <div className="border border-info border-2 w-25 my-3"></div>
                                 <p className='py-3'>Nous accompagnons  les entrepreneurs, les investisseurs dans la formalisation de leurs entreprises.</p>
-                                <div className="row row-cols-1 row-cols-md-2 g-4 mt-lg-2">
+                                <div className="row row-cols-1 row-cols-md-2 g-5 mt-lg-2">
                                     <div className="col">
                                         <div className="card mb-3 h-100 border-0">
                                             <div className="row g-0">

@@ -17,7 +17,7 @@ export default function OtherService(){
                         </div>
                         <div className="col d-none d-lg-block"></div>
                     </div>
-                    <div className="row row-cols-1 row-cols-md-3 g-4">
+                    <div className="row row-cols-1 row-cols-md-3 g-5">
                     <div className="col">
                         <div className="card h-100">
                             <div className="card-header bg-transparent border-0">

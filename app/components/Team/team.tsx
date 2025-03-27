@@ -8,7 +8,7 @@ export default function Team(){
     return(
         <>
             <div className='container pt-lg-5  pb-5'>
-                <div className="row row-cols-1 row-cols-md-3 g-4">
+                <div className="row row-cols-1 row-cols-md-3 g-5">
                     <div className="col px-2 px-lg-5">
                         <div className="card h-100">
                             <img src="/team/stephen-ceo-axcel-7.jpg" className="card-img-top" alt="..."/>

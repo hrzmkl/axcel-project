@@ -32,7 +32,7 @@ export default function Page() {
                     <li className='p'><ChevronDoubleRightIcon className={`${styles.icon} axel-text-blue-2 fw-bolder`} /> Nous proposons une gamme de services complets pour répondre aux besoins variés de nos clients en matière de gestion d'entreprise.</li>
                   </ul>               
               </div>   
-              <div className='d-block py-4 py-lg-4'>
+              <div className='d-block py-4 py-lg-5'>
                   <button type="button" className="btn btn-info text-white">En savoir plus</button>
               </div>                          
             </div>
@@ -117,7 +117,7 @@ export default function Page() {
                     <div className="progress-bar" style={{width: '90'+'%'}}>90%</div>
                   </div>          
               </div>   
-              <div className='d-block py-4 py-lg-4'>
+              <div className='d-block py-4 py-lg-5'>
                   <button type="button" className="btn btn-info text-white">En savoir plus</button>
               </div>                          
             </div>

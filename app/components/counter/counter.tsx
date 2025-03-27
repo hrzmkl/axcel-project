@@ -6,7 +6,7 @@ export default function counter(){
         <>
             <div className='container-fluid bg-primary py-5'>
                 <div className='container'>
-                    <div className='row row row-cols-1 row-cols-md-3 g-4'>                       
+                    <div className='row row row-cols-1 row-cols-md-3 g-5'>                       
                         <div className="col">
                             <div className="card axel-box h-100 ">
                                 <div className="card-body text-center">

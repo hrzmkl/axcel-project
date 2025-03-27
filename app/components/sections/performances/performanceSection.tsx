@@ -21,7 +21,7 @@ export default function PerformanceSection(){
                                 <h3 className="axel-text-orange fs-5">Nos performances</h3>                            
                                 <h2 className="axel-text-blue fs-2 fw-bolder">Achèvements en chiffre.</h2>
                                 <div className="border border-info border-2 w-25 my-3"></div>
-                                <p className='pt-2 pt-lg-4'>Faites le premier pas vers votre avenir entrepreneurial avec un partenaire de confiance.</p>     
+                                <p className='pt-2 pt-lg-5'>Faites le premier pas vers votre avenir entrepreneurial avec un partenaire de confiance.</p>     
                                 <div className="row py-3">
                                     <div className="col-sm-6">
                                         <div className="card axel-box mb-4 mb-lg-0">

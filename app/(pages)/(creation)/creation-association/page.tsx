@@ -35,7 +35,7 @@ export default function Page() {
 								<h2 className="axel-text-blue fw-bolder pt-3">Services professionnels aux entreprises</h2>
 								<div className="border border-info border-2 w-25 my-3"></div>
 								<p className='py-3'>Nous accompagnons  les entrepreneurs, les investisseurs dans la formalisation de leurs entreprises.</p>
-								<div className="row row-cols-1 row-cols-md-2 g-4 mt-lg-2">
+								<div className="row row-cols-1 row-cols-md-2 g-5 mt-lg-2">
 									<div className="col">
 										<div className="card mb-3 h-100 border-0">
 											<div className="row g-0">
@@ -121,7 +121,7 @@ export default function Page() {
 							</div>
 							<div className="col d-none d-lg-block"></div>
 						</div>
-						<div className="row row-cols-1 row-cols-md-3 g-4 justify-content-center mb-5">
+						<div className="row row-cols-1 row-cols-md-3 g-5 justify-content-center mb-5">
 							<div className="col text-center">
 								<img src="/service/association-axcel.webp" alt="association" className="img-fluid"/>
 							</div>
@@ -129,7 +129,7 @@ export default function Page() {
 								<img src="/service/diversity-association.jpg" alt="diversités" className="img-fluid"/>
 							</div>
 						</div>
-						<div className="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+						<div className="row row-cols-1 row-cols-md-3 g-5 justify-content-center">
 							<div className="col">
 								<div className="card h-100 text-center">
 									<div className="card-header bg-transparent border-0">
@@ -188,7 +188,7 @@ export default function Page() {
 							</div>
 						</div>
 						<h2 className="text-white fs-4 text-center mt-3 py-4 fw-bold">DOSSIER A FOURNIR</h2>
-						<div className="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+						<div className="row row-cols-1 row-cols-md-3 g-5 justify-content-center">
 							<div className="col">
 								<div className="card h-100">
 									<div className="card-header bg-transparent border-0">

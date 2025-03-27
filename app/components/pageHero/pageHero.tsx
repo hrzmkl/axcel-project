@@ -54,7 +54,7 @@ interface AxelpageHeroProps {
                                 <p className='text-white py-3'>{desc}</p>                        
                                                    
                             </div>   
-                            <div className='d-block py-4 py-lg-4'>
+                            <div className='d-block py-4 py-lg-5'>
                                 <a target="_blank" href="/contact" type="button" className="btn btn-info text-white">{btnText}</a>
                             </div>                          
                         </div>                                           

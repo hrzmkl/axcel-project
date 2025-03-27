@@ -37,7 +37,7 @@ export default function Page() {
 								<h2 className="axel-text-blue fw-bolder pt-3">Services professionnels aux entreprises</h2>
 								<div className="border border-info border-2 w-25 my-3"></div>
 								<p className='py-3'>Nous accompagnons  les entrepreneurs, les investisseurs dans la formalisation de leurs entreprises.</p>
-								<div className="row row-cols-1 row-cols-md-2 g-4 mt-lg-2">
+								<div className="row row-cols-1 row-cols-md-2 g-5 mt-lg-2">
 									<div className="col">
 										<div className="card mb-3 h-100 border-0">
 											<div className="row g-0">

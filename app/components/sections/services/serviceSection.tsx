@@ -18,7 +18,7 @@ export default function serviceSection(){
                     </div>
                     <div className="col d-none d-lg-block"></div>
                 </div>
-                <div className="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                <div className="row row-cols-1 row-cols-md-3 g-5 mt-3">
                     <div className="col">
                         <div className="card h-100 axel-box">
                                 <div className="p-3 w-25 text-info axel-box-icon">

@@ -148,27 +148,29 @@ p,.p,.nav,.dropdown-item, li{
     font-family:'Lora' !important;
     font-size:20px;
 }
-
-/* Animation d'apparition : Slide depuis le haut */
-.card {
-    opacity: 0;
-    transform: translateY(-50px); /* Décalage vertical vers le haut */
-    transition: opacity 1.2s ease-out, transform 1.2s ease-out; /* Animation plus lente */
-}
-
-/* Animation active quand la carte est visible (quand elle entre dans la vue) */
-.card.animate {
-    opacity: 1;
-    transform: translateY(0); /* La carte glisse depuis le haut */
-}
-
-/* Effet de zoom au survol */
-.card:hover {
-    transform: scale(1.09); /* Agrandissement léger au survol */
-    transition: transform 0.9s ease-in-out; /* Transition douce pour l'effet de zoom */
-}
 .imgAnim:hover{
     transform: scale(1.02);
     transition: transform 0.5s ease-in-out;
 }
 
+.card:hover .icon3{
+    color:#0dcaf0;
+}
+.card {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+/* Animation d'apparition avec un délai progressif */
+.card.animate {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: var(--animation-delay, 1s); /* Applique le délai uniquement à l'apparition */
+}
+
+/* Effet hover immédiat */
+.card:hover {
+    transition: transform 0.3s ease-out !important;
+    transform: scale(1.05);
+}
