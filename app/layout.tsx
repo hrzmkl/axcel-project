@@ -1,76 +1,71 @@
 "use client";
 import { useEffect } from "react";
-import  "bootstrap/dist/css/bootstrap.min.css"
-import AddJsBootstrap from "./components/addJsBootstrap/addJsBootstrap"
-import TopBar from "@/app/components/header/topbar/topbar"
-import Navbar from "@/app/components/header/navbar/navbar"
-import NavBarScroll from "@/app/components/header/navbar/navbarOnscroll"
-import Footer from "@/app/components/footer/footer"
+import { usePathname } from "next/navigation"; // ✅ Utilisation de usePathname
+import "bootstrap/dist/css/bootstrap.min.css";
+import AddJsBootstrap from "./components/addJsBootstrap/addJsBootstrap";
+import TopBar from "@/app/components/header/topbar/topbar";
+import Navbar from "@/app/components/header/navbar/navbar";
+import NavBarScroll from "@/app/components/header/navbar/navbarOnscroll";
+import Footer from "@/app/components/footer/footer";
 import Script from "next/script";
-import '@/app/global.css';
-export default function RootLayout({
-                                     children,
-                                   }: {
-  children: React.ReactNode;
-}) {
-    useEffect(() => {
-        const rows = document.querySelectorAll(".row"); // Sélectionne toutes les lignes (rows)
+import "@/app/global.css";
 
-        rows.forEach((row) => {
-            const cardsInRow = row.querySelectorAll(".card"); // Récupère toutes les cartes dans cette ligne
-            const totalCards = cardsInRow.length; // Nombre total de cartes dans cette row
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+	const pathname = usePathname(); // 🔄 Détecte les changements de page
 
-            cardsInRow.forEach((card, index) => {
-                // Ajuste le délai proportionnellement à la position de la carte dans la row
-                const delay = (index / totalCards) * 0.6; // Délai progressif (0.6s au total)
-                card.style.transitionDelay = `${delay}s`; // Applique le délai à chaque carte
-            });
-        });
+	// Fonction pour activer les animations
+	const activateAnimations = () => {
+		const rows = document.querySelectorAll(".row");
 
-        // Configuration de l'IntersectionObserver pour observer les cartes
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
-                        const targetCard = entry.target;
-                        targetCard.classList.add("animate"); // Ajoute la classe "animate" lorsque la carte entre dans la vue
-                    } else {
-                        // Si la carte n'est pas visible, on peut la remettre à son état initial (si nécessaire)
-                        const targetCard = entry.target;
-                        targetCard.classList.remove("animate");
-                    }
-                });
-            },
-            { threshold: 0.2 } // La carte doit être visible à 20% dans la fenêtre pour être animée
-        );
+		rows.forEach((row) => {
+			const cardsInRow = row.querySelectorAll(".card");
+			const totalCards = cardsInRow.length;
 
-        // Sélectionne toutes les cartes et les observe avec l'observateur
-        const cards = document.querySelectorAll(".card");
-        cards.forEach((card) => {
-            observer.observe(card);
-        });
+			cardsInRow.forEach((card, index) => {
+				const delay = (index / totalCards) * 0.6;
+				card.style.transitionDelay = `${delay}s`;
+			});
+		});
 
-        // Nettoyage de l'observateur à la fin
-        return () => {
-            cards.forEach((card) => {
-                observer.unobserve(card);
-            });
-        };
-    }, []);
-    return (
-      <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.co" sizes="any" />
-        <Script type="text/javascript" src="/js/navscroll.js" />
-      </head>
-      <body>
-      <AddJsBootstrap />
-      <TopBar />
-      <Navbar />
-      <NavBarScroll />
-      {children}
-      <Footer />
-      </body>
-      </html>
-  );
+		const observer = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						entry.target.classList.add("animate");
+					} else {
+						entry.target.classList.remove("animate");
+					}
+				});
+			},
+			{ threshold: 0.2 }
+		);
+
+		const cards = document.querySelectorAll(".card");
+		cards.forEach((card) => observer.observe(card));
+
+		return () => {
+			cards.forEach((card) => observer.unobserve(card));
+		};
+	};
+
+	useEffect(() => {
+		activateAnimations(); // ✅ Active les animations à chaque changement de page
+	}, [pathname]); // 🔥 Relance l'animation quand l'URL change
+
+	return (
+		<html lang="en">
+		<head>
+			<link rel="icon" href="/favicon.co" sizes="any" />
+			<Script type="text/javascript" src="/js/navscroll.js" />
+		</head>
+		<body>
+		<AddJsBootstrap />
+		<TopBar />
+		<Navbar />
+		<NavBarScroll />
+		{children}
+		<Footer />
+		</body>
+		</html>
+	);
 }
