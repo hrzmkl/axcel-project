@@ -1,11 +1,6 @@
-import type { NextConfig } from 'next'
- 
-const nextConfig: NextConfig = {
+const nextConfig = {
   output: 'export',
   distDir: 'build',
-  experimental: {
-    appDir: true,
-  },
-}
- 
-export default nextConfig
+};
+
+export default nextConfig;
