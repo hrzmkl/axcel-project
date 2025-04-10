@@ -29,7 +29,7 @@ export default function Footer(){
                             <div className="col-12 col-md-6 col-lg-3 d-flex flex-column pb-5 align-items-center align-items-lg-start">
                                 <Link target="_blank" href="/" className="d-flex align-items-center align-items-lg-start my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
                                     <Image
-                                        src="/axcel-company-logo-transparent-99-104-.png"
+                                        src="/axcel-company-logo-transparent-.png"
                                         alt="Picture of the author"
                                         width={130}
                                         height={130}

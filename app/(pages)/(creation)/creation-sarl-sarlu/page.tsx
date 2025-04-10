@@ -167,7 +167,7 @@ export default function Page() {
                     <p className="card-text pt-2">
                       Honoraire : 400.000 Ar<br></br>
                       Frais administratifs fixes : 130 000 Ar<br></br>
-                      Impôt : 1 000 000 Ar <br></br>
+                      Impôt : à partir de 150 000 Ar <br></br>
                       Droit d’enregistrement bail : loyer x durée du bail x 2%
                     </p>                   
                   </div>                  
