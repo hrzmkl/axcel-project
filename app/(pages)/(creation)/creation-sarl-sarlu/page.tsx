@@ -165,9 +165,9 @@ export default function Page() {
                   <div className="card-body">
                     <h3 className="card-title axel-text-orange">Prestation Axcel Company :</h3>
                     <p className="card-text pt-2">
-                      Honoraire : 400.000 Ar / 80 EUROS<br></br>
+                      Honoraire : 400 000 Ar / 80 EUROS<br></br>
                       Frais administratifs fixes : 130 000 Ar / 26 EUROS<br></br>
-                      Impôt : 150.000AR / 30 EUROS<br></br>
+                      Impôt : 150 000AR / 30 EUROS<br></br>
                         Droit d’enregistrement bail : loyer x durée du bail x 2%
 
                     </p>

@@ -45,7 +45,7 @@ export default function Counter() {
                         <div className="card axel-box h-100">
                             <div className="card-body text-center">
                                 <h5 className="card-title text-primary fs-1 fw-bolder">
-                                    {start1 && <CountUp start={0} end={1061} duration={2} separator=" " />} +
+                                    {start1 && <CountUp start={0} end={1061} duration={1} separator=" " />} +
                                 </h5>
                                 <p className="card-text">Projets complétés</p>
                             </div>
@@ -57,7 +57,7 @@ export default function Counter() {
                         <div className="card axel-box h-100">
                             <div className="card-body text-center">
                                 <h3 className="card-title text-primary fs-1 fw-bolder">
-                                    {start2 && <CountUp start={0} end={3600} duration={2} separator=" " />} +
+                                    {start2 && <CountUp start={0} end={3600} duration={1} separator=" " />} +
                                 </h3>
                                 <p className="card-text">Clients satisfaits</p>
                             </div>
@@ -69,7 +69,7 @@ export default function Counter() {
                         <div className="card axel-box h-100">
                             <div className="card-body text-center">
                                 <h5 className="card-title text-primary fs-1 fw-bolder">
-                                    {start3 && <CountUp start={0} end={1021} duration={2} separator=" " />} +
+                                    {start3 && <CountUp start={0} end={1021} duration={1} separator=" " />} +
                                 </h5>
                                 <p className="card-text">Reconnaissances</p>
                             </div>
