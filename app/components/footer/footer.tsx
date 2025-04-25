@@ -59,7 +59,7 @@ export default function Footer(){
                                 <h3 className="text-warning">Info contact</h3>
                                 <ul className="nav flex-column">
                                     <li className="nav-item ps-0 pt-2 pb-4 d-flex align-items-center align-items-lg-start justify-content-center justify-content-lg-start">
-                                        <MapPinIcon className="axel-bottom-icon icon-map me-1"/><Link target="_blank" href="" className="nav-link text-white ps-0 py-0"> Arrêt bus Andravoahangy Ambony, Antananarivo 101</Link>
+                                        <MapPinIcon className="axel-bottom-icon icon-map me-1"/><Link target="_blank" href="" className="nav-link text-white ps-0 py-0"> Arrêt bus pharmacie Aina Andravoahangy Ambony, Antananarivo 101</Link>
                                     </li>
                                     <li className="nav-item ps-0 pb-4 d-flex align-items-center align-items-lg-start justify-content-center justify-content-lg-start">
                                         <PhoneIcon className="axel-bottom-icon me-1"/><Link target="_blank" href="" className="nav-link text-white ps-0 py-0"> +261 38 73 066 32 / 034 11 918 40</Link>
