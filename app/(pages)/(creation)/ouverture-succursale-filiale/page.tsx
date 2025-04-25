@@ -6,7 +6,7 @@ import OtherService from '@/app/components/other-service/otherServics';
 import React from "react";
 import Counter from '@/app/components/counter/counter';
 export const metadata = {
-  title: "Ouverture succursale / filiale - Axcel company",  
+  title: "Ouverture succursale / filiale - Axcel Company",  
 }
 
 export default function Page() {

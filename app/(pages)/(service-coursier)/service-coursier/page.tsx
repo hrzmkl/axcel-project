@@ -109,7 +109,7 @@ export default function Page() {
                             <div className="col col-lg-8 d-flex  flex-column justify-content-center align-items-center">
                                 <h5 className="card-title f-bold fs-3 axel-text-orange py-3">Services</h5>
                                 <h2 className="axel-text-blue fs-2 fw-bolder text-center">Coursier</h2>
-                                <p className='text-center'>AXCEL COMPANY vous accompagne dans la récupération de vos diplômes, relevés de notes et l’obtention d’équivalences académiques, en vous offrant un service rapide, sécurisé et en fonction de vos besoins.</p>
+                                <p className='text-center'>Axcel Company vous accompagne dans la récupération de vos diplômes, relevés de notes et l’obtention d’équivalences académiques, en vous offrant un service rapide, sécurisé et en fonction de vos besoins.</p>
                                
                                 <div className="border border-info border-2 w-25 my-3"></div>
                             </div>
@@ -144,7 +144,7 @@ export default function Page() {
                                             - 01 acte de naissance si moins de 18 ans <br></br>
                                             - 01 procuration légalisée</p>
                                         </li>
-                                        <li className="list-group-item"><span className='axel-text-blue fw-bold'>TARIFS AXCEL COMPANY</span>
+                                        <li className="list-group-item"><span className='axel-text-blue fw-bold'>TARIFS Axcel Company</span>
                                         <ul>
                                             <li>Prestation : 200 000Ar                                
                                             </li>
@@ -190,7 +190,7 @@ export default function Page() {
                                         - 01 procuration légalisée
 
                                         </li>
-                                        <li className="list-group-item"><span className='fw-bold axel-text-blue'>TARIFS AXCEL COMPANY</span>
+                                        <li className="list-group-item"><span className='fw-bold axel-text-blue'>TARIFS Axcel Company</span>
                                             <ul>
                                                 <li>DTS : 200 000 Ar</li>
                                                 <li>LICENCE : 200 000 Ar</li>
@@ -224,7 +224,7 @@ export default function Page() {
                                                 </p>
                                             </li>
                                             <li className="list-group-item">
-                                                <span className='fw-bold axel-text-blue'>TARIFS AXCEL COMPANY</span>
+                                                <span className='fw-bold axel-text-blue'>TARIFS Axcel Company</span>
                                                 <ul>
                                                     <li>à partir de 30 000 Ar hors frais administratifs, si à récupérer à Antananarivo </li>
                                                     <li>à partir de 100 000 Ar hors frais administratifs, si à récupérer dans les provinces</li>
@@ -248,7 +248,7 @@ export default function Page() {
                                                 - 01 copie ou photo d’acte de mariage expirée</p>
                                             </li>
                                             <li className="list-group-item">
-                                                <span className='fw-bold axel-text-blue'>TARIFS AXCEL COMPANY</span>
+                                                <span className='fw-bold axel-text-blue'>TARIFS Axcel Company</span>
                                                 <ul>
                                                     <li>à partir de 30 000 Ar hors frais administratifs, si à récupérer à Antananarivo</li>
                                                     <li>à partir de 100 000 Ar hors frais administratifs, si à récupérer dans les provinces </li>

@@ -1,6 +1,6 @@
 import React from "react";
 export const metadata = {
-	title: "Service de coursier - Axcel company",
+	title: "Service de coursier - Axcel Company",
 }
 export default function RootLayout({
 									   children,

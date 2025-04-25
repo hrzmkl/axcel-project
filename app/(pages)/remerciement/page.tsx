@@ -1,7 +1,7 @@
 import PageHero from '@/app/components/pageHero/pageHero'
 import React from "react";
 export const metadata = {
-  title: 'Remerciement - Axcel company',  
+  title: 'Remerciement - Axcel Company',  
 }
 
 export default function Page() {

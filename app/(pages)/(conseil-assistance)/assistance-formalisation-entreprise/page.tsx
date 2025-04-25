@@ -6,7 +6,7 @@ import Link from 'next/link'
 import React from "react";
 import Counter from '@/app/components/counter/counter';
 export const metadata = {
-  title: "Assistance en formalisation d'entreprise - Axcel company",  
+  title: "Assistance en formalisation d'entreprise - Axcel Company",  
 }
 
 export default function Page() {

@@ -13,7 +13,7 @@ interface AxelpageHeroProps {
 
   export default function PageHero({imgSrc, desc, btnText }: AxelpageHeroProps) {  
     const metadata = {
-        title: 'Services - Axcel company',  
+        title: 'Services - Axcel Company',  
       } 
     const path:string = usePathname()
     const str = path.replace('/', "")

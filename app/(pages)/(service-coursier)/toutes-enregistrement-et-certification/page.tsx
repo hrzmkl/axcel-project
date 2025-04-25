@@ -7,7 +7,7 @@ import React from "react";
 
 import Counter from '@/app/components/counter/counter';
 export const metadata = {
-  title: 'Toutes enregistrement, certifications - Axcel company',  
+  title: 'Toutes enregistrement, certifications - Axcel Company',  
 }
 
 export default function Page() {

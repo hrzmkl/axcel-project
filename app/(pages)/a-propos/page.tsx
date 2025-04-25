@@ -4,7 +4,7 @@ import OtherService from '@/app/components/other-service/otherServics';
 import { ChevronDoubleRightIcon } from '@heroicons/react/20/solid';
 import Team from '@/app/components/Team/team';
 export const metadata = {
-  title: 'A propos - Axcel company',  
+  title: 'A propos - Axcel Company',  
 }
 
 export default function Page() {

@@ -6,7 +6,7 @@ import OtherService from '@/app/components/other-service/otherServics';
 import React from "react";
 import Counter from '@/app/components/counter/counter';
 export const metadata = {
-  title: "Création d'un SARL / SARLU - Axcel company",  
+  title: "Création d'un SARL / SARLU - Axcel Company",  
 }
 
 export default function Page() {
@@ -163,7 +163,7 @@ export default function Page() {
               <div className="col">
                 <div className="card h-100">                  
                   <div className="card-body">
-                    <h3 className="card-title axel-text-orange">Prestation AXCEL Company :</h3>
+                    <h3 className="card-title axel-text-orange">Prestation Axcel Company :</h3>
                     <p className="card-text pt-2">
                       Honoraire : 400.000 Ar<br></br>
                       Frais administratifs fixes : 130 000 Ar<br></br>

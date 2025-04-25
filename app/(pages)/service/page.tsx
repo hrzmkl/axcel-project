@@ -5,7 +5,7 @@ import OtherService from '@/app/components/other-service/otherServics';
 import React from "react";
 import Counter from '@/app/components/counter/counter';
 export const metadata = {
-    title: 'Services - Axcel company',  
+    title: 'Services - Axcel Company',  
   }
 export default function Page() {    
   return (

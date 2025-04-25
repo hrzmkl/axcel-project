@@ -5,7 +5,7 @@ import React from "react";
 import Counter from '@/app/components/counter/counter';
 import { CardSectionEI,CardSectionFraisAdmins } from "@/app/components/CardSection/CardSection";
 export const metadata = {
-    title: "Création d'une entreprise individuelle - Axcel company",
+    title: "Création d'une entreprise individuelle - Axcel Company",
 }
 
 export default function Page() {
@@ -121,7 +121,7 @@ export default function Page() {
                                     <div className="card-body">
                                         <h3 className="card-title axel-text-orange py-2">Tana 4ème arrondissement </h3>
                                         <ul>
-                                            <li><span className="text-info">Prestation AXCEL Company</span><br></br>
+                                            <li><span className="text-info">Prestation Axcel Company</span><br></br>
                                                 - Honoraire : 200 000 Ar<br></br>
                                                 - Frais administratifs fixes : 140 000 Ar<br></br>
                                                 - Impôt : 150 000 Ar
@@ -150,7 +150,7 @@ export default function Page() {
                                     <div className="card-body">
                                         <h3 className="card-title axel-text-orange py-2">Tana 5ème arrondissement </h3>
                                         <ul>
-                                            <li><span className="text-info">Prestation AXCEL Company</span><br></br>
+                                            <li><span className="text-info">Prestation Axcel Company</span><br></br>
                                                 - Honoraire : 200 000 Ar<br></br>
                                                 - Frais administratifs fixes : 140 000 Ar<br></br>
                                                 - Impôt : 150 000 Ar à 320 000 Ar selon vos activités
@@ -178,7 +178,7 @@ export default function Page() {
                                     <div className="card-body">
                                         <h3 className="card-title axel-text-orange py-2">Tana 6ème arrondissement </h3>
                                         <ul>
-                                            <li><span className="text-info">Prestation AXCEL Company</span><br></br>
+                                            <li><span className="text-info">Prestation Axcel Company</span><br></br>
                                                 - Honoraire : 200 000 Ar<br></br>
                                                 - Frais administratifs fixes : 140 000 Ar<br></br>
                                                 - Impôt : 150 000 Ar à 320 000 Ar selon vos activités
@@ -208,7 +208,7 @@ export default function Page() {
                                     <div className="card-body">
                                         <h3 className="card-title axel-text-orange py-2">Tana Avaradrano</h3>
                                         <ul>
-                                            <li><span className="text-info">Prestation AXCEL Company</span><br></br>
+                                            <li><span className="text-info">Prestation Axcel Company</span><br></br>
                                                 - Honoraire : 200 000 Ar<br></br>
                                                 - Frais administratifs fixes : 140 000 Ar<br></br>
                                                 - Impôt : 150 000 Ar à 320 000 Ar selon vos activités
@@ -238,7 +238,7 @@ export default function Page() {
                                     <div className="card-body">
                                         <h3 className="card-title axel-text-orange py-2">Andoharanofotsy</h3>
                                         <ul>
-                                            <li><span className="text-info">Prestation AXCEL Company</span><br></br>
+                                            <li><span className="text-info">Prestation Axcel Company</span><br></br>
                                                 - Honoraire : 200 000 Ar<br></br>
                                                 - Frais administratifs fixes : 140 000 Ar<br></br>
                                                 - Impôt : 150 000 Ar
@@ -267,7 +267,7 @@ export default function Page() {
                                     <div className="card-body">
                                         <h3 className="card-title axel-text-orange py-2">Itaosy </h3>
                                         <ul>
-                                            <li><span className="text-info">Prestation AXCEL Company</span><br></br>
+                                            <li><span className="text-info">Prestation Axcel Company</span><br></br>
                                                 - Honoraire : 200 000 Ar<br></br>
                                                 - Frais administratifs fixes : 140 000 Ar<br></br>
                                                 - Impôt : 150 000 Ar à 320 000 Ar selon vos activités
@@ -298,7 +298,7 @@ export default function Page() {
                                     <div className="card-body">
                                         <h3 className="card-title axel-text-orange py-2">Alasora</h3>
                                         <ul>
-                                            <li><span className="text-info">Prestation AXCEL Company</span><br></br>
+                                            <li><span className="text-info">Prestation Axcel Company</span><br></br>
                                                 - Honoraire : 200 000 Ar<br></br>
                                                 - Frais administratifs fixes : 140 000 Ar<br></br>
                                                 - Impôt : à partir de 150 000 Ar selon vos activités
@@ -327,7 +327,7 @@ export default function Page() {
                                     <div className="card-body">
                                         <h3 className="card-title axel-text-orange py-2">Ambohimangakely </h3>
                                         <ul>
-                                            <li><span className="text-info">Prestation AXCEL Company</span><br></br>
+                                            <li><span className="text-info">Prestation Axcel Company</span><br></br>
                                                 - Honoraire : 200 000 Ar<br></br>
                                                 - Frais administratifs fixes : 140 000 Ar<br></br>
                                                 - Impôt : à partir de 150 000 Ar selon vos activités
@@ -356,7 +356,7 @@ export default function Page() {
                                     <div className="card-body">
                                         <h3 className="card-title axel-text-orange py-2">Ivato</h3>
                                         <ul>
-                                            <li><span className="text-info">Prestation AXCEL Company</span><br></br>
+                                            <li><span className="text-info">Prestation Axcel Company</span><br></br>
                                                 - Honoraire : 200 000 Ar<br></br>
                                                 - Frais administratifs fixes : 140 000 Ar<br></br>
                                                 - Impôt : 150 000 Ar

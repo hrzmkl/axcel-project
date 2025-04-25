@@ -7,7 +7,7 @@ import React from "react";
 
 import Counter from '@/app/components/counter/counter';
 export const metadata = {
-	title: 'Récupération des certificats de mise en commerce - Axcel company',
+	title: 'Récupération des certificats de mise en commerce - Axcel Company',
 }
 
 export default function Page() {
@@ -148,7 +148,7 @@ export default function Page() {
 
 											</li>
 											<li className="list-group-item">
-												•	<span className='fw-bold axel-text-orange'>Prestation AXCEL Company : 100 000 Ar</span><br></br>
+												•	<span className='fw-bold axel-text-orange'>Prestation Axcel Company : 100 000 Ar</span><br></br>
 											</li>
 										</ul>
 									</div>

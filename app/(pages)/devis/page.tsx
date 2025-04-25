@@ -2,7 +2,7 @@ import PageHero from '@/app/components/pageHero/pageHero'
 import OtherService from '@/app/components/other-service/otherServics';
 import React from "react";
 export const metadata = {
-  title: 'Devis - Axcel company',  
+  title: 'Devis - Axcel Company',  
 }
 
 export default function Page() {

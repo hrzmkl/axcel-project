@@ -12,7 +12,7 @@ export default function NavBarScroll(){
                             <Link  href="/" className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
                                 <Image
                                     src="/axcel-company-logo--100x103.jpg"
-                                    alt="Axcel company logo"
+                                    alt="Axcel Company logo"
                                     width={100}
                                     height={103}
                                 />                            

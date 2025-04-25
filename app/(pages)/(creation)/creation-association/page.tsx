@@ -6,7 +6,7 @@ import OtherService from '@/app/components/other-service/otherServics';
 import React from "react";
 import Counter from '@/app/components/counter/counter';
 export const metadata = {
-	title: "Création d'une association - Axcel company",
+	title: "Création d'une association - Axcel Company",
 }
 
 export default function Page() {
@@ -235,7 +235,7 @@ export default function Page() {
 							</div>
 						</div>
 						<div className="d-flex flex-column justify-content-center">
-								<h2 className="text-white fs-4 text-center mt-3 py-4 fw-bold">PRESTATION AXCEL COMPANY</h2>
+								<h2 className="text-white fs-4 text-center mt-3 py-4 fw-bold">PRESTATION Axcel Company</h2>
 							<div className="align-self-center">
 								<ul className='text-white fw-bolder fs-5'>
 									<li>Prestation : 400 000 Ar </li>

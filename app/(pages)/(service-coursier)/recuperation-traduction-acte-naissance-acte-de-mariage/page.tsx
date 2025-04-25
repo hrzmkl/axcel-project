@@ -7,7 +7,7 @@ import React from "react";
 
 import Counter from '@/app/components/counter/counter';
 export const metadata = {
-  title: 'Récupération /traduction, acte de naissance, acte de mariage, ... - Axcel company',  
+  title: 'Récupération /traduction, acte de naissance, acte de mariage, ... - Axcel Company',  
 }
 
 export default function Page() {
@@ -138,7 +138,7 @@ export default function Page() {
                         </p>
                       </li>
                       <li className="list-group-item">
-                        <span className='fw-bold axel-text-blue'>TARIFS AXCEL COMPANY</span>
+                        <span className='fw-bold axel-text-blue'>TARIFS Axcel Company</span>
                         <ul>
                           <li>à partir de 30 000 Ar hors frais administratifs, si à récupérer à Antananarivo </li>
                           <li>à partir de 100 000 Ar hors frais administratifs, si à récupérer dans les provinces</li>
@@ -162,7 +162,7 @@ export default function Page() {
                           - 01 copie ou photo d’acte de mariage expirée</p>
                       </li>
                       <li className="list-group-item">
-                        <span className='fw-bold axel-text-blue'>TARIFS AXCEL COMPANY</span>
+                        <span className='fw-bold axel-text-blue'>TARIFS Axcel Company</span>
                         <ul>
                           <li>à partir de 30 000 Ar hors frais administratifs, si à récupérer à Antananarivo</li>
                           <li>à partir de 100 000 Ar hors frais administratifs, si à récupérer dans les provinces </li>

@@ -25,7 +25,7 @@ export default function Topbar(){
                         <Link target="_blank" href="/" className="d-flex align-items-center my-2 text-white text-decoration-none">
                             <Image
                                 src="/axcel-company-logo-transparent-99-104-.png"
-                                alt="Axcel company logo"
+                                alt="Axcel Company logo"
                                 width={130}
                                 height={130}
                             />
@@ -34,7 +34,7 @@ export default function Topbar(){
                             <p className="axel-text-orange logo-text fs-2 m-2 text-center"><span className={lora.className}>Vos dossiers, aux mains des experts</span></p>
                             <ul className="nav d-none d-md-flex col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small text-dark">
                                 <li>
-                                    <MapPinIcon className="axel-top-icon me-1"/><span className={`${nunito.className} text-20`}> Arrêt bus Andravoahangy Ambony, Antananarivo 101</span>
+                                    <MapPinIcon className="axel-top-icon me-1"/><span className={`${nunito.className} text-20`}> Arrêt bus pharmacie Aina Andravoahangy Ambony, Antananarivo 101</span>
                                 </li>
                             </ul>
 

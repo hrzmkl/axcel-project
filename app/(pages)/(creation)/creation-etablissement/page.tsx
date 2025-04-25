@@ -6,7 +6,7 @@ import OtherService from '@/app/components/other-service/otherServics';
 import React from "react";
 import Counter from '@/app/components/counter/counter';
 export const metadata = {
-  title: "Création d'un établissement - Axcel company",  
+  title: "Création d'un établissement - Axcel Company",  
 }
 
 export default function Page() {

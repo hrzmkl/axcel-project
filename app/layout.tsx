@@ -111,7 +111,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 							<div className="position-absolute top-50 start-50 translate-middle">
 								<img
 									src="/axcel-company-logo-transparent-99-104-.png"
-									alt="Axcel company logo"
+									alt="Axcel Company logo"
 									width="80"
 									height="80"
 									style={{ objectFit: "contain", borderRadius: "0.375rem" }}

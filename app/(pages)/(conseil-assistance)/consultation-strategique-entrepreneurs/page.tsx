@@ -7,7 +7,7 @@ import Link from 'next/link'
 import React from "react";
 import Counter from '@/app/components/counter/counter';
 export const metadata = {
-  title: "Consultation stratégique pour entrepreneurs - Axcel company",  
+  title: "Consultation stratégique pour entrepreneurs - Axcel Company",  
 }
 
 export default function Page() {

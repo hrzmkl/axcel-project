@@ -110,7 +110,7 @@ export function CardSectionFraisAdmins() {
 				const cardContent = [
 					{
 						title: "Tana 1ère arrondissement",
-						prestation: "Prestation AXCEL Company",
+						prestation: "Prestation Axcel Company",
 						honoraires: "200 000 Ar",
 						fraisAdministratifs: "140 000 Ar",
 						impots: "à partir de 150 000 Ar selon vos activités",
@@ -126,7 +126,7 @@ export function CardSectionFraisAdmins() {
 					},
 					{
 						title: "Tana 2ème arrondissement",
-						prestation: "Prestation AXCEL Company",
+						prestation: "Prestation Axcel Company",
 						honoraires: "200 000 Ar",
 						fraisAdministratifs: "140 000 Ar",
 						impots: "à partir de 150 000 Ar à 320 000 Ar selon vos activités",
@@ -141,7 +141,7 @@ export function CardSectionFraisAdmins() {
 					},
 					{
 						title: "Tana 3ème arrondissement",
-						prestation: "Prestation AXCEL Company",
+						prestation: "Prestation Axcel Company",
 						honoraires: "200 000 Ar",
 						fraisAdministratifs: "140 000 Ar",
 						impots: "150 000 Ar",

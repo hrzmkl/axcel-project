@@ -46,7 +46,7 @@ export default function Preloader() {
           <div className="position-absolute top-50 start-50 translate-middle">
             <Image
                src="/axcel-company-logo-transparent-99-104-.png"
-               alt="Axcel company logo"
+               alt="Axcel Company logo"
                width={80}
                height={80}
               style={{ objectFit: "contain" }}

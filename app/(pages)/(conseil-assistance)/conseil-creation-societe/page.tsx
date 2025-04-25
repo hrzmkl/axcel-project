@@ -8,7 +8,7 @@ import React from "react";
 
 import Counter from '@/app/components/counter/counter';
 export const metadata = {
-	title: "Conseil en création de société - Axcel company",
+	title: "Conseil en création de société - Axcel Company",
 }
 
 export default function Page() {
