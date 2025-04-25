@@ -103,6 +103,9 @@ export default function Page() {
                         <CardSectionEI />
                         <div className="text-center py-5">
                             <a href="/devis" className="btn axel-btn-orange text-white">Demande de devis</a>
+                            <p className="text-white mt-3">
+                                PRESTATION POUR LES ETRANGERS : 120 Euros.
+                            </p>
                         </div>
                         <div className='row d-flex justify-content-center py-5'>
                             <div className="col d-none d-lg-block"></div>
@@ -122,8 +125,8 @@ export default function Page() {
                                         <h3 className="card-title axel-text-orange py-2">Tana 4ème arrondissement </h3>
                                         <ul>
                                             <li><span className="text-info">Prestation Axcel Company</span><br></br>
-                                                - Honoraire : 200 000 Ar<br></br>
-                                                - Frais administratifs fixes : 140 000 Ar<br></br>
+                                                - Honoraire : 200 000 Ar / 40 EUROS<br></br>
+                                                - Frais administratifs fixes : 140 000 Ar / 28 EUROS<br></br>
                                                 - Impôt : 150 000 Ar
                                             </li>
                                             <ul>
@@ -151,9 +154,9 @@ export default function Page() {
                                         <h3 className="card-title axel-text-orange py-2">Tana 5ème arrondissement </h3>
                                         <ul>
                                             <li><span className="text-info">Prestation Axcel Company</span><br></br>
-                                                - Honoraire : 200 000 Ar<br></br>
-                                                - Frais administratifs fixes : 140 000 Ar<br></br>
-                                                - Impôt : 150 000 Ar à 320 000 Ar selon vos activités
+                                                - Honoraire : 200 000 Ar / 40 EUROS<br></br>
+                                                - Frais administratifs fixes : 140 000 Ar / 28 EUROS<br></br>
+                                                - Impôt : à partir de 150 000 Ar à 320 000 Ar / 52 EUROS selon vos activités
                                             </li>
                                             <ul>
                                                 <li>
@@ -179,9 +182,9 @@ export default function Page() {
                                         <h3 className="card-title axel-text-orange py-2">Tana 6ème arrondissement </h3>
                                         <ul>
                                             <li><span className="text-info">Prestation Axcel Company</span><br></br>
-                                                - Honoraire : 200 000 Ar<br></br>
-                                                - Frais administratifs fixes : 140 000 Ar<br></br>
-                                                - Impôt : 150 000 Ar à 320 000 Ar selon vos activités
+                                                - Honoraire : 200 000 Ar / 40 EUROS<br></br>
+                                                - Frais administratifs fixes : 140 000 Ar / 28 EUROS<br></br>
+                                                - Impôt : à partir de 150 000 Ar à 320 000 Ar / 52 EUROS selon vos activités
                                             </li>
                                             <ul>
                                                 <li>
@@ -209,9 +212,9 @@ export default function Page() {
                                         <h3 className="card-title axel-text-orange py-2">Tana Avaradrano</h3>
                                         <ul>
                                             <li><span className="text-info">Prestation Axcel Company</span><br></br>
-                                                - Honoraire : 200 000 Ar<br></br>
-                                                - Frais administratifs fixes : 140 000 Ar<br></br>
-                                                - Impôt : 150 000 Ar à 320 000 Ar selon vos activités
+                                                - Honoraire : 200 000 Ar / 40 EUROS<br></br>
+                                                - Frais administratifs fixes : 140 000 Ar / 28 EUROS<br></br>
+                                                - Impôt : à partir de 150 000 Ar à 320 000 Ar / 52 EUROS selon vos activités
                                             </li>
                                             <ul>
                                                 <li>
@@ -239,8 +242,8 @@ export default function Page() {
                                         <h3 className="card-title axel-text-orange py-2">Andoharanofotsy</h3>
                                         <ul>
                                             <li><span className="text-info">Prestation Axcel Company</span><br></br>
-                                                - Honoraire : 200 000 Ar<br></br>
-                                                - Frais administratifs fixes : 140 000 Ar<br></br>
+                                                - Honoraire : 200 000 Ar / 40 EUROS<br></br>
+                                                - Frais administratifs fixes : 140 000 Ar / 28 EUROS<br></br>
                                                 - Impôt : 150 000 Ar
                                             </li>
                                             <ul>
@@ -268,9 +271,9 @@ export default function Page() {
                                         <h3 className="card-title axel-text-orange py-2">Itaosy </h3>
                                         <ul>
                                             <li><span className="text-info">Prestation Axcel Company</span><br></br>
-                                                - Honoraire : 200 000 Ar<br></br>
-                                                - Frais administratifs fixes : 140 000 Ar<br></br>
-                                                - Impôt : 150 000 Ar à 320 000 Ar selon vos activités
+                                                - Honoraire : 200 000 Ar / 40 EUROS<br></br>
+                                                - Frais administratifs fixes : 140 000 Ar / 28 EUROS<br></br>
+                                                - Impôt : à partir de 150 000 Ar à 320 000 Ar / 52 EUROS selon vos activités
                                             </li>
                                             <ul>
                                                 <li>
@@ -299,8 +302,8 @@ export default function Page() {
                                         <h3 className="card-title axel-text-orange py-2">Alasora</h3>
                                         <ul>
                                             <li><span className="text-info">Prestation Axcel Company</span><br></br>
-                                                - Honoraire : 200 000 Ar<br></br>
-                                                - Frais administratifs fixes : 140 000 Ar<br></br>
+                                                - Honoraire : 200 000 Ar / 40 EUROS<br></br>
+                                                - Frais administratifs fixes : 140 000 Ar / 28 EUROS<br></br>
                                                 - Impôt : à partir de 150 000 Ar selon vos activités
                                             </li>
                                             <ul>
@@ -328,8 +331,8 @@ export default function Page() {
                                         <h3 className="card-title axel-text-orange py-2">Ambohimangakely </h3>
                                         <ul>
                                             <li><span className="text-info">Prestation Axcel Company</span><br></br>
-                                                - Honoraire : 200 000 Ar<br></br>
-                                                - Frais administratifs fixes : 140 000 Ar<br></br>
+                                                - Honoraire : 200 000 Ar / 40 EUROS<br></br>
+                                                - Frais administratifs fixes : 140 000 Ar / 28 EUROS<br></br>
                                                 - Impôt : à partir de 150 000 Ar selon vos activités
                                             </li>
                                             <ul>
@@ -357,8 +360,8 @@ export default function Page() {
                                         <h3 className="card-title axel-text-orange py-2">Ivato</h3>
                                         <ul>
                                             <li><span className="text-info">Prestation Axcel Company</span><br></br>
-                                                - Honoraire : 200 000 Ar<br></br>
-                                                - Frais administratifs fixes : 140 000 Ar<br></br>
+                                                - Honoraire : 200 000 Ar / 40 EUROS<br></br>
+                                                - Frais administratifs fixes : 140 000 Ar / 28 EUROS<br></br>
                                                 - Impôt : 150 000 Ar
                                             </li>
                                             <ul>

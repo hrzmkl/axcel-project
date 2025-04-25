@@ -111,8 +111,8 @@ export function CardSectionFraisAdmins() {
 					{
 						title: "Tana 1ère arrondissement",
 						prestation: "Prestation Axcel Company",
-						honoraires: "200 000 Ar",
-						fraisAdministratifs: "140 000 Ar",
+						honoraires: "200 000 Ar / 40 EUROS",
+						fraisAdministratifs: "140 000 Ar / 28 EUROS",
 						impots: "à partir de 150 000 Ar selon vos activités",
 						total: "490 000 Ar si impôt 150 000 Ar",
 						duree: "3 jours ouvrables",
@@ -127,9 +127,9 @@ export function CardSectionFraisAdmins() {
 					{
 						title: "Tana 2ème arrondissement",
 						prestation: "Prestation Axcel Company",
-						honoraires: "200 000 Ar",
-						fraisAdministratifs: "140 000 Ar",
-						impots: "à partir de 150 000 Ar à 320 000 Ar selon vos activités",
+						honoraires: "200 000 Ar / 40 EUROS",
+						fraisAdministratifs: "140 000 Ar / 28 EUROS",
+						impots: "à partir de 150 000 Ar à 320 000 Ar / 52 EUROS selon vos activités",
 						total: "490 000 Ar à 660 000 Ar",
 						duree: "3 jours ouvrables",
 						dossier: [
@@ -142,8 +142,8 @@ export function CardSectionFraisAdmins() {
 					{
 						title: "Tana 3ème arrondissement",
 						prestation: "Prestation Axcel Company",
-						honoraires: "200 000 Ar",
-						fraisAdministratifs: "140 000 Ar",
+						honoraires: "200 000 Ar / 40 EUROS",
+						fraisAdministratifs: "140 000 Ar / 28 EUROS",
 						impots: "150 000 Ar",
 						total: "490 000 Ar si impôt 150 000 Ar",
 						duree: "3 jours ouvrables",
