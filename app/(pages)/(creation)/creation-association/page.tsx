@@ -238,11 +238,11 @@ export default function Page() {
 								<h2 className="text-white fs-4 text-center mt-3 py-4 fw-bold">PRESTATION Axcel Company</h2>
 							<div className="align-self-center">
 								<ul className='text-white fw-bolder fs-5'>
-									<li>Prestation : 400 000 Ar </li>
-									<li>Frais administratifs : environ 140 000 Ar </li>
+									<li>Prestation : 400 000 Ar / 80 EUROS</li>
+									<li>Frais administratifs : environ 140 000 Ar / 28 EUROS</li>
 									<ul>
 										<li>
-											TOTAL : 540 000 Ar
+											TOTAL : à partir de 540 000 Ar / 108 EUROS
 										</li>
 										<li>
 											Durée de traitement : environ deux (2) semaines
