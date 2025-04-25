@@ -107,7 +107,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="container-fluid bg-primary py-5 px-0">
+      <div className="container-fluid bg-primary pt-5 px-0">
         <div className={`${styles.bg} p-0 m-0`}>
           <div className='container py-5'>
             <div className="row d-flex justify-content-center py-5">
@@ -159,6 +159,15 @@ export default function Page() {
                  </div>
               </div>                                       
             </div>
+              <div className={'text-white'}>
+                  <p className="text-white mt-4">
+                      <strong>PRESTATION AXCEL COMPANY :</strong>
+                  </p>
+                  <ul className="unstyled ps-4">
+                      <li> 800.000 Ar hors frais administratifs</li>
+                      <li>160 Euros pour les étrangers</li>
+                  </ul>
+              </div>
             <div className="text-center py-5">
                   <a href="/devis" className="btn axel-btn-orange text-white">Demande de devis</a>
             </div>
