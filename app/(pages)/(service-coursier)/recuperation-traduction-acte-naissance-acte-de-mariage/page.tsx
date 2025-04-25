@@ -7,7 +7,7 @@ import React from "react";
 
 import Counter from '@/app/components/counter/counter';
 export const metadata = {
-  title: 'Récupération /traduction, acte de naissance, acte de mariage, ... - Axcel Company',  
+  title: 'Récupération acte de mariage, acte de naissance / traduction en anglais français : diplôme, livret de famille, acte de décès, acte de mariage, acte de naissance ... - Axcel Company',
 }
 
 export default function Page() {
@@ -108,8 +108,8 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="container-fluid bg-primary py-5 px-0">
-        <div className={`${styles.bg} p-0 m-0`}>
+      <div className="container-fluid bg-primary pt-5 px-0">
+        <div className={`${styles.bg} pb-5 m-0`}>
           <div className='container py-5'>
             <div className="row d-flex justify-content-center py-5">
                 <div className="col d-none d-lg-block"></div>
@@ -121,8 +121,7 @@ export default function Page() {
                 </div>
                 <div className="col d-none d-lg-block"></div>
             </div>
-            <div className='row row-cols-1 row-cols-md-2 g-5 pb-5'>
-
+            <div className='row row-cols-1 row-cols-md-3 g-5 pb-5'>
               <div className='col'>
                 <div className="card h-100 border-0 rounded-0 ">
                   <div className="card-header border-0 p-0 bg-info rounded-0 rounded-0">
@@ -172,6 +171,30 @@ export default function Page() {
                   </div>
                 </div>
               </div>
+              <div className='col'>
+                <div className="card h-100 border-0 rounded-0">
+                  <div className="card-header border-0 p-0 bg-info rounded-0 rounded-0">
+                    <h3 className="card-title fs-5 text-center my-2 text-white">TRADUCTION EN ANGLAIS FRANÇAIS</h3>
+                  </div>
+                  <div className="card-body border border-1 border-top-0 p-0">
+                    <ul className="list-group list-group-flush">
+                      <li className="list-group-item">
+                        •	<span className='axel-text-orange fw-bold'>Dossier à fournir <br></br>DIPLOME, ACTE DE NAISSANCE, LIVRET DE FAMILLE, ACTE DE DECES :</span><br></br>
+                        <p className={`py-3`}>- Photocopie CIN <br></br>
+                          - Version originale</p>
+                      </li>
+                      <li className="list-group-item">
+                        <span className='fw-bold axel-text-blue'>TARIFS Axcel Company</span>
+                        <ul>
+                          <li>30 000 Ar / 8 EUROS</li>
+
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
 
             </div>
 
@@ -201,7 +224,7 @@ export default function Page() {
                       Diplôme, Attestation de réussite
                     </p>                    
                   </div>
-                  <div className="card-footer bg-transparent"><a target="_blank" href="#" className="card-link">En savoir plus</a></div>
+
                  </div>
               </div>
               <div className="col">
@@ -214,9 +237,7 @@ export default function Page() {
                     <p className="card-text">Dépôts et récupération des déclarations fiscales, sociales,<br></br>
                     Dépôts des candidatures pour des concours administratifs</p>                    
                   </div>
-                  <div className="card-footer bg-transparent">
-                    <a target="_blank" href="#" className="card-link">En savoir plus</a>
-                  </div>                 
+
                 </div>
               </div>
               <div className="col">
@@ -233,9 +254,7 @@ export default function Page() {
                       Certification Diplôme, équivalence<br></br>
                     </p>                    
                   </div>
-                  <div className="card-footer bg-transparent">
-                    <a target="_blank" href="#" className="card-link">En savoir plus</a>
-                  </div>                 
+
                 </div>
               </div>
             </div>

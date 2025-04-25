@@ -20,10 +20,10 @@ interface AxelpageHeroProps {
     const pathname = str.replace(/-/g, " ")
     let title = pathname.charAt(0).toUpperCase() + pathname.slice(1);
       
-    
+    console.log(str);
     title = replaceAll(title,"Recuperation","Récupération")
     title = replaceAll(title,"Récupération diplome releve note equivalence","Récupération diplôme, relevé de note, équivalence")
-    title = replaceAll(title,"Récupération traduction acte naissance acte de mariage","Récupération / traduction acte de naissance, acte de mariage")
+    title = replaceAll(title,"Récupération traduction acte naissance acte de mariage","Récupération acte de mariage, acte de naissance / traduction en anglais français : diplôme, livret de famille, acte de décès, acte de mariage, acte de naissance")
     title = replaceAll(title,"creation","création")
     title = replaceAll(title,"Creation","Création")
     title = replaceAll(title,"consommabilite","consommabilité")
@@ -33,7 +33,6 @@ interface AxelpageHeroProps {
     title = replaceAll(title,"strategique","stratégique")
     title = replaceAll(title,"Formulaire demande création entreprise association ong","Formulaire de demande de création : entreprise, association, ONG")
 
-    
     return(
         <>
             <div className={`${styles.hero} container`}>
