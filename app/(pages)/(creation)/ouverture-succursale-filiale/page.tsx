@@ -121,7 +121,7 @@ export default function Page() {
                 </div>
                 <div className="col d-none d-lg-block"></div>
             </div>
-            <div className="row row-cols-1 row-cols-md-2 g-5">
+            <div className="row row-cols-1 row-cols-md-3 g-5">
               <div className="col">
                 <div className="card h-100">
                   <div className="card-header bg-transparent border-0">
@@ -134,12 +134,13 @@ export default function Page() {
                     Responsabilité : Les obligations et responsabilités restent entièrement à la charge de l’entreprise mère.<br></br>
                     Fiscalité : Les revenus de la succursale sont directement imposés au niveau de l’entreprise mère.<br></br>
                     <strong>Caractéristiques :</strong>
+                    </p>
                     <ul>
                       <li>Pas d’autonomie juridique</li>
                       <li>Doit respecter les obligations locales (immatriculation, fiscalité).</li>
                       <li>Les décisions importantes sont prises par la maison mère.</li>
                     </ul>
-                    </p>                    
+
                   </div>
                   
                  </div>
@@ -156,15 +157,39 @@ export default function Page() {
                       Responsabilité : Limitée au capital de la filiale.<br></br>
                       Fiscalité : La filiale est imposée séparément de la maison mère.<br></br>
                       <strong>Caractéristiques :</strong>
+                      </p>
                       <ul>
                         <li>Dispose de sa propre personnalité juridique.</li>
                         <li>Peut opérer de manière autonome.</li>
                         <li>Nécessite la création d’une nouvelle entité légale.</li>
                       </ul>
-                      </p>                   
+
                     </div>                  
                  </div>
-              </div>                                       
+              </div>
+                <div className="col">
+                    <div className="card h-100">
+
+                        <div className="card-body">
+                            <h3 className="card-title axel-text-orange">Dossier à fournir :</h3>
+                                <ul className="card-text">
+                                    <li>Copie des statuts de la société mère en version française (avec traduction en français assermentée des autres versions)</li>
+                                    <li>Photocopie situation fiscale en plus</li>
+                                    <li>02 Procès-verbal</li>
+                                    <li>Extrait RCS moins de 3 mois de la société mère en version française (avec traduction en français assermentée des autres versions)</li>
+                                </ul>
+                            <p className="card-text text-info">Prestation Axcel Company</p>
+                            <ul className="card-text">
+                                <li>1 500 000 Ar</li>
+                            </ul>
+                            <p className="card-text text-info">Tarifs pour les étrangers</p>
+                            <ul className="card-text">
+                                <li>A partir de 300 EUROS</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="text-center py-5">
                   <a href="/devis" className="btn axel-btn-orange text-white">Demande de devis</a>
