@@ -64,16 +64,16 @@ export default function Page() {
 							<div className="card-header bg-transparent p-0 border-0 text-center pt-3">
                                 <BuildingOfficeIcon className={`${styles.icon2} axel-text-orange icon3`} />
 								<h2 className="text-center text-info fw-bold fs-3 p-3">PACK « JIABY JIABY »</h2>
-								<h3 className="card-title text-center axel-bg-orange p-4">NIF – STAT – RCS + Préparation des documents</h3>
+								<h3 className="card-title text-center axel-bg-orange p-4">NIF – STAT – RCS + Préparation des documents de base</h3>
 							</div>
 							<div className="card-body">
-								<h5>TARIFS : 270 000 Ar </h5>
+								<h5>TARIFS : 1 000 000 Ar </h5>
 								<p>Hors frais administratif</p>
 								<ul>
-									<li>Fiable</li>
+									<li>Renouvellement carte fiscale compris</li>
+									<li>Rajout d’activité compris</li>
 									<li>Rapide</li>
 									<li>Sans déplacement</li>
-									<li>Durée de traitement : 3 jours ouvrables</li>
 								</ul>
 							</div>
 						</div>
