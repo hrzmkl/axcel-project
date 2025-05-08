@@ -4,7 +4,7 @@ import css from '../Effects.module.css'
 export default function Properties(){
     return(
         <>
-            <div className="container my-lg-5 py-5">
+            <div className="container py-5">
                     <div className="row justify-content-around px-3">                        
                         <div className="col-sm-12 col-lg-6 p-auto pe-lg-5">
                             <div className="d-flex flex-column mb-3">

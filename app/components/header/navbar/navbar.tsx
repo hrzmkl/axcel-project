@@ -48,7 +48,7 @@ export default function NavBar(){
                                 </ul>
                             </li>
                                 <li className="nav-item dropdown d-flex">
-                                    <Link className="nav-link text-white fw-bolder fs-5 text-nowrap" href="/service-coursier">Service de coursier </Link>
+                                    <Link className="nav-link text-white fw-bolder fs-5 text-nowrap" href="#">Service de coursier </Link>
                                     <Link className="nav-link dropdown-toggle text-white fw-bolder ps-1 ps-lg-0"
                                           href="/service-coursier" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     </Link>

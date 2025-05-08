@@ -56,7 +56,7 @@ export default function NavBarScroll(){
                                 </ul>
                             </li>
                             <li className="nav-item dropdown d-flex">
-                                <Link className="nav-link axel-text-blue fw-bolder fs-5" href="/service-coursier">Service de coursier</Link>
+                                <Link className="nav-link axel-text-blue fw-bolder fs-5" href="#">Service de coursier</Link>
                                 <Link className="nav-link dropdown-toggle axel-text-blue fw-bolder fs-5 ps-1 ps-lg-0"  href="/service-coursier" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 
                                 </Link>
