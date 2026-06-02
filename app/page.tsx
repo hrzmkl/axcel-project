@@ -1,13 +1,9 @@
-import { useRouter } from 'next/router'
-import HeroSlider from "./components/sections/slider/heroSlider";
-import AboutSection from "./components/sections/about/aboutSection";
-import ServiceSection from "./components/sections/services/serviceSection";
-import PerformanceSection from "./components/sections/performances/performanceSection";
-import Properties from "./components/sections/Properties/PropertieSection";
+import HomeClient from "./components/HomeClient"
+
 export const metadata = {
-    title: 'Conseil et assistance en création de société / entreprise à Madagascar',
-    description: 'Une société dédiée à fournir des services professionnels aux entreprise',
-    keywords: [
+  title: 'Conseil et assistance en création de société / entreprise à Madagascar',
+  description: 'Une société dédiée à fournir des services professionnels aux entreprise',
+  keywords: [
     'création société',
     'création entreprise',
     'assistance entreprise',
@@ -21,19 +17,8 @@ export const metadata = {
     'conseil assistance administrative',
     'Coursier administratif',
   ],
-  }
-  
-export default function Page() {
-    
-    return (
-        
-            <>
-                <HeroSlider />
-                <AboutSection />
-                <ServiceSection />
-                <PerformanceSection />
-                <Properties/>
-            </>
-    );
+}
 
+export default function Page() {
+  return <HomeClient />
 }
