@@ -46,10 +46,9 @@ export default function NavBar(){
                                     <li><a className="dropdown-item" href="/ouverture-succursale-filiale">OUVERTURE SUCCURSALE / FILIALE</a></li>
                                 </ul>
                             </li>
-                                <li className="nav-item dropdown d-flex">
-                                    <a className="nav-link text-white fw-bolder fs-5 text-nowrap" href="#">Service de coursier </a>
-                                    <a className="nav-link dropdown-toggle text-white fw-bolder ps-1 ps-lg-0"
-                                          href="/service-coursier" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <li className="nav-item dropdown">
+                                    <a className="nav-link dropdown-toggle text-white fw-bolder fs-5" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Service de coursier
                                     </a>
                                     <ul className="dropdown-menu"  id="dropa"  aria-labelledby="navbarDropdown">
                                         <li><a className="dropdown-item"

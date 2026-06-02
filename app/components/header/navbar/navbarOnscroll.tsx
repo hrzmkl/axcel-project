@@ -54,10 +54,9 @@ export default function NavBarScroll(){
                                     <li><a className="dropdown-item"  href="/ouverture-succursale-filiale">OUVERTURE SUCCURSALE / FILIALE</a></li>
                                 </ul>
                             </li>
-                            <li className="nav-item dropdown d-flex">
-                                <a className="nav-link axel-text-blue fw-bolder fs-5" href="#">Service de coursier</a>
-                                <a className="nav-link dropdown-toggle axel-text-blue fw-bolder fs-5 ps-1 ps-lg-0"  href="/service-coursier" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-
+                            <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle axel-text-blue fw-bolder fs-5"  href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Service de coursier
                                 </a>
                                 <ul className="dropdown-menu" id="dropa" aria-labelledby="navbarDropdown">
                                     <li><a className="dropdown-item"  href="/recuperation-diplome-releve-note-equivalence">Récupération diplôme,<br/>relevé de note, équivalence..</a></li>
