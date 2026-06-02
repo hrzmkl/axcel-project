@@ -103,7 +103,7 @@ export default function Page() {
                         </div>
                         <CardSectionEI />
                         <div className="text-center py-5">
-                            <a href="/devis" className="btn axel-btn-orange text-white">Demande de devis</a>
+                            <a href="https://wa.me/387306632" className="btn axel-btn-orange text-white">Demande de devis</a>
                             <p className="text-white mt-3">
                                 PRESTATION POUR LES ETRANGERS : 120 Euros.
                             </p>

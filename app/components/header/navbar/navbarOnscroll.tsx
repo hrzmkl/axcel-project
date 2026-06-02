@@ -82,7 +82,7 @@ export default function NavBarScroll(){
                             </ul>           
                         </div>
                         <div className="col-2 text-end">
-                            <Link className="btn btn-info text-white fs-5" target="_blank" href="/devis">Demande de devis</Link>
+                            <Link className="btn btn-info text-white fs-5" target="_blank" href="https://wa.me/387306632">Demande de devis</Link>
                         </div>
                     
                 </div>

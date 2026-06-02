@@ -90,7 +90,7 @@ export default function NavBar(){
                                 <Link className="nav-link text-white fw-bolder fs-5" target="_blank" href="/contact" >Contact</Link>
                             </li>
                                 <li className="nav-item">
-                                    <Link className="btn btn-info text-white fs-5" target="_blank" href="/devis">Demande de devis</Link>
+                                    <Link className="btn btn-info text-white fs-5" target="_blank" href="https://wa.me/387306632">Demande de devis</Link>
                                 </li>
                             </ul>           
                         </div>

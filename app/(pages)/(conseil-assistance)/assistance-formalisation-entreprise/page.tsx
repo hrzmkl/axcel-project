@@ -83,7 +83,7 @@ export default function Page() {
 							</div>
 						</div>
 						<div className="text-center py-5">
-							<a href="/devis" className="btn axel-btn-orange text-white">Demande de devis</a>
+							<a href="https://wa.me/387306632" className="btn axel-btn-orange text-white">Demande de devis</a>
 						</div>
 					</div>
 				</div>
