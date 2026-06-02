@@ -1,12 +1,11 @@
 'use client'
-import Link from 'next/link';
 export default function NavBar(){
     return(
          <>
             <nav className="navbar navbar-expand-lg axel-bg-orange container-fluid">
                 <div className="container">
                     <div className='row w-100'>
-                        <Link className="navbar-brand text-white fw-bolder fs-5 d-block d-lg-none"  href="#">Accueil</Link>
+                        <a className="navbar-brand text-white fw-bolder fs-5 d-block d-lg-none"  href="#">Accueil</a>
                         <button className="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon text-white"></span>
                         </button>
@@ -14,83 +13,83 @@ export default function NavBar(){
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-evenly w-100">
                             
                             <li className="nav-item dropdown">
-                                <Link className="nav-link dropdown-toggle text-white fw-bolder fs-5"  href="/service" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a className="nav-link dropdown-toggle text-white fw-bolder fs-5"  href="/service" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Conseil et assistance
-                                </Link>
+                                </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><Link className="dropdown-item"   href="/conseil-creation-societe">Conseil en création<br/>de société</Link></li>
+                                    <li><a className="dropdown-item ok"   href="/conseil-creation-societe">Conseil en création<br/>de société</a></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item"   href="/assistance-modification-societe">Assistance à la modification<br/>de société</Link></li>
+                                    <li><a className="dropdown-item"   href="/assistance-modification-societe">Assistance à la modification<br/>de société</a></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item"  href="/assistance-formalisation-entreprise">Assistance en formalisation<br/>d'entreprise</Link></li>
+                                    <li><a className="dropdown-item"  href="/assistance-formalisation-entreprise">Assistance en formalisation<br/>d'entreprise</a></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item"  href="/consultation-strategique-entrepreneurs">Consultation stratégique<br/>pour entrepreneurs</Link></li>
+                                    <li><a className="dropdown-item"  href="/consultation-strategique-entrepreneurs">Consultation stratégique<br/>pour entrepreneurs</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
-                                <Link className="nav-link dropdown-toggle text-white fw-bolder fs-5" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a className="nav-link dropdown-toggle text-white fw-bolder fs-5" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Création
-                                </Link>
+                                </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><Link className="dropdown-item"  href="/creation-sarl-sarlu">SARL / SARLU</Link></li>
+                                    <li><a className="dropdown-item"  href="/creation-sarl-sarlu">SARL / SARLU</a></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item"  href="/creation-sa-sau">SA / SAU</Link></li>
+                                    <li><a className="dropdown-item"  href="/creation-sa-sau">SA / SAU</a></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item"  href="/creation-entreprise-individuelle">ENTREPRISE INDIVIDUELLE</Link></li>
+                                    <li><a className="dropdown-item"  href="/creation-entreprise-individuelle">ENTREPRISE INDIVIDUELLE</a></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item"  href="/creation-association">ASSOCIATION</Link></li>
+                                    <li><a className="dropdown-item"  href="/creation-association">ASSOCIATION</a></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item"  href="/creation-ong">ONG</Link></li>
+                                    <li><a className="dropdown-item"  href="/creation-ong">ONG</a></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" href="/creation-etablissement">ETABLISSEMENT</Link></li>
+                                    <li><a className="dropdown-item" href="/creation-etablissement">ETABLISSEMENT</a></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" href="/ouverture-succursale-filiale">OUVERTURE SUCCURSALE / FILIALE</Link></li>
+                                    <li><a className="dropdown-item" href="/ouverture-succursale-filiale">OUVERTURE SUCCURSALE / FILIALE</a></li>
                                 </ul>
                             </li>
                                 <li className="nav-item dropdown d-flex">
-                                    <Link className="nav-link text-white fw-bolder fs-5 text-nowrap" href="#">Service de coursier </Link>
-                                    <Link className="nav-link dropdown-toggle text-white fw-bolder ps-1 ps-lg-0"
+                                    <a className="nav-link text-white fw-bolder fs-5 text-nowrap" href="#">Service de coursier </a>
+                                    <a className="nav-link dropdown-toggle text-white fw-bolder ps-1 ps-lg-0"
                                           href="/service-coursier" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    </Link>
-                                    <ul className="dropdown-menu"  id="dropLink"  aria-labelledby="navbarDropdown">
-                                        <li><Link className="dropdown-item"
+                                    </a>
+                                    <ul className="dropdown-menu"  id="dropa"  aria-labelledby="navbarDropdown">
+                                        <li><a className="dropdown-item"
                                                   href="/recuperation-diplome-releve-note-equivalence">Récupération
-                                            diplôme,<br/>relevé de note, équivalence..</Link></li>
+                                            diplôme,<br/>relevé de note, équivalence..</a></li>
                                         <li>
                                             <hr className="dropdown-divider"/>
                                         </li>
-                                        <li><Link className="dropdown-item"
+                                        <li><a className="dropdown-item"
                                                   href="/recuperation-traduction-acte-naissance-acte-de-mariage">Récupération
-                                            /traduction<br/>acte de naissance,<br/>acte de mariage, ...</Link></li>
+                                            /traduction<br/>acte de naissance,<br/>acte de mariage, ...</a></li>
                                         <li>
                                             <hr className="dropdown-divider"/>
                                         </li>
-                                        <li><Link className="dropdown-item"
+                                        <li><a className="dropdown-item"
                                                   href="/recuperation-certificats-de-mise-en-commerce">Récupération des
-                                            certificats<br/>de mise en commerce</Link></li>
+                                            certificats<br/>de mise en commerce</a></li>
                                         <li>
                                             <hr className="dropdown-divider"/>
                                         </li>
-                                        <li><Link className="dropdown-item"
+                                        <li><a className="dropdown-item"
                                                   href="/recuperation-certificats-de-consommabilite">Récupération des
-                                            certificats<br/>de consommabilité</Link></li>
+                                            certificats<br/>de consommabilité</a></li>
                                         <li>
                                             <hr className="dropdown-divider"/>
                                         </li>
-                                        <li><Link className="dropdown-item"
+                                        <li><a className="dropdown-item"
                                                   href="/toutes-enregistrement-et-certification">Toutes
-                                            enregistrement,<br/>certifications</Link></li>
+                                            enregistrement,<br/>certifications</a></li>
                                     </ul>
                                 </li>
 
                                 <li className="nav-item">
-                                <Link className="nav-link text-white fw-bolder fs-5" href="/a-propos" >A propos de nous</Link>
+                                <a className="nav-link text-white fw-bolder fs-5" href="/a-propos" >A propos de nous</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-white fw-bolder fs-5" target="_blank" href="/contact" >Contact</Link>
+                                <a className="nav-link text-white fw-bolder fs-5" target="_blank" href="/contact" >Contact</a>
                             </li>
                                 <li className="nav-item">
-                                    <Link className="btn btn-info text-white fs-5" target="_blank" href="https://wa.me/387306632">Demande de devis</Link>
+                                    <a className="btn btn-info text-white fs-5" target="_blank" href="https://wa.me/387306632">Demande de devis</a>
                                 </li>
                             </ul>           
                         </div>
